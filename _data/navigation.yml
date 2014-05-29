@@ -1,0 +1,13 @@
+
+- slug: /about
+  name: About
+
+- slug: /portfolio
+  name: Portfolio
+
+- slug: /blog
+  name: Blog
+
+- slug: /contact
+  name: Contact
+  
