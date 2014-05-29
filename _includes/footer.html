@@ -1,7 +1,26 @@
 
 <!-- footer -->
 <footer>
-  
+    <div class="container">
+    
+    <!-- footer -->
+    {% if site.data.social %}
+    <ul>
+    
+    {% for socialLink in site.data.social %}
+
+    {% if socialLink.icon %}
+    <li><a href="{{ socialLink.url }}" target="_blank"><i class="{{ socialLink.icon }}"></i> {{ socialLink.title }}</a></li>
+    {% else %}
+    <li><a href="{{ socialLink.url }}" target="_blank">{{ socialLink.title }}</a></li>
+    {% endif %}
+        
+    {% endfor %}
+
+    </ul>
+    {% endif %}
+
+    </div><!-- ./container -->
 </footer>
 
 {% include scripts.html %}
