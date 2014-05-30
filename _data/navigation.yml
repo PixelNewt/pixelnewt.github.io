@@ -1,13 +1,13 @@
 
-- slug: /about
-  name: About
-
-- slug: /portfolio
+- slug: /#portfolio
   name: Portfolio
+
+- slug: /#about
+  name: About
 
 - slug: /blog
   name: Blog
 
-- slug: /contact
+- slug: /#contact
   name: Contact
   
