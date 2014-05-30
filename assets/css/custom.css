@@ -113,7 +113,11 @@ small.text-muted {
 }
 
 section {
-  margin-bottom: 48px;
+  padding: 48px 0 64px;
+}
+
+section#hero {
+  background-color: #fff;
 }
 
 #sections header {
@@ -145,4 +149,9 @@ section h4 {
 
 section ul {
   padding-left: 36px;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
 }
