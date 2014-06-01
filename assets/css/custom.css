@@ -1,14 +1,7 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans: 200,300,400,600,700');
-
 /*****************************************************************************/
-/* common css
+/* resets
 /*****************************************************************************/
 
-/*mellow yellow - #f1c232*/
-/*medium yellow - #bf9000*/
-/*dark yellow - #7f6000*/
-
-/* Global Reset */
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +12,6 @@ html, body { height: 100%; }
 body {
   background-color: #f9f9f9;
   font-family: 'Roboto', Helvetica, arial, sans-serif;
-  font-size: 103%;
   padding-top: 50px;
 }
 
@@ -34,17 +26,14 @@ a { color: #00a; }
 a:hover { color: #000; }
 a:visited { color: #a0a; }
 
-html, body {
-    height: 100%;
-    font-family: 'Roboto', Helvetica, arial, sans-serif;
-    font-size: 103%;
-}
-
 a {
   color: #222222;
 }
 
-/** Bootstrap overrides **/
+
+/*****************************************************************************/
+/* Bootstrap overrides
+/*****************************************************************************/
 .container {
   width: 760px;
 }
@@ -53,105 +42,88 @@ a {
   margin-bottom: 20px;
 }
 
-/* center and adjust the sidebar contents on smaller devices */
-@media (max-width: 768px) {
-  .column {
-      height: initial;
-      overflow: initial;
-  }
-  #sidebar,#sidebar a.logo {
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 30px;
-    font-size: 26px;
-  }
-  #sidebar a.logo {
-    font-size: 50px;
-    height: 75px;
-    margin-bottom: 30px;
-  }
-}
-
-
-/*****************************************************************************/
-/* Bootstrap overrides
-/*****************************************************************************/
-h1,h2,h3 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   font-family: 'Roboto Slab', serif;
 }
 
 .jumbotron {
-  background-color: transparent;
+  
 }
 
 .lead {
-  padding: 6px 0 12px;
-  font-family: 'Roboto', Helvetica, arial, sans-serif;
-  font-size: 18px;
-}
-
-.label-default {
-  background-color: #dddddd;
+  
 }
 
 .page-header {
-  margin-top: 1px;
-  padding-top: 9px;
-  font-weight: 700;
-  font-size: 28px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+
 }
 
-h1 small {
-  padding-left: 15px;
-}
-
-small.text-muted {
-  font-family: 'Inconsolata', monospace;
-}
-
-section {
-  padding: 48px 0 64px;
-}
-
-section#hero {
-  background-color: #fff;
-}
-
-#sections header {
-  font-family: 'Roboto Slab', serif;
-  font-size: 24px;
-}
-
-#sections p, ul {
-  line-height: 24px;
-  font-size: 18px;
-}
-
-section h2 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
-  color: #777;
-}
-
-section h3 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 18px;
-}
-
-section h4 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  padding-bottom: 12px;
-}
-
-section ul {
-  padding-left: 36px;
+.navbar {
+  font-family: 'Raleway', Helvetica, arial, sans-serif;
 }
 
 .navbar-default {
   background-color: #fff;
   border-color: transparent;
 }
+
+h1 small {
+  padding-left: 15px;
+}
+
+
+/*****************************************************************************/
+/* common
+/*****************************************************************************/
+section {
+  padding: 48px 0 64px;
+}
+
+section h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+/*****************************************************************************/
+/* hero
+/*****************************************************************************/
+section#hero {
+  background-color: #fff;
+}
+
+img#hero-image {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+
+/*****************************************************************************/
+/* about
+/*****************************************************************************/
+img.mugshot {
+  width: 174px;
+  height: 174px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/*****************************************************************************/
+/* responsive
+/*****************************************************************************/
+@media (max-width: 768px) {
+  img#hero-image {
+    display: none;
+  }
+}
+
+
+/*****************************************************************************/
+/* fin
+/*****************************************************************************/
