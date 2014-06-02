@@ -17,7 +17,7 @@
             <ul class="nav navbar-nav navbar-right" id="nav-links">
 
                 {% for navLink in site.data.navigation %}
-                <li><a href="{{ navLink.slug }}">{{ navLink.name }}</a></li>
+                <li><a href="{{ navLink.slug }}" class="scroll-to-section">{{ navLink.name }}</a></li>
                 {% endfor %}
 
             </ul><!-- /#nav-links -->
