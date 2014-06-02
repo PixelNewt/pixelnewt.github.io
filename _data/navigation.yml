@@ -1,13 +1,17 @@
 
-- slug: /#services
+- link: services
+  type: internal
   name: Services
 
-- slug: /#portfolio
+- link: portfolio
+  type: internal
   name: Portfolio
 
-- slug: /#about
+- link: about
+  type: internal
   name: About
 
-- slug: /#contact
+- link: contact
+  type: internal
   name: Contact
   

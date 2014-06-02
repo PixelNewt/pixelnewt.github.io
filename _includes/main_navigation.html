@@ -13,11 +13,17 @@
             <a class="navbar-brand" href="{{ site.data.site.url }}">{{ site.data.site.title }}</a>
         </div><!-- ./navbar-header -->
 
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="scrollspy-links">
             <ul class="nav navbar-nav navbar-right" id="nav-links">
 
                 {% for navLink in site.data.navigation %}
-                <li><a href="{{ navLink.slug }}" class="scroll-to-section">{{ navLink.name }}</a></li>
+
+                {% if navLink.type == 'internal' %}
+                <li><a href="#{{ navLink.link }}" data-scroll="{{ navLink.link }}" class="scroll-to-section">{{ navLink.name }}</a></li>
+                {% else %}
+                <li><a href="{{ navLink.link }}" class="scroll-to-section">{{ navLink.name }}</a></li>
+                {% endif %}
+
                 {% endfor %}
 
             </ul><!-- /#nav-links -->
