@@ -2,8 +2,8 @@
 - slug: /#services
   name: Services
 
-- slug: /#works
-  name: Works
+- slug: /#portfolio
+  name: Portfolio
 
 - slug: /#about
   name: About
