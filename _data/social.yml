@@ -1,16 +1,12 @@
 
 - url: http://www.linkedin.com/pub/derek-nutile/5/454/53a/
-  icon: fa fa-linkedin
+  icon: fa fa-2x fa-linkedin
   title: LinkedIn
 
-- url: https://twitter.com/dereknutile
-  icon: fa fa-twitter
+- url: https://twitter.com/PixelNute
+  icon: fa fa-2x fa-twitter
   title: Twitter
 
-- url: https://github.com/dereknutile
-  icon: fa fa-github
+- url: https://github.com/pixelnewt
+  icon: fa fa-2x fa-github
   title: Github
-
-- url: https://careers.stackoverflow.com/dereknutile
-  icon: fa fa-stack-exchange
-  title: StackOverflow

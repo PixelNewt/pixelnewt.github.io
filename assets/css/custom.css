@@ -23,12 +23,8 @@ h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
 a { color: #00a; }
-a:hover { color: #000; }
-a:visited { color: #a0a; }
-
-a {
-  color: #222222;
-}
+a:hover { color: #00a; }
+a:visited { color: #00a; }
 
 
 /*****************************************************************************/
@@ -121,6 +117,23 @@ img.mugshot {
   img#hero-image {
     display: none;
   }
+}
+
+/*****************************************************************************/
+/* footer
+/*****************************************************************************/
+#footer-top {
+  background: #ddd;
+  padding: 36px 0 48px;
+}
+
+#footer-bottom {
+  background: #000;
+  color: #aaa;
+  padding: 36px;
+  font-size: 90%;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
 }
 
 
