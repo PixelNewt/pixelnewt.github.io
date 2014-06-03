@@ -3,6 +3,10 @@
   type: internal
   name: Services
 
+- link: expertise
+  type: internal
+  name: Expertise
+
 - link: portfolio
   type: internal
   name: Portfolio
