@@ -10,7 +10,7 @@
                         <img src="assets/img/glossy-imac-monitor.png" id="hero-image" />
                     </div>
                     <h2>{Why PixelNewt is different}</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet hendrerit velit, quis suscipit purus. Curabitur aliquam eleifend ultrices. Aenean ultricies vel velit sit amet vulputate. Donec ornare leo eu felis commodo, sed tincidunt lectus molestie. Aliquam quis neque at nisl volutpat ornare. Cras feugiat metus eget ipsum egestas, ac faucibus est sollicitudin. Donec sit amet luctus neque.</p>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet hendrerit velit, quis suscipit purus. Curabitur aliquam eleifend ultrices. Aenean ultricies vel velit sit amet vulputate. Donec ornare leo eu felis commodo, sed tincidunt lectus molestie. Aliquam quis neque at nisl volutpat ornare. Cras feugiat metus eget ipsum egestas, ac faucibus est sollicitudin. Donec sit amet luctus neque.</p>
                 </div>
             </div>
         </div>
@@ -19,55 +19,65 @@
     <section id="services">
         <div class="container">
             <h1>Services</h1>
-            <h2>We've done it all</h2>
-            <div class="row" id="our-services">
 
-                <div class="col-sm-6 service">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">Reboot</div>
-                        <p>Reboot your website.</p>
-                    </a>
+            <div class="row service" id="reboot">
+                <div class="col-sm-4 service-img">
+                    <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
                 </div>
-
-                <div class="col-sm-6 service">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">E-commerce</div>
-                        <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-sm-6 service">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">E-commerce</div>
-                        <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
-                    </a>
-                </div>
-
-                <div class="col-sm-6 service">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">E-commerce</div>
-                        <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
-                    </a>
+                <div class="col-sm-8 service-description">
+                    <h5>Reboot</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet hendrerit velit, quis suscipit purus. Curabitur aliquam eleifend ultrices. Aenean ultricies vel velit sit amet vulputate. Donec ornare leo eu felis commodo, sed tincidunt lectus molestie. Aliquam quis neque at nisl volutpat ornare. Cras feugiat metus eget ipsum egestas, ac faucibus est sollicitudin. Donec sit amet luctus neque.</p>
                 </div>
             </div>
 
-            <div class="row" id="product-support">
-            <h2>We know your stack</h2>
-                <ul>
-                    <li>Wordpress</li>
-                    <li>Magento</li>
-                    <li>ExpressionEngine</li>
-                </ul>
+            <div class="row service" id="ecommerce">
+                <div class="col-sm-8 service-description">
+                    <h5>E-Commerce</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet hendrerit velit, quis suscipit purus. Curabitur aliquam eleifend ultrices. Aenean ultricies vel velit sit amet vulputate. Donec ornare leo eu felis commodo, sed tincidunt lectus molestie. Aliquam quis neque at nisl volutpat ornare. Cras feugiat metus eget ipsum egestas, ac faucibus est sollicitudin. Donec sit amet luctus neque.</p>
+                </div>
+                <div class="col-sm-4 service-img">
+                    <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
+                </div>
+            </div>
+
+            <div class="row service" id="overhaul">
+                <div class="col-sm-4 service-img">
+                    <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-8 service-description">
+                    <h5>Overhaul</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet hendrerit velit, quis suscipit purus. Curabitur aliquam eleifend ultrices. Aenean ultricies vel velit sit amet vulputate. Donec ornare leo eu felis commodo, sed tincidunt lectus molestie. Aliquam quis neque at nisl volutpat ornare. Cras feugiat metus eget ipsum egestas, ac faucibus est sollicitudin. Donec sit amet luctus neque.</p>
+                </div>
             </div>
         </div>
     </section>
 
+
+    <section id="expertise">
+        <div class="container">
+            <div class="row">
+                <h1>Expertise</h1>
+
+                <div class="row" id="app-list">
+                    <h2>We know your stack</h2>
+                    <ul>
+                        <li>Wordpress</li>
+                        <li>Magento</li>
+                        <li>ExpressionEngine</li>
+                    </ul>
+                </div>
+            </div><!-- /.row -->
+        </div>
+    </section>
+
+
     <section id="portfolio">
         <div class="container">
-            <h1>Works</h1>
+            <h1>Past Work</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet hendrerit velit, quis suscipit purus. Curabitur aliquam eleifend ultrices. Aenean ultricies vel velit sit amet vulputate.</p>
 
             <div class="row" id="portfolio-blocks">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -77,7 +87,7 @@
                         <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -87,7 +97,7 @@
                         <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -97,7 +107,7 @@
                         <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -107,7 +117,7 @@
                         <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -117,7 +127,7 @@
                         <img src="http://lorempixel.com/g/360/260/" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -140,11 +150,22 @@
                 <div class="col-lg-12 text-center">About ...</div>
             </div>
 
-            <div class="team">
+            <div class="col-sm-6 team">
                 <div id="member">
                     <img src="assets/img/derek.jpg" alt="Derek" class="mugshot">
                     <h5>Derek Nutile</h5>
                     <h6>Web Developer</h6>
+                    <div>
+                        <a href="https://twitter.com/dereknutile">Twitter</a>
+                    </div>
+                </div> <!-- /#member -->
+            </div><!-- /.team -->
+
+            <div class="col-sm-6 team">
+                <div id="member">
+                    <img src="http://lorempixel.com/400/400/" alt="Random" class="mugshot">
+                    <h5>Random McSomebody</h5>
+                    <h6>Designer</h6>
                     <div>
                         <a href="https://twitter.com/dereknutile">Twitter</a>
                     </div>
