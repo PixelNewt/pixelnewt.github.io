@@ -1,3 +1,12 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+# Site settings
+title: "PixelNewt"
+email: "dereknutile@gmail.com"
+description: "Website & application development and delivery"
+tagline: "Not another <del>agency</del>"
+baseurl: "/"
+url: "http://pixelnewt.com/"
+baseuser: "pixelnewt"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
