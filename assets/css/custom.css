@@ -30,8 +30,12 @@ a:visited { color: #00a; }
 /*****************************************************************************/
 /* Bootstrap overrides
 /*****************************************************************************/
-.container {
+.container-narrow {
   width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #footer {
