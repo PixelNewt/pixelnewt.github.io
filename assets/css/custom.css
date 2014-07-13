@@ -12,7 +12,7 @@ html, body { height: 100%; }
 body {
   background-color: #f9f9f9;
   font-family: 'Roboto', Helvetica, arial, sans-serif;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,6 +76,23 @@ h1 small {
 /*****************************************************************************/
 /* common
 /*****************************************************************************/
+#featured-banner {
+  background: url(../img/hero.jpg) no-repeat center top;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 section {
   padding: 48px 0 64px;
 }
