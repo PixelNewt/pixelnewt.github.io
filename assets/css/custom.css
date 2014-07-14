@@ -2,6 +2,14 @@
 /* resets
 /*****************************************************************************/
 
+
+/*
+dark yellow #1: #f1c232
+dark yellow #2: #bf9000
+dark yellow #3: #7f6000
+*/
+
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +20,7 @@ html, body { height: 100%; }
 body {
   background-color: #f9f9f9;
   font-family: 'Roboto', Helvetica, arial, sans-serif;
-  /*padding-top: 50px;*/
+  /*padding-top: 30px;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,8 +42,9 @@ a:visited { color: #00a; }
   width: 760px;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+  padding: 80px 15px 60px 15px;
 }
 
 #footer {
@@ -64,7 +73,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-  background-color: #fff;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: inherit;
+background-color: inherit;
+text-decoration: underline;
+}
+
+.white-opacity {
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.8);
   border-color: transparent;
 }
 
@@ -92,17 +112,22 @@ h1 small {
   background-size: cover;
 }
 
-
 section {
-  padding: 48px 0 64px;
+  margin: 0;
+  padding: 0;
 }
 
 section h1 {
   font-family: 'Roboto Slab', serif;
-  font-size: 24px;
+  font-size: 48px;
+  color: #bf9000;
   text-align: center;
 }
 
+section p {
+  font-size: 125%;
+  color: #7f6000;
+}
 
 /*****************************************************************************/
 /* hero

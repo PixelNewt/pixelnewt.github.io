@@ -1,11 +1,12 @@
 # Site settings
 title: "PixelNewt"
 email: "dereknutile@gmail.com"
-description: "Website & application development and delivery"
+description: "We make awesome web applications and sites for wicked cool clients!"
 tagline: "Not another <del>agency</del>"
 baseurl: "/"
 url: "http://pixelnewt.com/"
 baseuser: "pixelnewt"
+logosvg: "https://s3-us-west-2.amazonaws.com/uncorked-galapagos/assets/logo.svg"
 
 # Build settings
 markdown: kramdown
