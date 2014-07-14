@@ -7,6 +7,7 @@ baseurl: "/"
 url: "http://pixelnewt.com/"
 baseuser: "pixelnewt"
 logosvg: "https://s3-us-west-2.amazonaws.com/uncorked-galapagos/assets/logo.svg"
+address: "Oregon, USA"
 
 # Build settings
 markdown: kramdown
