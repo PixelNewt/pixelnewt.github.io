@@ -136,6 +136,7 @@ h1 small {
   -o-background-size: cover;
   background-size: cover;
 }
+
 #map-banner {
   background: url(../img/map.jpg) no-repeat center top;
   background-attachment: relative;
