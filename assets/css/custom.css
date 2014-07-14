@@ -94,9 +94,34 @@ h1 small {
 
 
 /*****************************************************************************/
-/* common
+/* palettes
 /*****************************************************************************/
-#featured-banner {
+.palette {
+
+}
+
+.palette-dark-light {
+  color: #7f6000;
+}
+
+.palette-dark-light h1 {
+  color: #bf9000;
+}
+
+.palette-gray-dark {
+  background-color: #ccc;
+  color: #00a;
+}
+
+.palette-light-dark {
+  color: #00a;
+}
+
+
+/*****************************************************************************/
+/* banners
+/*****************************************************************************/
+#hero-banner {
   background: url(../img/hero.jpg) no-repeat center top;
   background-attachment: relative;
   background-position: center center;
@@ -111,7 +136,26 @@ h1 small {
   -o-background-size: cover;
   background-size: cover;
 }
+#map-banner {
+  background: url(../img/map.jpg) no-repeat center top;
+  background-attachment: relative;
+  background-position: center center;
+  height: 450px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+
+/*****************************************************************************/
+/* sections
+/*****************************************************************************/
 section {
   margin: 0;
   padding: 0;
@@ -120,13 +164,11 @@ section {
 section h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 48px;
-  color: #bf9000;
   text-align: center;
 }
 
 section p {
   font-size: 125%;
-  color: #7f6000;
 }
 
 /*****************************************************************************/
