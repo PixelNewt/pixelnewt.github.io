@@ -42,10 +42,12 @@ a:visited { color: #00a; }
   width: 760px;
   margin-right: auto;
   margin-left: auto;
-  /*padding-left: 15px;
-  padding-right: 15px;*/
-  padding: 80px 15px 60px 15px;
 }
+
+.container-extra-padding {
+  padding: 48px 0 96px 0;
+}
+
 
 #footer {
   margin-bottom: 20px;
@@ -101,6 +103,11 @@ h1 small {
 }
 
 .palette-dark-light {
+  color: #7f6000;
+}
+
+.palette-dark-medium {
+  background-color: #000;
   color: #7f6000;
 }
 
@@ -165,11 +172,14 @@ section {
 section h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 48px;
-  text-align: center;
 }
 
 section p {
   font-size: 125%;
+}
+
+.centerify {
+  text-align: center;
 }
 
 /*****************************************************************************/
@@ -222,7 +232,6 @@ img.mugshot {
   padding: 36px;
   font-size: 90%;
   font-family: 'Roboto Slab', serif;
-  text-align: center;
 }
 
 
