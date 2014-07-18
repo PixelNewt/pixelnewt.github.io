@@ -20,10 +20,11 @@ html, body { height: 100%; }
 body {
   background-color: #f9f9f9;
   font-family: 'Roboto', Helvetica, arial, sans-serif;
-  /*padding-top: 30px;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  font-family: 'Raleway', Helvetica, arial, sans-serif;
   font-size: 100%;
 }
 
@@ -53,11 +54,6 @@ a:visited { color: #00a; }
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 800;
-  font-family: 'Roboto Slab', serif;
-}
-
 .jumbotron {
   
 }
@@ -71,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-  font-family: 'Raleway', Helvetica, arial, sans-serif;
+  font-family: 'Lobster', Helvetica, arial, sans-serif;
 }
 
 .navbar-default {
@@ -125,6 +121,10 @@ h1 small {
   color: #00a;
 }
 
+.palette-inherit-white {
+  color: #fff;
+}
+
 
 /*****************************************************************************/
 /* banners
@@ -143,6 +143,19 @@ h1 small {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#hero-banner h1 {
+  color: #f1c232;
+  font-size: 72px;
+}
+
+#hero-banner h2 {
+  font-size: 72px;
+}
+
+#hero-banner p.lead {
+  font-size: 48px;
 }
 
 #map-banner {
@@ -187,7 +200,6 @@ section {
 }
 
 section h1 {
-  font-family: 'Roboto Slab', serif;
   font-size: 48px;
 }
 
