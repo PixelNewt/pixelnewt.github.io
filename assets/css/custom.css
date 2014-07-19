@@ -59,7 +59,7 @@ a:visited { color: #00a; }
 }
 
 .lead {
-  
+  font-size: 36px;
 }
 
 .page-header {
@@ -99,16 +99,16 @@ h1 small {
 }
 
 .palette-dark-light {
+  color: #f1c232;
+}
+
+.palette-dark-light h1,h2 {
   color: #7f6000;
 }
 
 .palette-dark-medium {
   background-color: #000;
   color: #7f6000;
-}
-
-.palette-dark-light h1 {
-  color: #bf9000;
 }
 
 .palette-gray-dark {
@@ -130,7 +130,7 @@ h1 small {
 /* banners
 /*****************************************************************************/
 #hero-banner {
-  background: url(../img/hero.jpg) no-repeat center top;
+  background: url(../img/black-leather.jpg) no-repeat center top;
   background-attachment: relative;
   background-position: center center;
   min-height: 650px;
@@ -175,10 +175,10 @@ h1 small {
 }
 
 #work-banner {
-  background: url(../img/run.jpg) no-repeat center top;
+  background: url(../img/waves.jpg) no-repeat center top;
   background-attachment: relative;
-  background-position: bottom center;
-  height: 350px;
+  background-position: center center;
+  height: 500px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
