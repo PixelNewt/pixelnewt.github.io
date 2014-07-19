@@ -60,6 +60,7 @@ a:visited { color: #00a; }
 
 .lead {
   font-size: 36px;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .page-header {
@@ -156,6 +157,7 @@ h1 small {
 
 #hero-banner p.lead {
   font-size: 48px;
+  text-shadow: 1px 1px 1px #000;
 }
 
 #map-banner {
