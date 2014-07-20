@@ -5,6 +5,7 @@ description: "We forge magnificent professional applications and web properties 
 tagline: "Not another <del>agency</del>"
 baseurl: "/"
 url: "http://pixelnewt.com/"
+urlNoSlash: "http://pixelnewt.com"
 baseuser: "pixelnewt"
 logosvg: "https://s3-us-west-2.amazonaws.com/uncorked-galapagos/assets/logo.svg"
 address: "Oregon, USA"
