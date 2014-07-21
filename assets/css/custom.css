@@ -192,6 +192,10 @@ h1 small {
   background-size: cover;
 }
 
+#contact-banner h4 a {
+  color: #7f6000;
+  font-size: 24px;
+}
 
 /*****************************************************************************/
 /* sections
