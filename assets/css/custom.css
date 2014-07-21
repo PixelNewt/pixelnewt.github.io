@@ -1,273 +1,79 @@
-/*****************************************************************************/
-/* resets
-/*****************************************************************************/
-
-
-/*
-dark yellow #1: #f1c232
-dark yellow #2: #bf9000
-dark yellow #3: #7f6000
-*/
-
-
-* {
-  margin: 0;
-  padding: 0;
-}
+* { margin: 0; padding: 0; }
 
 html, body { height: 100%; }
 
-body {
-  background-color: #f9f9f9;
-  font-family: 'Roboto', Helvetica, arial, sans-serif;
-}
+body { background-color: #f9f9f9; font-family: 'Roboto', Helvetica, arial, sans-serif; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 800;
-  font-family: 'Raleway', Helvetica, arial, sans-serif;
-  font-size: 100%;
-}
+h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: 'Raleway', Helvetica, arial, sans-serif; font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
+
 p { margin: 1em 0; }
 
 a { color: #00a; }
+
 a:hover { color: #00a; }
+
 a:visited { color: #00a; }
 
+.container-narrow { width: 760px; margin-right: auto; margin-left: auto; }
 
-/*****************************************************************************/
-/* Bootstrap overrides
-/*****************************************************************************/
-.container-narrow {
-  width: 760px;
-  margin-right: auto;
-  margin-left: auto;
-}
+.container-extra-padding { padding: 48px 0 96px 0; }
 
-.container-extra-padding {
-  padding: 48px 0 96px 0;
-}
+#footer { margin-bottom: 20px; }
 
+.lead { font-size: 36px; text-shadow: 1px 1px 1px #000; }
 
-#footer {
-  margin-bottom: 20px;
-}
+.navbar { font-family: 'Lobster', Helvetica, arial, sans-serif; }
 
-.jumbotron {
-  
-}
+.navbar-default { border-color: transparent; }
 
-.lead {
-  font-size: 36px;
-  text-shadow: 1px 1px 1px #000;
-}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: inherit; background-color: inherit; text-decoration: underline; }
 
-.page-header {
+.white-opacity { background: #7f7f7f; background: rgba(255, 255, 255, 0.8); border-color: transparent; }
 
-}
+h1 small { padding-left: 15px; }
 
-.navbar {
-  font-family: 'Lobster', Helvetica, arial, sans-serif;
-}
+.palette-dark-light { color: #f1c232; }
 
-.navbar-default {
-  border-color: transparent;
-}
+.palette-dark-light h1, h2 { color: #7f6000; }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: inherit;
-background-color: inherit;
-text-decoration: underline;
-}
+.palette-dark-medium { background-color: #000; color: #7f6000; }
 
-.white-opacity {
-  background:#7f7f7f;
-  background:rgba(255,255,255,0.8);
-  border-color: transparent;
-}
+.palette-gray-dark { background-color: #f5f5f5; color: #00a; }
 
-h1 small {
-  padding-left: 15px;
-}
+.palette-light-dark { background-color: #fff; color: #00a; }
 
+.palette-inherit-white { color: #fff; }
 
-/*****************************************************************************/
-/* palettes
-/*****************************************************************************/
-.palette {
+#hero-banner { background: url(../img/black-leather.jpg) no-repeat center top; background-attachment: relative; background-position: center center; min-height: 650px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-}
+#hero-banner h1 { color: #f1c232; font-size: 72px; }
 
-.palette-dark-light {
-  color: #f1c232;
-}
+#hero-banner h2 { font-size: 72px; }
 
-.palette-dark-light h1,h2 {
-  color: #7f6000;
-}
+#hero-banner p.lead { font-size: 48px; text-shadow: 1px 1px 1px #000; }
 
-.palette-dark-medium {
-  background-color: #000;
-  color: #7f6000;
-}
+#map-banner { background: url(../img/map.jpg) no-repeat center top; background-attachment: relative; background-position: center center; height: 450px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-.palette-gray-dark {
-  background-color: #f5f5f5;
-  color: #00a;
-}
+#work-banner { background: url(../img/waves.jpg) no-repeat center top; background-attachment: relative; background-position: center center; height: 500px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-.palette-light-dark {
-  background-color: #fff;
-  color: #00a;
-}
+#contact-banner h4 a { color: #7f6000; font-size: 24px; }
 
-.palette-inherit-white {
-  color: #fff;
-}
+section { margin: 0; padding: 0; }
 
+section h1 { font-size: 48px; }
 
-/*****************************************************************************/
-/* banners
-/*****************************************************************************/
-#hero-banner {
-  background: url(../img/black-leather.jpg) no-repeat center top;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 650px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+section p { font-size: 125%; }
 
-#hero-banner h1 {
-  color: #f1c232;
-  font-size: 72px;
-}
+.centerify { text-align: center; }
 
-#hero-banner h2 {
-  font-size: 72px;
-}
+section#hero { background-color: #fff; }
 
-#hero-banner p.lead {
-  font-size: 48px;
-  text-shadow: 1px 1px 1px #000;
-}
+img#hero-image { margin: 0 auto; width: 500px; height: 500px; }
 
-#map-banner {
-  background: url(../img/map.jpg) no-repeat center top;
-  background-attachment: relative;
-  background-position: center center;
-  height: 450px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
 
-#work-banner {
-  background: url(../img/waves.jpg) no-repeat center top;
-  background-attachment: relative;
-  background-position: center center;
-  height: 500px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+#footer-top { background: #ddd; padding: 36px 0 48px; }
 
-#contact-banner h4 a {
-  color: #7f6000;
-  font-size: 24px;
-}
-
-/*****************************************************************************/
-/* sections
-/*****************************************************************************/
-section {
-  margin: 0;
-  padding: 0;
-}
-
-section h1 {
-  font-size: 48px;
-}
-
-section p {
-  font-size: 125%;
-}
-
-.centerify {
-  text-align: center;
-}
-
-/*****************************************************************************/
-/* hero
-/*****************************************************************************/
-section#hero {
-  background-color: #fff;
-}
-
-img#hero-image {
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
-}
-
-
-/*****************************************************************************/
-/* about
-/*****************************************************************************/
-img.mugshot {
-  width: 174px;
-  height: 174px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-}
-
-/*****************************************************************************/
-/* responsive
-/*****************************************************************************/
-@media (max-width: 768px) {
- 
-}
-
-/*****************************************************************************/
-/* footer
-/*****************************************************************************/
-#footer-top {
-  background: #ddd;
-  padding: 36px 0 48px;
-}
-
-#footer-bottom {
-  background: #000;
-  color: #aaa;
-  padding: 36px;
-  font-size: 90%;
-  font-family: 'Roboto Slab', serif;
-}
-
-
-/*****************************************************************************/
-/* fin
-/*****************************************************************************/
+#footer-bottom { background: #000; color: #aaa; padding: 36px; font-size: 90%; font-family: 'Roboto Slab', serif; }
