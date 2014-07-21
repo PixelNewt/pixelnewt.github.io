@@ -2,28 +2,40 @@
 layout: default
 title: Colophon
 ---
+<div id="sections">
 
 {% if page.title %}
-<section class="section-zero">
-    <div class="container">
-        <div class="row">
-            <div class="page-header">
-                <h1>{{ page.title }}</h1>
-            </div>
-        </div>
-    </div>
-</section>
+<section id="terms" class="palette palette-light-dark">
+<div id="terms-banner">
+
+    <div class="container container-extra-padding">
+    <div class="row">
+        
+        <h1 class="centerify">{{ page.title }}</h1>
+        
+    </div><!-- /.row -->
+    </div><!-- /.container -->
+
+</div><!-- /#terms-banner -->
+</section><!-- /#terms -->
 {% endif %}
 
-<section class="section-one">
-    <div class="container-narrow">
-        <div class="row">
-            <h2>{{site.title}} is {{site.tagline}}.</h2>
+<section id="copy">
 
-            <h3>About this site</h3>
-            <p>This site is curated by PixelNewt LLC and is designed and developed by <a href="http://dereknutile.com/" target="_blank">Derek Nutile</a>.</p>
-            <p>This site uses Google fonts: Roboto+Slab, Roboto, Raleway, Inconsolata.</p>
-        </div>
-    </div>
-</section>
+    <div class="container container-extra-padding">
+    <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
 
+        <h2>{{site.title}} is {{site.tagline}}.</h2>
+
+        <h3>About this site</h3>
+        <p>This site is curated by PixelNewt LLC and is designed and developed by <a href="http://dereknutile.com/" target="_blank">Derek Nutile</a>.</p>
+        <p>This site uses Google fonts: Roboto+Slab, Roboto, Raleway, Inconsolata.</p>
+        
+    </div><!-- /.col... -->
+    </div><!-- /.row -->
+    </div><!-- /.container -->
+
+</section><!-- /#copy -->
+
+</div><!-- /#sections -->
