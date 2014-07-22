@@ -99,6 +99,11 @@ h1 small {
 
 }
 
+.palette-yellow-dark {
+  background-color: $darkYellow;
+  color: #000;
+}
+
 .palette-dark-light {
   color: $paleYellow;
 }
@@ -145,11 +150,7 @@ h1 small {
 }
 
 #hero-banner h1 {
-  color: $paleYellow;
-  font-size: 72px;
-}
-
-#hero-banner h2 {
+  color: $darkYellow;
   font-size: 72px;
 }
 
@@ -213,6 +214,10 @@ section p {
   text-align: center;
 }
 
+.team {
+  text-align: center;
+}
+
 // hero
 section#hero {
   background-color: #fff;
@@ -238,7 +243,19 @@ img.mugshot {
 
 // responsive
 @media (max-width: 768px) {
- 
+  .logo-image {
+    display: none;
+  }
+
+  #hero-banner h1 {
+    color: $paleYellow;
+    font-size: 64px;
+  }
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 18px 0 18px;
+  }
 }
 
 // footer
