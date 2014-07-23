@@ -1,13 +1,13 @@
 # Site settings
 title: "PixelNewt"
 email: "dereknutile@gmail.com"
-description: "PixelNewt is a web development agency that forges professional practical applications and web properties for wicked cool clients"
+description: "A development company that forges practical applications and web properties for awesome clients"
 tagline: "Not another <del>agency</del>"
 baseurl: "/"
 url: "http://pixelnewt.com/"
 urlNoSlash: "http://pixelnewt.com"
 baseuser: "pixelnewt"
-logosvg: "https://s3-us-west-2.amazonaws.com/uncorked-galapagos/assets/logo.svg"
+logosvg: "/assets/img/nav-logo.png"
 address: "Oregon, USA"
 
 # Build settings

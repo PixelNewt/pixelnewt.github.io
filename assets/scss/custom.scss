@@ -179,7 +179,7 @@ h1 small {
   background: url(../img/waves.jpg) no-repeat center top;
   background-attachment: relative;
   background-position: center center;
-  height: 500px;
+  height: 550px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -247,10 +247,16 @@ img.mugshot {
     display: none;
   }
 
+  .lead {
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #000;
+  }
+
   #hero-banner h1 {
     color: $paleYellow;
     font-size: 64px;
   }
+
   .row {
     margin-left: -15px;
     margin-right: -15px;
