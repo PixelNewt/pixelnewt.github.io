@@ -1,19 +1,7 @@
 
-- link: services
-  type: internal
-  name: Services
-
-- link: expertise
-  type: internal
-  name: Expertise
-
 - link: portfolio
   type: internal
   name: Portfolio
-
-- link: about
-  type: internal
-  name: About
 
 - link: contact
   type: internal
