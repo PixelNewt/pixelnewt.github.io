@@ -9,6 +9,9 @@ $sansSerifHeadings: 'Roboto', Helvetica, arial, sans-serif;
 $paleYellow: #f1c232;
 $mediumYellow: #bf9000;
 $darkYellow: #7f6000;
+$steelBlue: #4882ad;
+$offWhite: #fdfdfd;
+$darkSlate: #2f2f2f;
 
 
 // global resets
@@ -93,6 +96,14 @@ h1 small {
   padding-left: 15px;
 }
 
+.shadow-black {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.shadow-slate {
+  text-shadow: 1px 1px 1px $darkSlate;
+}
+
 
 // palettes
 .palette {
@@ -105,11 +116,14 @@ h1 small {
 }
 
 .palette-dark-light {
-  color: $paleYellow;
+  background-color: $darkSlate;
+  color: $offWhite;
 }
 
-.palette-dark-light h1,h2 {
-  color: $darkYellow;
+.palette-dark-light h2 {
+  font-size: 48px;
+  color: $paleYellow;
+  font-weight: 100;
 }
 
 .palette-dark-medium {
@@ -134,10 +148,10 @@ h1 small {
 
 // banners
 #hero-banner {
-  background: url(../img/black-leather.jpg) no-repeat center top;
+  background: url(../img/map.jpg) no-repeat center top;
   background-attachment: relative;
-  background-position: center center;
-  min-height: 650px;
+  background-position: top center;
+  min-height: 450px;
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -150,13 +164,9 @@ h1 small {
 }
 
 #hero-banner h1 {
-  color: $darkYellow;
-  font-size: 72px;
-}
-
-#hero-banner p.lead {
-  font-size: 48px;
-  text-shadow: 1px 1px 1px #000;
+  padding-top: 48px;
+  font-size: 96px;
+  text-align: center;
 }
 
 #map-banner {
