@@ -37,9 +37,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a { color: #00a; }
-a:hover { color: #00a; }
-a:visited { color: #00a; }
+a { color: $darkSlate; }
+a:hover { color: $darkSlate; }
+a:visited { color: $darkSlate; }
 
 
 // Bootstrap overrides
@@ -54,18 +54,12 @@ a:visited { color: #00a; }
   padding: 48px 0 96px 0;
 }
 
-
-#footer {
-  margin-bottom: 20px;
-}
-
 .jumbotron {
   
 }
 
 .lead {
-  font-size: 36px;
-  text-shadow: 1px 1px 1px #000;
+  font-size: 24px;
 }
 
 .page-header {
@@ -120,9 +114,15 @@ h1 small {
   color: $offWhite;
 }
 
-.palette-dark-light h2 {
+.palette h2 {
   font-size: 48px;
   color: $paleYellow;
+  font-weight: 100;
+}
+
+.palette h3 {
+  font-size: 36px;
+  color: $darkSlate;
   font-weight: 100;
 }
 
@@ -133,12 +133,12 @@ h1 small {
 
 .palette-gray-dark {
   background-color: #f5f5f5;
-  color: #00a;
+  color: $darkSlate;
 }
 
 .palette-light-dark {
   background-color: #fff;
-  color: #00a;
+  color: $darkSlate;
 }
 
 .palette-inherit-white {
@@ -275,17 +275,27 @@ img.mugshot {
 }
 
 // footer
-#footer-top {
-  background: #ddd;
-  padding: 36px 0 48px;
+
+footer {
+  background: url(../img/footer-map.jpg) no-repeat center top;
+  background-attachment: relative;
+  background-position: top center;
+  min-height: 350px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 48px 0 48px;
+  color: $offWhite;
 }
 
-#footer-bottom {
-  background: #000;
-  color: #aaa;
-  padding: 36px;
-  font-size: 90%;
-  font-family: 'Roboto Slab', serif;
+footer>a {
+  color: $offWhite;
 }
 
 
