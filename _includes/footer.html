@@ -1,24 +1,25 @@
 
 <footer>
-    <div class="container">
+    <div class="container" id="footer">
         <div class="row">
-            <div class="col-lg-6 text-center" id="footer-column-1">
+            <div class="col-lg-4 text-center" id="footer-column-1">
                 <h3>Location</h3>
-                <address>West Linn, Oregon, USA</address>
+                <address>Oregon, USA</address>
             </div><!-- /#footer-column-1 -->
 
-            <div class="col-lg-6 text-center" id="footer-column-2">
+            <div class="col-lg-4 text-center" id="footer-column-2">
                 <h3>PixelNewt</h3>
                 <ul class="list-inline">
                     <li><a href="/terms/">Terms</a></li>
                     <!-- <li><a href="/faq/">FAQ</a></li> -->
                 </ul>
             </div><!-- /#footer-column-2 -->
-        </div>
 
-        <div class="row">
-            <p class="text-center">&copy; {{ site.time | date: '%Y' }} &mdash; {{ site.title }}</p>
-        </div><!-- /.row -->
+            <div class="col-lg-4 text-center" id="footer-column-3">
+                <h3>Copyright</h3>
+                <p class="text-center">&copy; {{ site.time | date: '%Y' }} &mdash; {{ site.title }}</p>
+            </div><!-- /#footer-column-3 -->
+        </div>
     </div><!-- /.container -->
 
 </footer>

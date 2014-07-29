@@ -50,6 +50,8 @@ h1 small { padding-left: 15px; }
 
 .palette-light-dark { background-color: #fff; color: #27343d; }
 
+.palette-light-dark h4 { font-size: 24px; font-weight: 300; color: #bf9000; }
+
 .palette-inherit-white { color: #fff; }
 
 #hero-banner { background: url(../img/map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 450px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
@@ -84,4 +86,4 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
   .row { margin-left: -15px; margin-right: -15px; padding: 0 18px 0 18px; } }
 footer { background: url(../img/footer-map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 48px 0 48px; color: #fdfdfd; }
 
-footer a { color: #fdfdfd; }
+#footer a { color: #f1c232; }

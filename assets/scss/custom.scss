@@ -141,6 +141,12 @@ h1 small {
   color: $darkSlate;
 }
 
+.palette-light-dark h4 {
+  font-size: 24px;
+  font-weight: 300;
+  color: $mediumYellow;
+}
+
 .palette-inherit-white {
   color: #fff;
 }
@@ -294,8 +300,8 @@ footer {
   color: $offWhite;
 }
 
-footer a {
-  color: $offWhite;
+#footer a {
+  color: $paleYellow;
 }
 
 
