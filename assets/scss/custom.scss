@@ -53,6 +53,10 @@ hr {
   margin-left: auto;
 }
 
+.container-medium-padding {
+  padding: 24px 0 48px 0;
+}
+
 .container-extra-padding {
   padding: 48px 0 96px 0;
 }
@@ -163,7 +167,7 @@ h1 small {
 }
 
 .palette-gray-dark {
-  background-color: #f5f5f5;
+  background-color: lighten( $darkSlate, 75% );
   color: $darkSlate;
 }
 

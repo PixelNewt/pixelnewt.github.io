@@ -20,6 +20,8 @@ hr { border-top: 1px solid #a0b5c3; }
 
 .container-narrow { width: 760px; margin-right: auto; margin-left: auto; }
 
+.container-medium-padding { padding: 24px 0 48px 0; }
+
 .container-extra-padding { padding: 48px 0 96px 0; }
 
 .lead { font-size: 24px; }
@@ -60,7 +62,7 @@ h1 small { padding-left: 15px; }
 
 .palette-dark-white { background-color: #000; color: #fdfdfd; }
 
-.palette-gray-dark { background-color: #f5f5f5; color: #27343d; }
+.palette-gray-dark { background-color: #eef2f4; color: #27343d; }
 
 .palette-bright-black { background-color: #fdfdfd; color: #000; }
 
