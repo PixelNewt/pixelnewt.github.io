@@ -93,6 +93,24 @@ h1 small {
   padding-left: 15px;
 }
 
+// generic text dressing
+
+.pale-yellow {
+  color: $paleYellow;
+}
+
+.medium-yellow {
+  color: $mediumYellow;
+}
+
+.dark-yellow {
+  color: $darkYellow;
+}
+
+.steel-blue {
+  color: $steelBlue;
+}
+
 .shadow-black {
   text-shadow: 1px 1px 1px #000;
 }
@@ -110,6 +128,11 @@ h1 small {
 .palette-yellow-dark {
   background-color: lighten( $paleYellow, 22%);
   color: #000;
+}
+
+.palette-blue-light {
+  background-color: darken( $steelBlue, 15% );
+  color: $offWhite;
 }
 
 .palette-dark-light {
@@ -132,6 +155,11 @@ h1 small {
 .palette-dark-medium {
   background-color: #000;
   color: $darkYellow;
+}
+
+.palette-dark-white {
+  background-color: #000;
+  color: $offWhite;
 }
 
 .palette-gray-dark {
@@ -222,8 +250,12 @@ h1 small {
   background-size: cover;
 }
 
+#contact-banner h4 {
+  padding-top: 36px;
+}
+
 #contact-banner h4 a {
-  color: $darkYellow;
+  color: $offWhite;
   font-size: 24px;
 }
 
