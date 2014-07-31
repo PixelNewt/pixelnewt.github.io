@@ -1,7 +1,7 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* font imports
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/*cursive*/
+/*script*/
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
@@ -22,9 +22,9 @@
 
 html, body { height: 100%; }
 
-body { background-color: #f9f9f9; font-family: "Roboto", Helvetica, arial, sans-serif; }
+body { background-color: #f9f9f9; font-family: "Raleway, Helvetica, Arial, sans-serif"; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: "Roboto Slab", Helvetica, arial, sans-serif; font-size: 100%; }
+h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: "Roboto Slab, Times, serif"; font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 
@@ -49,7 +49,7 @@ hr { border-top: 1px solid #a0b5c3; }
 
 .lead { font-size: 24px; }
 
-.navbar { font-family: "Lobster", Helvetica, arial, sans-serif; }
+.navbar { font-family: "Lobster"; }
 
 .navbar-default { border-color: transparent; }
 
@@ -62,10 +62,6 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.single-border-top-slate { border-top: 1px solid #cfd9e0; }
-
-.single-border-bottom-slate { border-bottom: 1px solid #cfd9e0; }
-
 .palette h2 { font-size: 48px; font-weight: 100; }
 
 .palette h3 { font-size: 36px; font-weight: 100; }
@@ -80,17 +76,21 @@ h1 small { padding-left: 15px; }
 
 .background-dark { background-color: #000; color: #7f6000; }
 
+.background-bright { background-color: #fdfdfd; color: #000; }
+
+.background-bright h3 { font-family: "Lobster"; font-size: 40px; color: #000; font-weight: 50; }
+
 .palette-dark-white { background-color: #000; color: #fdfdfd; }
 
 .palette-gray-dark { background-color: #eef2f4; color: #27343d; }
 
-.background-bright { background-color: #fdfdfd; color: #000; }
-
-.background-bright h3 { font-family: "Lobster", Helvetica, arial, sans-serif; font-size: 40px; color: #000; font-weight: 50; }
-
 .palette-light-dark { background-color: #fff; color: #27343d; }
 
 .palette-light-dark h4 { font-size: 24px; font-weight: 300; color: #bf9000; }
+
+.single-border-top-slate { border-top: 1px solid #cfd9e0; }
+
+.single-border-bottom-slate { border-bottom: 1px solid #cfd9e0; }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*text dressing*/
