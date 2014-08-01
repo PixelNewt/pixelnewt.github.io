@@ -2,26 +2,24 @@
 <footer>
     <div class="container container-narrow" id="footer">
         <div class="row">
-            <div class="col-lg-6" id="footer-column-1">
-                <ul class="list-unstyled">
+            <div class="col-md-6" id="footer-links">
+                <ul class="list-inline">
                     <li><a href="/about/">About</a></li>
                     <li><a href="/blog/">Blog</a></li>
+                    <li><a href="/terms/">Terms</a></li>
+                    <li><a href="/pricing/">Pricing</a></li>
+                    <li><a href="/security/">Security</a></li>
                 </ul>
+                <p class="text-steel-blue">&copy; Copyright {{ site.time | date: '%Y' }} &mdash; {{ site.company }}</p>
             </div><!-- /#footer-column-1 -->
 
-            <div class="col-lg-6 text-right" id="footer-column-2">
-                <ul class="list-unstyled">
-                    <li><a href="/terms/">Terms</a></li>
-                    <li><a href="/benefits/">Benefits & Pricing</a></li>
-                    <li><a href="/privacy/">Privacy & Security</a></li>
+            <div class="col-md-6 text-right" id="footer-social">
+                <ul class="list-inline">
+                    <li><a href="/terms/"><i class="fa fa-3x fa-facebook"></i></a></li>
+                    <li><a href="/terms/"><i class="fa fa-3x fa-twitter"></i></a></li>
+                    <li><a href="/terms/"><i class="fa fa-3x fa-youtube"></i></a></li>
                 </ul>
             </div><!-- /#footer-column-2 -->
-        </div>
-
-        <div class="row">
-            <div class="text-center">
-                <p class="text-center text-slate">&copy; Copyright {{ site.time | date: '%Y' }} &mdash; {{ site.company }}</p>
-            </div><!-- /#footer-column-3 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
 

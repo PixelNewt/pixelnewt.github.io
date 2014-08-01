@@ -225,7 +225,7 @@ h1 small {
 }
 
 .text-slate {
-  color: darkSlate;
+  color: $darkSlate;
 }
 
 .text-steel-blue {
@@ -373,12 +373,17 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 48px 0 48px;
+  padding: 64px 0 48px;
   color: $offWhite;
 }
 
 #footer a {
-  color: $paleYellow;
+  color: lighten( $steelBlue, 35% );
+}
+
+
+#footer-social a {
+  color: $offWhite;
 }
 
 
