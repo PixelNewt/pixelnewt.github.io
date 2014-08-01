@@ -10,6 +10,7 @@
 
 /*serif*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+/*@import url(http://fonts.googleapis.com/css?family=Arvo);*/
 
 /*monospace*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
@@ -19,15 +20,10 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /*variables -- fonts*/
-$monoSpaceFont: 'Inconsolata, Courier, monospace';
-$sansSerifFont: 'Raleway, Helvetica, Arial, sans-serif';
-$serifFont: 'Roboto Slab, Times, serif';
+$monoSpaceFont: Inconsolata, Courier, monospace;
+$serifFont: 'Roboto Slab', Times, serif;
+$sansSerifFont: Raleway, Helvetica, Arial, sans-serif;
 $scriptFont: 'Lobster';
-
-$copyText: $sansSerifFont;
-$cursiveText: $scriptFont;
-$serifText: $serifFont;
-$codeText: $monoSpaceFont;
 
 /*variables -- sizes*/
 
@@ -52,12 +48,12 @@ html, body { height: 100%; }
 
 body {
   background-color: #f9f9f9;
-  font-family: $copyText;
+  font-family: $sansSerifFont;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
-  font-family: $serifText;
+  font-family: $serifFont;
   font-size: 100%;
 }
 
@@ -104,7 +100,7 @@ hr {
 }
 
 .navbar {
-  font-family: $cursiveText;
+  font-family: $scriptFont;
 }
 
 .navbar-default {
@@ -173,7 +169,7 @@ h1 small {
 }
 
 .background-bright h3 {
-  font-family: $cursiveText;
+  font-family: $scriptFont;
   font-size: 40px;
   color: #000;
   font-weight: 50;

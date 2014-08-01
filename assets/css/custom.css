@@ -7,6 +7,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 /*serif*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+/*@import url(http://fonts.googleapis.com/css?family=Arvo);*/
 /*monospace*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -22,9 +23,9 @@
 
 html, body { height: 100%; }
 
-body { background-color: #f9f9f9; font-family: "Raleway, Helvetica, Arial, sans-serif"; }
+body { background-color: #f9f9f9; font-family: Raleway, Helvetica, Arial, sans-serif; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: "Roboto Slab, Times, serif"; font-size: 100%; }
+h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: "Roboto Slab", Times, serif; font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 
