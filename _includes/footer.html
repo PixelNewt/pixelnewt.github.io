@@ -1,25 +1,28 @@
 
 <footer>
-    <div class="container" id="footer">
+    <div class="container container-narrow" id="footer">
         <div class="row">
-            <div class="col-lg-4 text-center" id="footer-column-1">
-                <h3>Location</h3>
-                <address>Oregon, USA</address>
+            <div class="col-lg-6" id="footer-column-1">
+                <ul class="list-unstyled">
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/blog/">Blog</a></li>
+                </ul>
             </div><!-- /#footer-column-1 -->
 
-            <div class="col-lg-4 text-center" id="footer-column-2">
-                <h3>PixelNewt</h3>
-                <ul class="list-inline">
+            <div class="col-lg-6 text-right" id="footer-column-2">
+                <ul class="list-unstyled">
                     <li><a href="/terms/">Terms</a></li>
-                    <!-- <li><a href="/faq/">FAQ</a></li> -->
+                    <li><a href="/benefits/">Benefits & Pricing</a></li>
+                    <li><a href="/privacy/">Privacy & Security</a></li>
                 </ul>
             </div><!-- /#footer-column-2 -->
-
-            <div class="col-lg-4 text-center" id="footer-column-3">
-                <h3>Copyright</h3>
-                <p class="text-center">&copy; {{ site.time | date: '%Y' }} &mdash; {{ site.title }}</p>
-            </div><!-- /#footer-column-3 -->
         </div>
+
+        <div class="row">
+            <div class="text-center">
+                <p class="text-center text-slate">&copy; Copyright {{ site.time | date: '%Y' }} &mdash; {{ site.company }}</p>
+            </div><!-- /#footer-column-3 -->
+        </div><!-- /.row -->
     </div><!-- /.container -->
 
 </footer>

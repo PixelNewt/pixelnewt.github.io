@@ -104,7 +104,9 @@ h1 small { padding-left: 15px; }
 
 .dark-yellow { color: #7f6000; }
 
-.steel-blue { color: #4882ad; }
+.text-slate { color: darkSlate; }
+
+.text-steel-blue { color: #4882ad; }
 
 .shadow-black { text-shadow: 1px 1px 1px #000; }
 
