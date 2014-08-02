@@ -98,19 +98,19 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .text-white { color: #fff; }
 
-.pale-yellow { color: #f1c232; }
+.text-pale-yellow { color: #f1c232; }
 
-.medium-yellow { color: #bf9000; }
+.text-medium-yellow { color: #bf9000; }
 
-.dark-yellow { color: #7f6000; }
+.text-dark-yellow { color: #7f6000; }
 
 .text-slate { color: #27343d; }
 
 .text-steel-blue { color: #4882ad; }
 
-.shadow-black { text-shadow: 1px 1px 1px #000; }
+.text-shadow-black { text-shadow: 1px 1px 1px #000; }
 
-.shadow-slate { text-shadow: 1px 1px 1px #27343d; }
+.text-shadow-slate { text-shadow: 1px 1px 1px #27343d; }
 
 /*banners*/
 #hero-banner { background: url(../img/map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 450px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
