@@ -14,11 +14,19 @@
             </div><!-- /#footer-column-1 -->
 
             <div class="col-md-6 text-right" id="footer-social">
+                {% if site.data.social %}
                 <ul class="list-inline">
-                    <li><a href="/terms/"><i class="fa fa-3x fa-facebook"></i></a></li>
-                    <li><a href="/terms/"><i class="fa fa-3x fa-twitter"></i></a></li>
-                    <li><a href="/terms/"><i class="fa fa-3x fa-youtube"></i></a></li>
+            
+                    {% for socialLink in site.data.social %}
+
+                    {% if socialLink.icon %}
+                    <li><a href="{{ socialLink.url }}" target="_blank"><i class="{{ socialLink.large_icon }}" title="{{ socialLink.title }}"></i></a></li>
+                    {% endif %}
+                        
+                    {% endfor %}
+
                 </ul>
+                {% endif %}
             </div><!-- /#footer-column-2 -->
         </div><!-- /.row -->
     </div><!-- /.container -->

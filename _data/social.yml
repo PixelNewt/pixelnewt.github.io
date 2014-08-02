@@ -1,12 +1,20 @@
 
-- url: http://www.linkedin.com/pub/derek-nutile/5/454/53a/
-  icon: fa fa-2x fa-linkedin
-  title: LinkedIn
-
 - url: https://twitter.com/pixelnewt
-  icon: fa fa-2x fa-twitter
+  icon: fa fa-twitter
+  large_icon: fa fa-3x fa-twitter
   title: Twitter
 
-- url: https://github.com/pixelnewt
-  icon: fa fa-2x fa-github
-  title: Github
+# - url: https://facebook.com/pixelnewt
+#   icon: fa fa-facebook
+#   large_icon: fa fa-3x fa-facebook
+#   title: Facebook
+
+# - url: http://www.linkedin.com/pub/derek-nutile/5/454/53a/
+#   icon: fa fa-linkedin
+#   large_icon: fa fa-3x fa-linkedin
+# title: LinkedIn
+
+# - url: https://plus.google.com/+PixelNewt
+#   icon: fa fa-google-plus
+#   large_icon: fa fa-3x fa-google-plus
+#   title: GooglePlus
