@@ -143,6 +143,12 @@ h1 small {
   background-color: #fff;
 }
 
+.background-simple h4 {
+  font-size: 24px;
+  font-weight: 300;
+  color: $mediumYellow;
+}
+
 .background-pale {
   background-color: lighten( $paleYellow, 22%);
   color: #000;
@@ -175,25 +181,9 @@ h1 small {
   font-weight: 50;
 }
 
-.palette-dark-white {
-  background-color: #000;
-  color: $offWhite;
-}
-
-.palette-gray-dark {
+.background-light-gray {
   background-color: lighten( $darkSlate, 75% );
   color: $darkSlate;
-}
-
-.palette-light-dark {
-  background-color: #fff;
-  color: $darkSlate;
-}
-
-.palette-light-dark h4 {
-  font-size: 24px;
-  font-weight: 300;
-  color: $mediumYellow;
 }
 
 .single-border-top-slate {

@@ -69,6 +69,8 @@ h1 small { padding-left: 15px; }
 
 .background-simple { background-color: #fff; }
 
+.background-simple h4 { font-size: 24px; font-weight: 300; color: #bf9000; }
+
 .background-pale { background-color: #f8e19b; color: #000; }
 
 .background-steel { background-color: #325977; color: #fdfdfd; }
@@ -81,13 +83,9 @@ h1 small { padding-left: 15px; }
 
 .background-bright h3 { font-family: "Lobster"; font-size: 40px; color: #000; font-weight: 50; }
 
-.palette-dark-white { background-color: #000; color: #fdfdfd; }
+.background-light-gray { background-color: #eef2f4; color: #27343d; }
 
-.palette-gray-dark { background-color: #eef2f4; color: #27343d; }
-
-.palette-light-dark { background-color: #fff; color: #27343d; }
-
-.palette-light-dark h4 { font-size: 24px; font-weight: 300; color: #bf9000; }
+.background-simple { background-color: #fff; color: #27343d; }
 
 .single-border-top-slate { border-top: 1px solid #cfd9e0; }
 
