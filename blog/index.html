@@ -1,16 +1,32 @@
 ---
-layout: default
+layout: header
 title: Blog
 ---
 
-{% if page.title %}
-<div class="page-header">
-    <h1>{{ page.title }}</h1>
-</div>
-{% endif %}
+
+<section id="blog" class="palette background-bright">    
+<div id="blog-banner">
+
+    <div class="container container-large-padding">
+    <div class="row">
+    
+        <h2 class="centerify text-shadow-black">Blog</h2>
+    
+    </div><!-- /.row -->
+    </div><!-- /.container -->
+    
+</div><!-- /#blog-banner -->
+</section><!-- /#blog -->
+
 
 <!-- posts -->
 {% if site.posts %}
+
+<section id="posts" class="palette background-bright">    
+<div id="posts-banner">
+
+    <div class="container container-large-padding container-narrow">
+    <div class="row">
 
 <li class="header">Posts</li>
 
@@ -21,5 +37,11 @@ title: Blog
 {% endif %}
 
 {% endfor %}
+    
+    </div><!-- /.row -->
+    </div><!-- /.container -->
+    
+</div><!-- /#posts-banner -->
+</section><!-- /#posts -->
 
 {% endif %}

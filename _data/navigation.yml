@@ -1,7 +1,15 @@
 
-- link: portfolio
+- link: apps
   type: internal
-  name: Portfolio
+  name: Web Apps
+
+- link: saas
+  type: internal
+  name: SaaS
+
+- link: blog
+  type: internal
+  name: Blog
 
 - link: contact
   type: internal

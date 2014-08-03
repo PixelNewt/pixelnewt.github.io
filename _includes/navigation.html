@@ -17,13 +17,7 @@
             <ul class="nav navbar-nav navbar-right" id="nav-links">
 
                 {% for navLink in site.data.navigation %}
-
-                {% if navLink.type == 'internal' %}
-                <li><a href="#{{ navLink.link }}" data-scroll="{{ navLink.link }}" class="scroll-to-section">{{ navLink.name }}</a></li>
-                {% else %}
-                <li><a href="{{ navLink.link }}" class="scroll-to-section">{{ navLink.name }}</a></li>
-                {% endif %}
-
+                <li><a href="/{{ navLink.link }}">{{ navLink.name }}</a></li>
                 {% endfor %}
 
             </ul><!-- /#nav-links -->
