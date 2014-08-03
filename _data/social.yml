@@ -18,3 +18,8 @@
 #   icon: fa fa-google-plus
 #   large_icon: fa fa-3x fa-google-plus
 #   title: GooglePlus
+
+- url: /rss.xml
+  icon: fa fa-rss
+  large_icon: fa fa-3x fa-rss
+  title: RSS
