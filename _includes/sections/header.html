@@ -1,0 +1,20 @@
+
+{% if page.heading %}
+<section class="header-section palette palette-yellow-dark">
+    
+    <div class="container container-narrow">
+    <div class="row">
+    
+        <div class="page-header">
+            {% if page.subheading %}
+            <h1>{{ page.heading }} <small>{{ page.subheading }}</small></h1>
+            {% else %}
+            <h1>{{ page.heading }}</h1>
+            {% endif %}
+        </div>
+
+    </div>
+    </div>
+
+</section>
+{% endif %}

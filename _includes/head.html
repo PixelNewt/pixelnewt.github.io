@@ -27,5 +27,15 @@ ASCII bombed by: http://pixelnewt.com/
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/custom.css">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+  
+  {% if page.layout %}
+    {% if page.layout == "header" %}
+    <style>
+      body {
+        padding-top: 50px;
+      }
+    </style>
+    {% endif %}
+  {% endif %}
 
 </head>
