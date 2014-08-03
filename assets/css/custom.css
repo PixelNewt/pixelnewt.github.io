@@ -50,7 +50,7 @@ hr { border-top: 1px solid #a0b5c3; }
 
 .lead { font-size: 24px; }
 
-.navbar { font-family: "Lobster"; }
+.navbar { font-family: "Roboto Slab", Times, serif; }
 
 .navbar-default { border-color: transparent; }
 
@@ -84,8 +84,6 @@ h1 small { padding-left: 15px; }
 .background-bright h3 { font-family: "Lobster"; font-size: 40px; color: #000; font-weight: 50; }
 
 .background-light-gray { background-color: #eef2f4; color: #27343d; }
-
-.background-simple { background-color: #fff; color: #27343d; }
 
 .single-border-top-slate { border-top: 1px solid #cfd9e0; }
 
