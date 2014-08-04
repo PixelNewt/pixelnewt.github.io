@@ -11,6 +11,7 @@ urlNoSlash: "http://pixelnewt.com"
 baseuser: "pixelnewt"
 logosvg: "/assets/img/nav-logo.png"
 address: "Oregon, USA"
+gacode: "UA-53524614-1"
 
 # Build settings
 markdown: kramdown
