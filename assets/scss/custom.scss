@@ -226,6 +226,10 @@ h1 small {
   text-shadow: 1px 1px 1px #000;
 }
 
+.text-shadow-black strong {
+  color: $paleYellow;
+}
+
 .text-shadow-slate {
   text-shadow: 1px 1px 1px $darkSlate;
 }

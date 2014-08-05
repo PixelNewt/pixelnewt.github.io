@@ -106,6 +106,8 @@ h1 small { padding-left: 15px; }
 
 .text-shadow-black { text-shadow: 1px 1px 1px #000; }
 
+.text-shadow-black strong { color: #f1c232; }
+
 .text-shadow-slate { text-shadow: 1px 1px 1px #27343d; }
 
 /*banners*/
