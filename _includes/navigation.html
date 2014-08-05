@@ -17,7 +17,13 @@
             <ul class="nav navbar-nav navbar-right" id="nav-links">
 
                 {% for navLink in site.data.navigation %}
+                
+                {% if navLink.link == page.active %}
+                <li class="active"><a href="/{{ navLink.link }}">{{ navLink.name }}</a></li>
+                {% else %}
                 <li><a href="/{{ navLink.link }}">{{ navLink.name }}</a></li>
+                {% endif %}
+
                 {% endfor %}
 
             </ul><!-- /#nav-links -->
