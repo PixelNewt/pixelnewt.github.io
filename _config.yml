@@ -2,17 +2,20 @@
 title: "PixelNewt"
 company: "Pixelnewt LLC"
 email: "dereknutile@gmail.com"
-description: "Our Focus is <strong>Building</strong> Your Internet Business"
+description: "Crafters of websites, web applications, and software services located in Oregon, USA."
 mos: "Your Measurement of Success is Our Measurement of Success"
-tagline: "Not another <del>agency</del>"
+summary: "Engineers of Awesome Web Applications and Software Services"
+tagline: "Our Focus is <strong>Building</strong> Your Internet Business"
 baseurl: "/"
 url: "http://pixelnewt.com/"
 urlNoSlash: "http://pixelnewt.com"
 baseuser: "pixelnewt"
-logosvg: "/assets/img/nav-logo.png"
 address: "Oregon, USA"
 gacode: "UA-53524614-1"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+meta_content: "Crafters of websites, web applications, and software services located in Oregon, USA."
+meta_tagline: "Our Focus is Building Your Internet Business"
