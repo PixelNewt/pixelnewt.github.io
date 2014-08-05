@@ -174,12 +174,6 @@ h1 small {
   color: #000;
 }
 
-.background-bright h3 {
-  font-family: $scriptFont;
-  color: darken( $darkSlate, 5% );
-  font-weight: 50;
-}
-
 .background-light-gray {
   background-color: lighten( $darkSlate, 75% );
   color: $darkSlate;
@@ -231,6 +225,10 @@ h1 small {
 
 .text-shadow-slate {
   text-shadow: 1px 1px 1px $darkSlate;
+}
+
+.text-scriptfont {
+  font-family: $scriptFont;
 }
 
 
