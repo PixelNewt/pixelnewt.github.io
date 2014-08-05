@@ -73,6 +73,14 @@ hr {
   border-top: 1px solid lighten( $darkSlate, 50% );
 }
 
+blockquote {
+  padding: 20px;
+  font-size: 30px;
+  font-family: $scriptFont;
+  color: $darkSlate;
+  border-left: 0;  
+}
+
 .container-narrow {
   width: 760px;
   margin-right: auto;
@@ -96,7 +104,8 @@ hr {
 }
 
 .page-header {
-
+  color: $offWhite;
+  border-bottom: 0;
 }
 
 .navbar {
@@ -191,6 +200,10 @@ h1 small {
 /*text dressing*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+.text-indent {
+  padding-left: 24px;
+}
+
 .text-white {
   color: #fff;
 }
@@ -229,6 +242,12 @@ h1 small {
 
 .text-scriptfont {
   font-family: $scriptFont;
+}
+
+.page-copy {
+  font-size: 20px;
+  font-family: $sansSerifFont;
+  line-height: 30px;
 }
 
 

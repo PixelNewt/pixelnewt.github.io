@@ -42,6 +42,8 @@ a:visited { color: #27343d; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 hr { border-top: 1px solid #a0b5c3; }
 
+blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #27343d; border-left: 0; }
+
 .container-narrow { width: 760px; margin-right: auto; margin-left: auto; }
 
 .container-medium-padding { padding: 24px 0 48px 0; }
@@ -49,6 +51,8 @@ hr { border-top: 1px solid #a0b5c3; }
 .container-large-padding { padding: 48px 0 96px 0; }
 
 .lead { font-size: 24px; }
+
+.page-header { color: #fdfdfd; border-bottom: 0; }
 
 .navbar { font-family: "Roboto Slab", Times, serif; }
 
@@ -90,6 +94,8 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*text dressing*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.text-indent { padding-left: 24px; }
+
 .text-white { color: #fff; }
 
 .text-pale-yellow { color: #f1c232; }
@@ -109,6 +115,8 @@ h1 small { padding-left: 15px; }
 .text-shadow-slate { text-shadow: 1px 1px 1px #27343d; }
 
 .text-scriptfont { font-family: "Lobster"; }
+
+.page-copy { font-size: 20px; font-family: Raleway, Helvetica, Arial, sans-serif; line-height: 30px; }
 
 /*banners*/
 #hero-banner { background: url(../img/map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 450px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }

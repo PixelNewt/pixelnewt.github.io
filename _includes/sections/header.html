@@ -1,20 +1,26 @@
 
-{% if page.heading %}
-<section class="header-section palette palette-yellow-dark">
-    
-    <div class="container container-narrow">
+{% if page.header %}
+
+<!-- header -->
+
+<section id="page-header" class="palette background-slate">
+<div id="page-header-banner">
+
+    <div class="container container-large-padding container-narrow">
     <div class="row">
-    
-        <div class="page-header">
-            {% if page.subheading %}
-            <h1>{{ page.heading }} <small>{{ page.subheading }}</small></h1>
+
+        <div class="header">
+            {% if page.subheader %}
+            <h1 class="page-header">{{ page.header }} <small>{{ page.subheader }}</small></h1>
             {% else %}
-            <h1>{{ page.heading }}</h1>
+            <h1 class="page-header">{{ page.header }}</h1>
             {% endif %}
         </div>
 
-    </div>
-    </div>
+    </div><!-- /.row -->
+    </div><!-- /.container -->
 
-</section>
+</div><!-- /#page-header-banner -->
+</section><!-- /#page-header -->
+
 {% endif %}
