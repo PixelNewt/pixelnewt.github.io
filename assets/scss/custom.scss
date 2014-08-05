@@ -176,8 +176,7 @@ h1 small {
 
 .background-bright h3 {
   font-family: $scriptFont;
-  font-size: 40px;
-  color: #000;
+  color: darken( $darkSlate, 5% );
   font-weight: 50;
 }
 
