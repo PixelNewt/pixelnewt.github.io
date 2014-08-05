@@ -1,18 +1,19 @@
 ---
 layout: page
 title: Contact
-meta: contact email phone address
+header: "Contact Us"
+active: contact
+meta: "contact email phone address"
 ---
 
+<section id="email" class="palette background-bright">    
+<div id="email-banner">
 
-<section id="contact" class="palette background-bright">    
-<div id="contact-banner">
-
-    <div class="container container-large-padding">
+    <div class="container">
     <div class="row">
     
-        <h2 class="text-center text-shadow-black">Let's Connect</h2>
-        <h4 class="text-center">
+        <h3 class="text-center text-dark-yellow"><i class="fa fa3x fa-envelope"></i> Email Us</h3>
+        <p class="text-center">
             <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'h'+'&'+'#'+'1'+'0'+
             '1'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+
             '#'+'3'+'7'+';'+'6'+'&'+'#'+'7'+'0'+';'+'&'+'#'+'6'+'4'+';'+'p'+'i'+'x'+'e'+'%'+'6'+'C'+'&'+'#'+'1'+
@@ -20,11 +21,56 @@ meta: contact email phone address
             'l'+'o'+'&'+'#'+'6'+'4'+';'+'p'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'2'+'0'+';'+'e'+'&'+'#'+'1'+'0'+
             '8'+';'+'n'+'e'+'w'+'&'+'#'+'1'+'1'+'6'+';'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'1'+'1'+'1'+';'+'m'+'<'+
             '/'+'a'+'>');</script>
-        </h4>
+        </p>
     
     </div><!-- /.row -->
     </div><!-- /.container -->
     
-</div><!-- /#contact-banner -->
-</section>
+</div><!-- /#email-banner -->
+</section><!-- /#email -->
 
+
+{% for socialLink in site.data.social %}
+{% if socialLink.title == 'Twitter'  %}
+
+<section id="twitter" class="palette background-bright">
+<div id="twitter-banner">
+
+    <div class="container">
+    <div class="row">
+    
+        <h3 class="text-center text-dark-yellow"><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i> Tweet Us </h3>
+        <p class="text-center">
+            <a href="{{ socialLink.url }}" target="_blank">@{{ site.baseuser }}</a>
+        </p>
+
+    </div><!-- /.row -->
+    </div><!-- /.container -->
+
+</div><!-- /#twitter-banner -->
+</section><!-- /#twitter -->
+{% endif %}    
+{% endfor %}
+
+
+{% for socialLink in site.data.social %}
+{% if socialLink.title == 'GooglePlus'  %}
+
+<section id="googleplus" class="palette background-bright">
+<div id="googleplus-banner">
+
+    <div class="container">
+    <div class="row">
+    
+        <h3 class="text-center text-dark-yellow"><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i> Let's Hangout</h3>
+        <p class="text-center">
+            <a href="{{ socialLink.url }}" target="_blank">+{{ site.baseuser }}</a>
+        </p>
+
+    </div><!-- /.row -->
+    </div><!-- /.container -->
+
+</div><!-- /#googleplus-banner -->
+</section><!-- /#googleplus -->
+{% endif %}    
+{% endfor %}
