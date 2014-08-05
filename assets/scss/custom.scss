@@ -58,7 +58,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+
+p, ul, ol {
+  font-size: 20px;
+  font-family: $sansSerifFont;
+  line-height: 30px;
+ }
 
 a { color: $darkSlate; }
 a:hover { color: $darkSlate; }
@@ -95,10 +100,6 @@ blockquote {
   padding: 48px 0 96px 0;
 }
 
-.jumbotron {
-  
-}
-
 .lead {
   font-size: 24px;
 }
@@ -112,14 +113,19 @@ blockquote {
   font-family: $serifFont;
 }
 
+#nav-links {
+  font-size: 14px;
+  font-weight: 50;
+}
+
 .navbar-default {
   border-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: inherit;
-background-color: inherit;
-text-decoration: underline;
+  color: inherit;
+  background-color: inherit;
+  text-decoration: underline;
 }
 
 .white-opacity {
@@ -244,12 +250,6 @@ h1 small {
   font-family: $scriptFont;
 }
 
-.page-copy {
-  font-size: 20px;
-  font-family: $sansSerifFont;
-  line-height: 30px;
-}
-
 
 /*banners*/
 #hero-banner {
@@ -307,14 +307,6 @@ section {
 
 section h1 {
   font-size: 48px;
-}
-
-section p {
-  font-size: 125%;
-}
-
-.centerify {
-  text-align: center;
 }
 
 .team {
@@ -387,10 +379,14 @@ footer {
   color: $offWhite;
 }
 
+footer p, ul, ol {
+  font-size: 14px;
+  line-height: 20px;
+}
+
 #footer a {
   color: lighten( $steelBlue, 35% );
 }
-
 
 #footer-social a {
   color: $offWhite;
