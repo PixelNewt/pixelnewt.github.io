@@ -5,7 +5,7 @@ email: "dereknutile@gmail.com"
 description: "Crafters of websites, web applications, and software services located in Oregon, USA."
 mos: "We Measure Success by Growing Your Internet Business"
 summary: "Engineers of Awesome Web Applications and Software Services"
-tagline: "Our Focus is <strong>Building</strong> Your Internet Business"
+tagline: "Our Focus is Building <strong>Your</strong> Internet"
 baseurl: "/"
 url: "http://pixelnewt.com/"
 urlNoSlash: "http://pixelnewt.com"
@@ -18,4 +18,4 @@ markdown: kramdown
 permalink: pretty
 
 meta_content: "Crafters of websites, web applications, and software services located in Oregon, USA."
-meta_tagline: "Our Focus is Building Your Internet Business"
+meta_tagline: "Our Focus is Building Your Internet"
