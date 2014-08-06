@@ -46,10 +46,6 @@ blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #273
 
 .container-narrow { width: 760px; margin-right: auto; margin-left: auto; }
 
-.container-medium-padding { padding: 24px 0 48px 0; }
-
-.container-large-padding { padding: 48px 0 96px 0; }
-
 .lead { font-size: 24px; }
 
 .page-header { color: #fdfdfd; border-bottom: 0; }
@@ -75,7 +71,11 @@ h1 small { padding-left: 15px; }
 
 .palette h4 { font-size: 24px; font-weight: 300; }
 
-.horizontal-padding { padding: 8px 0 8px 0; }
+.horizontal-padding-small { padding: 8px 0 8px 0; }
+
+.horizontal-padding-medium { padding: 24px 0 24px 0; }
+
+.horizontal-padding-large { padding: 48px 0 96px 0; }
 
 .background-pale { background-color: #f8e19b; color: #000; }
 

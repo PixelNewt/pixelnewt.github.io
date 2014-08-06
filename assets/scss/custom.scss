@@ -92,14 +92,6 @@ blockquote {
   margin-left: auto;
 }
 
-.container-medium-padding {
-  padding: 24px 0 48px 0;
-}
-
-.container-large-padding {
-  padding: 48px 0 96px 0;
-}
-
 .lead {
   font-size: 24px;
 }
@@ -159,8 +151,16 @@ h1 small {
   font-weight: 300;
 }
 
-.horizontal-padding {
+.horizontal-padding-small {
   padding: 8px 0 8px 0;
+}
+
+.horizontal-padding-medium {
+  padding: 24px 0 24px 0;
+}
+
+.horizontal-padding-large {
+  padding: 48px 0 96px 0;
 }
 
 .background-pale {
