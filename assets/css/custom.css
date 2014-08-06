@@ -83,6 +83,10 @@ h1 small { padding-left: 15px; }
 
 .background-slate { background-color: #27343d; color: #fdfdfd; }
 
+.background-slate-lighten-65 { background-color: #cfd9e0; color: #27343d; }
+
+.background-slate-lighten-75 { background-color: #eef2f4; color: #27343d; }
+
 .background-dark { background-color: #000; color: #7f6000; }
 
 .background-bright { background-color: #fdfdfd; color: #000; }
@@ -117,6 +121,12 @@ h1 small { padding-left: 15px; }
 .text-shadow-slate { text-shadow: 1px 1px 1px #27343d; }
 
 .text-scriptfont { font-family: "Lobster"; }
+
+.text-codefont { font-family: Inconsolata, Courier, monospace; }
+
+.text-sansfont { font-family: Raleway, Helvetica, Arial, sans-serif; }
+
+.text-seriffont { font-family: "Roboto Slab", Times, serif; }
 
 /*banners*/
 #hero-banner { background: url(../img/map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 450px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }

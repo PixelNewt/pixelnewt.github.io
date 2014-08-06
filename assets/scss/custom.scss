@@ -178,6 +178,16 @@ h1 small {
   color: $offWhite;
 }
 
+.background-slate-lighten-65 {
+  background-color: lighten( $darkSlate, 65% );
+  color: $darkSlate;
+}
+
+.background-slate-lighten-75 {
+  background-color: lighten( $darkSlate, 75% );
+  color: $darkSlate;
+}
+
 .background-dark {
   background-color: #000;
   color: $darkYellow;
@@ -249,6 +259,17 @@ h1 small {
   font-family: $scriptFont;
 }
 
+.text-codefont {
+  font-family: $monoSpaceFont;
+}
+
+.text-sansfont {
+  font-family: $sansSerifFont;
+}
+
+.text-seriffont {
+  font-family: $serifFont;
+}
 
 /*banners*/
 #hero-banner {
