@@ -69,15 +69,13 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.palette { padding: 8px 0 8px 0; }
-
 .palette h2 { font-size: 48px; font-weight: 100; }
 
 .palette h3 { font-size: 36px; font-weight: 100; }
 
-.background-simple { background-color: #fff; }
+.palette h4 { font-size: 24px; font-weight: 300; }
 
-.background-simple h4 { font-size: 24px; font-weight: 300; color: #bf9000; }
+.horizontal-padding { padding: 8px 0 8px 0; }
 
 .background-pale { background-color: #f8e19b; color: #000; }
 

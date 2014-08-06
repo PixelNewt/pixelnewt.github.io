@@ -6,71 +6,64 @@ active: contact
 meta: "contact email phone address"
 ---
 
-<section id="email" class="palette background-bright">    
-<div id="email-banner">
+<section id="contact-message" class="palette background-bright">    
+<div id="contact-message-banner">
 
-    <div class="container">
+    <div class="container container-large-padding container-narrow">
     <div class="row">
     
-        <h3 class="text-center text-dark-yellow"><i class="fa fa3x fa-envelope"></i> Email Us</h3>
-        <p class="text-center">
-            <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'h'+'&'+'#'+'1'+'0'+
-            '1'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+
-            '#'+'3'+'7'+';'+'6'+'&'+'#'+'7'+'0'+';'+'&'+'#'+'6'+'4'+';'+'p'+'i'+'x'+'e'+'%'+'6'+'C'+'&'+'#'+'1'+
-            '1'+'0'+';'+'e'+'w'+'t'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'3'+'7'+';'+'6'+'F'+'m'+"'"+'>'+'h'+'e'+'l'+
-            'l'+'o'+'&'+'#'+'6'+'4'+';'+'p'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'2'+'0'+';'+'e'+'&'+'#'+'1'+'0'+
-            '8'+';'+'n'+'e'+'w'+'&'+'#'+'1'+'1'+'6'+';'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'1'+'1'+'1'+';'+'m'+'<'+
-            '/'+'a'+'>');</script>
-        </p>
+        <p>Contacting {{site.title}} doesn't cost a thing!  We offer free advise and guidance for your web application questions.  If we can help, we can discuss an arrangement or agreement.  If we can't help you we will find someone who can.</p>
+        <p>We would love to hear from you!</p>
+        <p>With <i class="fa fa3x fa-heart"></i>, the {{site.title}} team.</p>
     
     </div><!-- /.row -->
     </div><!-- /.container -->
     
-</div><!-- /#email-banner -->
-</section><!-- /#email -->
+</div><!-- /#contact-message-banner -->
+</section><!-- /#contact-message -->
 
 
-{% for socialLink in site.data.social %}
-{% if socialLink.title == 'Twitter'  %}
+<section id="contact-links" class="palette background-steel">    
+<div id="contact-links-banner">
 
-<section id="twitter" class="palette background-bright">
-<div id="twitter-banner">
-
-    <div class="container">
+    <div class="container container-medium-padding container-narrow">
     <div class="row">
+        
+        <div class="col-md-4 col-lg-4" id="box-1">
+        <div class="panel panel-default">
+            <h4 class="text-center text-dark-yellow"><i class="fa fa3x fa-envelope"></i> Email Us</h4>
+            <p class="text-center">
+                <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'h'+'&'+'#'+'1'+'0'+
+                '1'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+
+                '#'+'3'+'7'+';'+'6'+'&'+'#'+'7'+'0'+';'+'&'+'#'+'6'+'4'+';'+'p'+'i'+'x'+'e'+'%'+'6'+'C'+'&'+'#'+'1'+
+                '1'+'0'+';'+'e'+'w'+'t'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'3'+'7'+';'+'6'+'F'+'m'+"'"+'>'+'h'+'e'+'l'+
+                'l'+'o'+'&'+'#'+'6'+'4'+';'+'p'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'2'+'0'+';'+'e'+'&'+'#'+'1'+'0'+
+                '8'+';'+'n'+'e'+'w'+'&'+'#'+'1'+'1'+'6'+';'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'1'+'1'+'1'+';'+'m'+'<'+
+                '/'+'a'+'>');</script>
+            </p>
+        </div>
+        </div><!-- /#box-1 -->
+        
+        <div class="col-md-4 col-lg-4" id="box-2">
+        <div class="panel panel-default">
+            <h4 class="text-center text-dark-yellow"><i class="fa fa-twitter"></i> Tweet Us </h4>
+            <p class="text-center">
+                <a href="http://twitter.com/" target="_blank">@{{ site.baseuser }}</a>
+            </p>
+        </div>
+        </div><!-- /#box-2 -->
+        
+        <div class="col-md-4 col-lg-4" id="box-3">
+        <div class="panel panel-default">
+            <h4 class="text-center text-dark-yellow"><i class="fa fa-google-plus" title="Google Plus"></i> Hangout</h4>
+            <p class="text-center">
+                <a href="https://plus.google.com/+pixelnewt" target="_blank">+{{ site.baseuser }}</a>
+            </p>
+        </div>
+        </div><!-- /#box-3 -->
     
-        <h3 class="text-center text-dark-yellow"><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i> Tweet Us </h3>
-        <p class="text-center">
-            <a href="{{ socialLink.url }}" target="_blank">@{{ site.baseuser }}</a>
-        </p>
-
     </div><!-- /.row -->
     </div><!-- /.container -->
-
-</div><!-- /#twitter-banner -->
-</section><!-- /#twitter -->
-{% endif %}    
-{% endfor %}
-
-
-{% for socialLink in site.data.social %}
-{% if socialLink.title == 'GooglePlus'  %}
-
-<section id="googleplus" class="palette background-bright">
-<div id="googleplus-banner">
-
-    <div class="container">
-    <div class="row">
     
-        <h3 class="text-center text-dark-yellow"><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i> Let's Hangout</h3>
-        <p class="text-center">
-            <a href="{{ socialLink.url }}" target="_blank">+{{ site.baseuser }}</a>
-        </p>
-
-    </div><!-- /.row -->
-    </div><!-- /.container -->
-
-</div><!-- /#googleplus-banner -->
-</section><!-- /#googleplus -->
-{% endif %}    
-{% endfor %}
+</div><!-- /#contact-links-banner -->
+</section><!-- /#contact-links -->

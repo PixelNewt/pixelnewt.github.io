@@ -4,22 +4,26 @@ title: Note
 active: blog
 ---
 
-<section id="note" class="palette background-light-gray">
-<div id="note-banner">
+<section id="toolbox" class="palette horizontal-padding background-light-gray">
+<div id="toolbox-banner">
 
     <div class="container container-narrow">
     <div class="row">
 
-        <div class="col-lg-6"><a href="/blog" class="button"><i class="fa fa-arrow-left"></i> All Notes</a></div>
-        <div class="col-lg-6 text-right">Posted on {{ page.date | date: "%B %-d %Y" }}</div>
+        <div class="col-md-6 col-lg-6 toolbox-left">
+            <a href="/blog" class="button"><i class="fa fa-arrow-left"></i> All Posts</a>
+        </div>
+        <div class="col-md-6 col-lg-6 text-right toolbox-right">
+            {{ page.date | date: "%B %-d, %Y" }}
+        </div>
     
     </div><!-- /.row -->
     </div><!-- /.container -->
 
-</div><!-- /#note-banner -->
-</section><!-- /#note -->
+</div><!-- /#toolbox-banner -->
+</section><!-- /#toolbox -->
 
-<section id="post" class="palette background-simple">
+<section id="post" class="palette background-bright">
 <div id="post-banner">
 
     <div class="container container-large-padding container-narrow">

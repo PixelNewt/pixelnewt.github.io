@@ -142,9 +142,7 @@ h1 small {
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.palette {
-  padding: 8px 0 8px 0;
-}
+.palette {}
 
 .palette h2 {
   font-size: 48px;
@@ -156,14 +154,13 @@ h1 small {
   font-weight: 100;
 }
 
-.background-simple {
-  background-color: #fff;
-}
-
-.background-simple h4 {
+.palette h4 {
   font-size: 24px;
   font-weight: 300;
-  color: $mediumYellow;
+}
+
+.horizontal-padding {
+  padding: 8px 0 8px 0;
 }
 
 .background-pale {
