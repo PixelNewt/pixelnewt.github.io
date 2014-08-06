@@ -1,0 +1,18 @@
+
+- title: About
+  route: about
+
+- title: Blog
+  route: blog
+
+- title: Terms
+  route: terms
+
+# - title: Security
+#   route: security
+
+# - title: Pricing
+#   route: pricing
+
+- title: Mission
+  route: mission
