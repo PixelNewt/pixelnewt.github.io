@@ -7,6 +7,10 @@
   type: internal
   name: SaaS
 
+- link: hosting
+  type: internal
+  name: Cloud Services
+
 - link: blog
   type: internal
   name: Blog
