@@ -417,8 +417,12 @@ footer p, footer ul, footer ol {
   color: $offWhite;
 }
 
-#footer-links .active a {
+#footer-links a {
   color: $paleYellow;
+}
+
+#footer-links .active a {
+  text-decoration: underline;
 }
 
 /*fin*/
