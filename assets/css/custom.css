@@ -48,7 +48,7 @@ blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #273
 
 .lead { font-size: 24px; }
 
-.page-header { color: #fdfdfd; border-bottom: 0; }
+.page-header { font-weight: 100; color: #fdfdfd; border-bottom: 0; text-shadow: 1px 1px 1px #000; }
 
 .navbar { font-family: "Roboto Slab", Times, serif; }
 

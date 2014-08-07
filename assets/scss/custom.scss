@@ -97,8 +97,10 @@ blockquote {
 }
 
 .page-header {
+  font-weight: 100; 
   color: $offWhite;
   border-bottom: 0;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .navbar {
