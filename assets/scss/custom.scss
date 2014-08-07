@@ -178,13 +178,18 @@ h1 small {
   color: $offWhite;
 }
 
-.background-slate-lighten-65 {
-  background-color: lighten( $darkSlate, 65% );
+.background-slate-lighten-25 {
+  background-color: lighten( $darkSlate, 25% );
+  color: $offWhite;
+}
+
+.background-slate-lighten-45 {
+  background-color: lighten( $darkSlate, 45% );
   color: $darkSlate;
 }
 
-.background-slate-lighten-75 {
-  background-color: lighten( $darkSlate, 75% );
+.background-slate-lighten-65 {
+  background-color: lighten( $darkSlate, 65% );
   color: $darkSlate;
 }
 
@@ -320,7 +325,7 @@ h1 small {
 }
 
 #contact-banner h4 a {
-  color: $offWhite;
+  color: $steelBlue;
   font-size: 24px;
 }
 
