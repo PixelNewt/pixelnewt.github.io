@@ -210,11 +210,6 @@ h1 small {
   color: #000;
 }
 
-.background-light-gray {
-  background-color: lighten( $darkSlate, 75% );
-  color: $darkSlate;
-}
-
 .single-border-top-slate {
   border-top: 1px solid lighten( $darkSlate, 65% );
 }
