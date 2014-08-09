@@ -63,7 +63,7 @@ p, ul, ol {
   font-size: 20px;
   font-family: $sansSerifFont;
   line-height: 30px;
- }
+}
 
 a { color: $darkSlate; }
 a:hover { color: $darkSlate; }
@@ -454,6 +454,10 @@ section {
   padding: 0;
 }
 
+section ul, section ol {
+  padding-left: 36px;
+}
+
 section h1 {
   font-size: 48px;
 }
@@ -501,9 +505,19 @@ img.mugshot {
     font-size: 64px;
   }
 
+  section ul, section ol {
+    padding-left: 12px;
+  }
+
+  .container-narrow {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .row {
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0 18px 0 18px;
   }
 }
@@ -531,6 +545,7 @@ footer {
 footer p, footer ul, footer ol {
   font-size: 14px;
   line-height: 20px;
+  padding-left: 0px;
 }
 
 #footer a {

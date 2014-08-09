@@ -160,6 +160,8 @@ h1 small { padding-left: 15px; }
 /*sections*/
 section { margin: 0; padding: 0; }
 
+section ul, section ol { padding-left: 36px; }
+
 section h1 { font-size: 48px; }
 
 .team { text-align: center; }
@@ -176,11 +178,13 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 @media (max-width: 768px) { .logo-image { display: none; }
   .lead { font-size: 24px; text-shadow: 1px 1px 1px #000; }
   #hero-banner h1 { color: #f1c232; font-size: 64px; }
-  .row { margin-left: -15px; margin-right: -15px; padding: 0 18px 0 18px; } }
+  section ul, section ol { padding-left: 12px; }
+  .container-narrow { width: auto; margin-right: auto; margin-left: auto; }
+  .row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; } }
 /*footer*/
 footer { background: url(../img/footer-map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
 
-footer p, footer ul, footer ol { font-size: 14px; line-height: 20px; }
+footer p, footer ul, footer ol { font-size: 14px; line-height: 20px; padding-left: 0px; }
 
 #footer a { color: #c2d6e6; }
 
