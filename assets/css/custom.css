@@ -54,6 +54,8 @@ blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #273
 
 #nav-links { font-size: 14px; font-weight: 50; }
 
+.navbar-brand { font-family: "Lobster"; font-weight: 100; font-size: 30px; }
+
 .navbar-default { border-color: transparent; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #bf9000; font-weight: bold; background-color: inherit; }
@@ -173,6 +175,8 @@ img#hero-image { margin: 0 auto; width: 500px; height: 500px; }
 
 /*about*/
 img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
+
+.posted-date { font-weight: 100; font-family: Raleway, Helvetica, Arial, sans-serif; color: #455c6c; }
 
 /*responsive*/
 @media (max-width: 768px) { .logo-image { display: none; }

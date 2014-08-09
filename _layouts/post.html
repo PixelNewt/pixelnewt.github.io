@@ -9,14 +9,7 @@ active: blog
 
     <div class="container container-narrow">
     <div class="row">
-
-        <div class="col-md-6 col-lg-6 toolbox-left">
-            <a href="/blog" class="button"><i class="fa fa-arrow-left"></i> All Posts</a>
-        </div>
-        <div class="col-md-6 col-lg-6 text-right toolbox-right">
-            {{ page.date | date: "%B %-d, %Y" }}
-        </div>
-    
+        <a href="/blog" class="button"><i class="fa fa-arrow-left"></i> All Posts</a>
     </div><!-- /.row -->
     </div><!-- /.container -->
 
@@ -28,7 +21,7 @@ active: blog
 
     <div class="container horizontal-padding-large container-narrow">
     <div class="row">
-
+        <h5 class="posted-date">Posted on {{ page.date | date: "%B %-d, %Y" }}</h5>
         {{ content }}
         
     </div><!-- /.row -->
