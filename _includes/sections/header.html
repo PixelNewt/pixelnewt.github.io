@@ -4,7 +4,11 @@
 <!-- header -->
 
 <section id="page-header" class="palette background-slate">
+{% if page.banner %}
+<div id="{{ page.banner }}">
+{% else %}
 <div id="page-header-banner">
+{% endif %}
 
     <div class="container horizontal-padding-large">
     <div class="row">
