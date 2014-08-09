@@ -341,6 +341,21 @@ h1 small {
   background-size: cover;
 }
 
+#about-header-banner {
+  background: url(../img/about-header-banner.jpg) no-repeat center top;
+  background-attachment: relative;
+  background-position: center left;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #mission-header-banner {
   background: url(../img/mission-header-banner.jpg) no-repeat center top;
   background-attachment: relative;
