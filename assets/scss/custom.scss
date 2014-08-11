@@ -232,6 +232,10 @@ h1 small {
   padding-left: 24px;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .text-white {
   color: #fff;
 }
@@ -302,8 +306,8 @@ h1 small {
 }
 
 #hero-banner h1 {
-  padding-top: 48px;
-  font-size: 96px;
+  padding-top: 32px;
+  font-size: 112px;
   text-align: center;
 }
 
