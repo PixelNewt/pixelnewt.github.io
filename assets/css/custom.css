@@ -60,6 +60,15 @@ blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #273
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #bf9000; font-weight: bold; background-color: inherit; }
 
+.nav-tabs { border-bottom: none; width: 70%; margin: auto; font-family: "Roboto Slab", Times, serif; font-size: 16px; font-weight: 300; padding-bottom: 24px; }
+
+.nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus { margin-right: 0px; line-height: 1.42857143; border: 1px solid transparent; border-radius: 0; padding: 3px 6px; }
+
+.nav-tabs > li > a:hover { border-color: transparent; text-decoration: none; background-color: transparent; border-bottom: 3px solid #f1c232; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #f1c232; background-color: transparent; border: 1px solid transparent; border-bottom: 3px solid #f1c232; cursor: default; }
+
+/*not a real override, but this changes the navbar*/
 .white-opacity { background: #7f7f7f; background: rgba(255, 255, 255, 0.8); border-color: transparent; }
 
 h1 small { padding-left: 15px; }

@@ -128,6 +128,40 @@ blockquote {
   background-color: inherit;
 }
 
+.nav-tabs {
+  border-bottom: none;
+  width: 70%;
+  margin: auto;
+  font-family: $serifFont;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 24px;
+}
+
+.nav-tabs>li>a, .nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
+  margin-right: 0px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 3px 6px;
+}
+
+.nav-tabs>li>a:hover {
+  border-color: transparent;
+  text-decoration: none;
+  background-color: transparent;
+  border-bottom: 3px solid $paleYellow;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: $paleYellow;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom: 3px solid $paleYellow;
+  cursor: default;
+}
+
+/*not a real override, but this changes the navbar*/
 .white-opacity {
   background:#7f7f7f;
   background:rgba(255,255,255,0.8);
