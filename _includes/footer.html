@@ -1,86 +1,101 @@
 
 <footer>
-    <div class="container" id="footer">
-        
-        <div class="row" id="footer-links">
-            <div class="col-md-6 col-lg-6" id="footer-secondary-navigation">
-            <ul class="list-inline">
-        
-                {% for footerLink in site.data.footerlinks %}
-            
-                {% if footerLink.route == page.active %}
-                <li class="active"><a href="/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
-                {% else %}
-                <li><a href="/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
-                {% endif %}
-                    
-                {% endfor %}
+  <section id="footer-information-section" class="palette">
+  <div id="footer-information">
 
-            </ul>
-            </div><!-- /#footer-secondary-navigation -->
+    <div class="container">
+    <div class="row" id="footer-links">
 
-            <div class="col-md-6 col-lg-6" id="footer-social">
-            <ul class="list-inline">
-                {% for socialLink in site.data.social %}
-                {% if socialLink.icon %}
-                <li><a href="{{ socialLink.url }}" target="_blank"><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i></a></li>
-                {% endif %}                
-                {% endfor %}
-            </ul>
-            </div><!-- /#footer-social -->
-        </div><!-- /#footer-links -->
+      <div class="col-md-3 col-lg-3" id="footer-site-navigation">
+        <h5>Site</h5>
+        <ul class="list-unstyled">
+    
+            {% for footerLink in site.data.footerlinks %}
         
-        <div class="row">
-            <div class="col-md-6 col-lg-6" id="footer-address-section">
-                <h4>Connect</h4>
-
-                <div class="row">
-                    <div class="col-md-6 col-lg-6" id="footer-connect">
-                        <address class="vcard">
-                            <div class="company-name">{{site.company}}</div>
-                            <!-- <div class="street-address"></div>  -->
-                            <div class="full-address">
-                                <span class="map"><a href="https://www.google.com/maps/@45.3687069,-122.640102,11z" target="_blank"><i class="fa fa-map-marker"></i> 
-                                <span class="city">West Linn</span>&nbsp;
-                                <span class="state">Oregon</span>,&nbsp;
-                                <span class="postal-code">97068</span>&nbsp;
-                                </a></span>
-                            </div>
-                        </address>
-                    </div><!-- /#footer-footer-connect -->
+            {% if footerLink.route == page.active %}
+            <li class="active"><a href="/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
+            {% else %}
+            <li><a href="/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
+            {% endif %}
                 
-                    <div class="col-md-6 col-lg-6" id="footer-reachout">
-                        <div class="email"><script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'h'+'&'+'#'+'1'+'0'+
-                '1'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+
-                '#'+'3'+'7'+';'+'6'+'&'+'#'+'7'+'0'+';'+'&'+'#'+'6'+'4'+';'+'p'+'i'+'x'+'e'+'%'+'6'+'C'+'&'+'#'+'1'+
-                '1'+'0'+';'+'e'+'w'+'t'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'3'+'7'+';'+'6'+'F'+'m'+"'"+'>'+'h'+'e'+'l'+
-                'l'+'o'+'&'+'#'+'6'+'4'+';'+'p'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'2'+'0'+';'+'e'+'&'+'#'+'1'+'0'+
-                '8'+';'+'n'+'e'+'w'+'&'+'#'+'1'+'1'+'6'+';'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'1'+'1'+'1'+';'+'m'+'<'+
-                '/'+'a'+'>');</script></div>
-                        <div class="phone"><a href="tel:+15037355500">503-735-5500</a></div>
-                    </div><!-- /#footer-reachout -->
-                </div><!-- /.row -->
-            </div><!-- /#footer-footer-address-section -->
+            {% endfor %}
 
-            <div class="col-md-6 col-lg-6" id="footer-news">
-                <h4>Recent Blog Posts</h4>
+        </ul>
+      </div><!-- /#footer-site-navigation -->
 
-                {% for post in site.posts %}
-                {% if post.status != 'draft' %}
-                <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-                {% endif %}
-                {% endfor %}
+      <div class="col-md-3 col-lg-3" id="footer-contact-information">
+        <h5>{{ site.title }}</h5>
+          <address class="vcard">
+              <div class="company-name">{{ site.company }}</div>
+              <!-- <div class="street-address"></div>  -->
+              <div class="full-address">
+                  <span class="map">
+                  <i class="fa fa-map-marker"></i>&nbsp;
+                  <a href="https://www.google.com/maps/@45.3687069,-122.640102,11z" target="_blank">
+                  <span class="city">West Linn</span>&nbsp;
+                  <span class="state">Oregon</span>,&nbsp;
+                  <span class="postal-code">97068</span>&nbsp;
+                  </a></span>
+              </div>
 
-            </div><!-- /#footer-news -->
-        </div><!-- /.row -->
-        
-        <div class="row" id="footer-copyright">
-            <div class="col-md-12 col-lg-12">
-            <p class="text-steel-blue">&copy; Copyright {{ site.time | date: '%Y' }} &mdash; {{ site.company }}</p>
-            </div>
-        </div><!-- /#footer-copyright-social -->
+          <div class="email"><i class="fa fa-envelope"></i>&nbsp;
+            <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'h'+'&'+'#'+'1'+'0'+
+  '1'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+
+  '#'+'3'+'7'+';'+'6'+'&'+'#'+'7'+'0'+';'+'&'+'#'+'6'+'4'+';'+'p'+'i'+'x'+'e'+'%'+'6'+'C'+'&'+'#'+'1'+
+  '1'+'0'+';'+'e'+'w'+'t'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'3'+'7'+';'+'6'+'F'+'m'+"'"+'>'+'h'+'e'+'l'+
+  'l'+'o'+'&'+'#'+'6'+'4'+';'+'p'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'2'+'0'+';'+'e'+'&'+'#'+'1'+'0'+
+  '8'+';'+'n'+'e'+'w'+'&'+'#'+'1'+'1'+'6'+';'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'1'+'1'+'1'+';'+'m'+'<'+
+  '/'+'a'+'>');</script>
+          </div>
+          </address>
 
+        <!-- <div class="phone"><a href="tel:+15037355500">503-735-5500</a></div> -->
+      </div><!-- /#footer-contact-information -->
+
+      <div class="col-md-3 col-lg-3" id="footer-social-links">
+        <h5>Socialize</h5>
+        <ul class="list-unstyled">
+            {% for socialLink in site.data.social %}
+            {% if socialLink.icon %}
+            <li><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i>&nbsp;<a href="{{ socialLink.url }}" target="_blank">{{ socialLink.title }}</a></li>
+            {% endif %}                
+            {% endfor %}
+        </ul>
+      
+      </div><!-- /#footer-social-links -->
+
+      <div class="col-md-3 col-lg-3" id="footer-blog-links">
+        <h5>Recent Blog Posts</h5>
+
+        {% for post in site.posts %}
+        {% if post.status != 'draft' %}
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        {% endif %}
+        {% endfor %}
+      </div><!-- /#footer-blog-links -->
+
+    </div><!-- /.row -->
     </div><!-- /.container -->
+
+  </div><!-- /#footer-information -->
+  </section><!-- /#footer-information-section -->
+
+  <section id="footer-copyright-section" class="palette">
+  <div id="footer-copyright">
+    
+    <div class="container">
+    <div class="row">
+  
+        <div class="col-md-12 col-lg-12">
+        <p class="text-steel-blue text-center">&copy; Copyright {{ site.time | date: '%Y' }} &mdash; {{ site.company }}</p>
+        </div>
+
+      
+    </div><!-- /.row -->
+    </div><!-- /.container -->
+
+  </div><!-- /#footer-copyright -->
+  </section><!-- /#footer-copyright-section -->
 
 </footer>
 

@@ -2,8 +2,8 @@
 - title: About
   route: about
 
-- title: Blog
-  route: blog
+# - title: Blog
+#   route: blog
 
 - title: Terms
   route: terms
