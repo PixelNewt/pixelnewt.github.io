@@ -130,11 +130,11 @@ blockquote {
 
 .nav-tabs {
   border-bottom: none;
-  width: 70%;
+  width: 90%;
   margin: auto;
   font-family: $serifFont;
-  font-size: 18px;
-  font-weight: 200;
+  font-size: 24px;
+  font-weight: 300;
   padding-bottom: 24px;
   list-style: none;
 }
@@ -151,15 +151,16 @@ blockquote {
   border-color: transparent;
   text-decoration: none;
   background-color: transparent;
-  border-bottom: 3px solid $paleYellow;
+  border-bottom: 1px solid transparent;
+  color: $paleYellow;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
   color: $paleYellow;
   background-color: transparent;
   border: 1px solid transparent;
-  border-bottom: 3px solid $paleYellow;
   cursor: default;
+  text-decoration: underline;
 }
 
 /*not a real override, but this changes the navbar*/
@@ -231,8 +232,8 @@ h1 small {
   color: $darkSlate;
 }
 
-.background-slate-lighten-85 {
-  background-color: lighten( $darkSlate, 85% );
+.background-slate-lighten-75 {
+  background-color: lighten( $darkSlate, 75% );
   color: $darkSlate;
 }
 
@@ -556,6 +557,11 @@ img.mugshot {
 
 .bottom-pad {
   padding-bottom: 12px;
+}
+
+.left-border-slate {
+  border-left: 1px solid $darkSlate;
+  padding-left: 12px;
 }
 
 /*responsive*/

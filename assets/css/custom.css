@@ -60,13 +60,13 @@ blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #273
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #bf9000; font-weight: bold; background-color: inherit; }
 
-.nav-tabs { border-bottom: none; width: 70%; margin: auto; font-family: "Roboto Slab", Times, serif; font-size: 18px; font-weight: 200; padding-bottom: 24px; list-style: none; }
+.nav-tabs { border-bottom: none; width: 90%; margin: auto; font-family: "Roboto Slab", Times, serif; font-size: 24px; font-weight: 300; padding-bottom: 24px; list-style: none; }
 
 .nav-tabs > li > a, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus { margin-right: 6px; line-height: 1.42857143; border: 1px solid transparent; border-radius: 0; padding: 3px 6px; }
 
-.nav-tabs > li > a:hover { border-color: transparent; text-decoration: none; background-color: transparent; border-bottom: 3px solid #f1c232; }
+.nav-tabs > li > a:hover { border-color: transparent; text-decoration: none; background-color: transparent; border-bottom: 1px solid transparent; color: #f1c232; }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #f1c232; background-color: transparent; border: 1px solid transparent; border-bottom: 3px solid #f1c232; cursor: default; }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { color: #f1c232; background-color: transparent; border: 1px solid transparent; cursor: default; text-decoration: underline; }
 
 /*not a real override, but this changes the navbar*/
 .white-opacity { background: #7f7f7f; background: rgba(255, 255, 255, 0.8); border-color: transparent; }
@@ -98,7 +98,7 @@ h1 small { padding-left: 15px; }
 
 .background-slate-lighten-65 { background-color: #cfd9e0; color: #27343d; }
 
-.background-slate-lighten-85 { background-color: white; color: #27343d; }
+.background-slate-lighten-75 { background-color: #eef2f4; color: #27343d; }
 
 .background-dark { background-color: #000; color: #7f6000; }
 
@@ -192,6 +192,8 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 .top-pad { padding-top: 12px; }
 
 .bottom-pad { padding-bottom: 12px; }
+
+.left-border-slate { border-left: 1px solid #27343d; padding-left: 12px; }
 
 /*responsive*/
 @media (max-width: 768px) { .logo-image { display: none; }
