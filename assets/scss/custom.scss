@@ -133,13 +133,13 @@ blockquote {
   width: 70%;
   margin: auto;
   font-family: $serifFont;
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 200;
   padding-bottom: 24px;
 }
 
 .nav-tabs>li>a, .nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
-  margin-right: 0px;
+  margin-right: 6px;
   line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 0;
@@ -544,6 +544,10 @@ img.mugshot {
   font-weight: 100;
   font-family: $sansSerifFont;
   color: lighten( $darkSlate, 15% );
+}
+
+.top-pad {
+  padding-top: 12px;
 }
 
 /*responsive*/
