@@ -1,16 +1,8 @@
 
-- link: apps
+- link: services
   type: internal
-  name: Web Apps
-
-- link: saas
-  type: internal
-  name: SaaS
-
-- link: hosting
-  type: internal
-  name: Cloud Services
-
+  name: Services
+  
 - link: blog
   type: internal
   name: Blog

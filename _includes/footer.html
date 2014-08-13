@@ -30,7 +30,6 @@
               <!-- <div class="street-address"></div>  -->
               <div class="full-address">
                   <span class="map">
-                  <i class="fa fa-map-marker"></i>&nbsp;
                   <a href="https://www.google.com/maps/@45.3687069,-122.640102,11z" target="_blank">
                   <span class="city">West Linn</span>&nbsp;
                   <span class="state">Oregon</span>,&nbsp;
@@ -38,14 +37,7 @@
                   </a></span>
               </div>
 
-          <div class="email"><i class="fa fa-envelope"></i>&nbsp;
-            <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'h'+'&'+'#'+'1'+'0'+
-  '1'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+
-  '#'+'3'+'7'+';'+'6'+'&'+'#'+'7'+'0'+';'+'&'+'#'+'6'+'4'+';'+'p'+'i'+'x'+'e'+'%'+'6'+'C'+'&'+'#'+'1'+
-  '1'+'0'+';'+'e'+'w'+'t'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'3'+'7'+';'+'6'+'F'+'m'+"'"+'>'+'h'+'e'+'l'+
-  'l'+'o'+'&'+'#'+'6'+'4'+';'+'p'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'2'+'0'+';'+'e'+'&'+'#'+'1'+'0'+
-  '8'+';'+'n'+'e'+'w'+'&'+'#'+'1'+'1'+'6'+';'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'1'+'1'+'1'+';'+'m'+'<'+
-  '/'+'a'+'>');</script>
+          <div class="email">
           </div>
           </address>
 
@@ -53,13 +45,21 @@
       </div><!-- /#footer-contact-information -->
 
       <div class="col-md-3 col-lg-3" id="footer-social-links">
-        <h5>Socialize</h5>
+        <h5>Connect & Support</h5>
         <ul class="list-unstyled">
-            {% for socialLink in site.data.social %}
-            {% if socialLink.icon %}
-            <li><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i>&nbsp;<a href="{{ socialLink.url }}" target="_blank">{{ socialLink.title }}</a></li>
-            {% endif %}                
-            {% endfor %}
+          <li><i class="fa fa-envelope"></i>&nbsp;
+            <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'h'+'&'+'#'+'1'+'0'+
+  '1'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+'#'+'3'+'7'+';'+'&'+'#'+'5'+'4'+';'+'C'+'&'+
+  '#'+'3'+'7'+';'+'6'+'&'+'#'+'7'+'0'+';'+'&'+'#'+'6'+'4'+';'+'p'+'i'+'x'+'e'+'%'+'6'+'C'+'&'+'#'+'1'+
+  '1'+'0'+';'+'e'+'w'+'t'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'3'+'7'+';'+'6'+'F'+'m'+"'"+'>'+'h'+'e'+'l'+
+  'l'+'o'+'&'+'#'+'6'+'4'+';'+'p'+'&'+'#'+'1'+'0'+'5'+';'+'&'+'#'+'1'+'2'+'0'+';'+'e'+'&'+'#'+'1'+'0'+
+  '8'+';'+'n'+'e'+'w'+'&'+'#'+'1'+'1'+'6'+';'+'&'+'#'+'4'+'6'+';'+'c'+'&'+'#'+'1'+'1'+'1'+';'+'m'+'<'+
+  '/'+'a'+'>');</script></li>
+          {% for socialLink in site.data.social %}
+          {% if socialLink.icon %}
+          <li><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i>&nbsp;<a href="{{ socialLink.url }}" target="_blank">{{ socialLink.title }}</a></li>
+          {% endif %}                
+          {% endfor %}
         </ul>
       
       </div><!-- /#footer-social-links -->
