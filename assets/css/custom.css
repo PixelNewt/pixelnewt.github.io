@@ -44,6 +44,10 @@ hr { border-top: 1px solid #a0b5c3; }
 
 blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #27343d; border-left: 0; }
 
+.cancel-col-padding { padding-left: 0px; padding-right: 0px; }
+
+.container-full { margin: 0 auto; width: 100%; }
+
 .container-narrow { width: 760px; margin-right: auto; margin-left: auto; }
 
 .lead { font-size: 24px; }
@@ -205,7 +209,7 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
   .container-narrow { width: auto; margin-right: auto; margin-left: auto; }
   .row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; } }
 /*footer*/
-footer { background: url(../img/footer-map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
+footer { background: url(../img/west-linn-bridge.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
 
 footer p, footer ul, footer ol { font-size: 14px; line-height: 20px; padding-left: 0px; }
 
