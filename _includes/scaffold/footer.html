@@ -13,9 +13,9 @@
             {% for footerLink in site.data.footerlinks %}
         
             {% if footerLink.route == page.active %}
-            <li class="active"><a href="/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
+            <li class="active"><a href="{{ site.baseurl }}/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
             {% else %}
-            <li><a href="/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
             {% endif %}
                 
             {% endfor %}
@@ -72,7 +72,7 @@
           <li><i class="fa fa-angle-right"></i>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
           {% endfor %}
-          <li><i class="fa fa-rss"></i>&nbsp;<a href="/rss.xml">RSS</a></li>
+          <li><i class="fa fa-rss"></i>&nbsp;<a href="{{ site.baseurl }}/rss.xml">RSS</a></li>
         </ul>
       </div><!-- /#footer-blog-links -->
 
@@ -101,5 +101,5 @@
 
 </footer>
 
-{% include scripts.html %}
-{% include analytics.html %}
+{% include scaffold/scripts.html %}
+{% include scaffold/analytics.html %}

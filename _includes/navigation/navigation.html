@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </div><!-- ./navbar-header -->
 
         <div class="collapse navbar-collapse" id="scrollspy-links">
@@ -20,19 +20,19 @@
                 <li class="dropdown active">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li class="active"><a href="/services/webapps">Web Applications</a></li>
-                    <li><a href="/services/ecommerce">eCommerce</a></li>
-                    <li><a href="/services/saas">SaaS</a></li>
-                    <li><a href="/services/cloud">Cloud</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/services/webapps">Web Applications</a></li>
+                    <li><a href="{{ site.baseurl }}/services/ecommerce">eCommerce</a></li>
+                    <li><a href="{{ site.baseurl }}/services/saas">SaaS</a></li>
+                    <li><a href="{{ site.baseurl }}/services/cloud">Cloud</a></li>
                   </ul>
                 </li>
 
                 {% for navLink in site.data.navigation %}
                 
                 {% if navLink.link == page.active %}
-                <li class="active"><a href="/{{ navLink.link }}">{{ navLink.name }}</a></li>
+                <li class="active"><a href="{{ site.baseurl }}/{{ navLink.link }}">{{ navLink.name }}</a></li>
                 {% else %}
-                <li><a href="/{{ navLink.link }}">{{ navLink.name }}</a></li>
+                <li><a href="{{ site.baseurl }}/{{ navLink.link }}">{{ navLink.name }}</a></li>
                 {% endif %}
 
                 {% endfor %}

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 
 <html>
-    {% include head.html %}
+    {% include scaffold/head.html %}
+    
     <body>
+    
+    {% include scaffold/ie.html %}
 
     {{ content }}
 
-    {% include scripts.html %}
-    {% include analytics.html %}
+    {% include scaffold/scripts.html %}
+    {% include scaffold/analytics.html %}
     </body>
 </html>

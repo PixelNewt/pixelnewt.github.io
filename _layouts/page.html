@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 
 <html>
-    {% include head.html %}
+    {% include scaffold/head.html %}
 
     <body>
+    
+    {% include scaffold/ie.html %}
 
-    {% include navigation.html %}
+    {% include navigation/navigation.html %}
 
     {% include sections/header.html %}
     
     {{ content }}
 
-    {% include footer.html %}
+    {% include scaffold/footer.html %}
     </body>
 </html>

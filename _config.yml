@@ -6,7 +6,7 @@ mission: "Create Attractive, Focused, Robust, and Secure Web Applications that w
 mos: "We Measure Success by Growing Your Internet Business"
 summary: "Engineers of Awesome Web Applications and Software Services"
 tagline: "We Make Beautiful, Robust, Applications for Web & Mobile"
-baseurl: "/"
+baseurl: "" # no trailing slash
 url: "http://pixelnewt.com/"
 urlNoSlash: "http://pixelnewt.com"
 baseuser: "pixelnewt"
