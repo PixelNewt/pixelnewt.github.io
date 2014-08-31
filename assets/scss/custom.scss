@@ -128,39 +128,28 @@ blockquote {
   background-color: inherit;
 }
 
-.nav-tabs {
-  border-bottom: none;
-  width: 90%;
-  margin: auto;
-  font-family: $serifFont;
-  font-size: 24px;
-  font-weight: 300;
-  padding-bottom: 24px;
-  list-style: none;
+.nav-pills {
+  /*border-bottom: 3px solid $darkSlate;*/
 }
 
-.nav-tabs>li>a, .nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
-  margin-right: 6px;
-  line-height: 1.42857143;
-  border: 1px solid transparent;
-  border-radius: 0;
-  padding: 3px 6px;
+.nav-pills>li {
+  font-size: 16px;
 }
 
-.nav-tabs>li>a:hover {
-  border-color: transparent;
-  text-decoration: none;
-  background-color: transparent;
-  border-bottom: 1px solid transparent;
-  color: $paleYellow;
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: $offWhite;
+  background-color: $darkSlate;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-  color: $paleYellow;
-  background-color: transparent;
-  border: 1px solid transparent;
-  cursor: default;
-  text-decoration: underline;
+.nav-pills>li>a {
+  border-radius: 0px;
+  /*padding: 10px 15px;*/
+}
+
+.nav-pills>li>a:hover {
+  background-color: lighten( $steelBlue, 10% );
+  color: $offWhite;
+  transition: background-color 0.5s ease;
 }
 
 /*not a real override, but this changes the navbar*/
