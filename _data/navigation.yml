@@ -1,13 +1,13 @@
-
-- link: services
-  type: internal
-  name: Services
   
+- link: services
+  name: Services
+
 - link: blog
-  type: internal
   name: Blog
 
+- link: about
+  name: About
+
 - link: contact
-  type: internal
   name: Contact
   

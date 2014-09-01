@@ -266,6 +266,10 @@ h1 small {
   text-transform: uppercase;
 }
 
+.text-lowercase {
+  text-transform: lowercase;
+}
+
 .text-white {
   color: #fff;
 }
@@ -548,6 +552,14 @@ img.mugshot {
   font-weight: 100;
   font-family: $sansSerifFont;
   color: lighten( $darkSlate, 15% );
+}
+
+.navbar-phone a {
+  float: right;
+  height: 50px;
+  padding: 15px 5px;
+  line-height: 20px;
+  font-weight: 800;
 }
 
 .top-pad {

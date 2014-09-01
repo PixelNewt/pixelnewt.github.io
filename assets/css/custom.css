@@ -121,6 +121,8 @@ h1 small { padding-left: 15px; }
 
 .text-uppercase { text-transform: uppercase; }
 
+.text-lowercase { text-transform: lowercase; }
+
 .text-white { color: #fff; }
 
 .text-pale-yellow { color: #f1c232; }
@@ -194,6 +196,8 @@ img#hero-image { margin: 0 auto; width: 500px; height: 500px; }
 img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
 
 .posted-date { font-weight: 100; font-family: Raleway, Helvetica, Arial, sans-serif; color: #455c6c; }
+
+.navbar-phone a { float: right; height: 50px; padding: 15px 5px; line-height: 20px; font-weight: 800; }
 
 .top-pad { padding-top: 12px; }
 

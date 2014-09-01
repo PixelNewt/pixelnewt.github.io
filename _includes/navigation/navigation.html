@@ -17,16 +17,6 @@
 
             <ul class="nav navbar-nav navbar-right" id="nav-links">
 
-                <li class="dropdown active">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="active"><a href="{{ site.baseurl }}/services/webapps">Web Applications</a></li>
-                    <li><a href="{{ site.baseurl }}/services/ecommerce">eCommerce</a></li>
-                    <li><a href="{{ site.baseurl }}/services/saas">SaaS</a></li>
-                    <li><a href="{{ site.baseurl }}/services/cloud">Cloud</a></li>
-                  </ul>
-                </li>
-
                 {% for navLink in site.data.navigation %}
                 
                 {% if navLink.link == page.active %}
@@ -37,6 +27,11 @@
 
                 {% endfor %}
 
+                <li>
+                    <span class="navbar-phone">
+                        <a href="tel:{{ site.phone-number }}"><i class="fa fa-phone"></i>&nbsp;{{ site.phone-string }}</a>
+                    </span>
+                </li>
             </ul><!-- /#nav-links -->
         </div><!--/.nav-collapse -->
 
