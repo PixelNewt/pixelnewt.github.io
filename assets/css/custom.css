@@ -37,6 +37,10 @@ a:hover { color: #27343d; }
 
 a:visited { color: #27343d; }
 
+article { background-color: #bbd2e3; margin-bottom: 24px; padding: 4px 16px 8px 16px; }
+
+article:hover { background-color: #fcf1d0; transition: background-color 0.5s ease; }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*Bootstrap overrides*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -195,7 +199,7 @@ img#hero-image { margin: 0 auto; width: 500px; height: 500px; }
 /*about*/
 img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
 
-.posted-date { font-weight: 100; font-family: Raleway, Helvetica, Arial, sans-serif; color: #455c6c; }
+.posted-date { font-size: 14px; font-weight: 100; font-family: Raleway, Helvetica, Arial, sans-serif; color: #455c6c; }
 
 .navbar-phone a { float: right; height: 50px; padding: 15px 5px; line-height: 20px; font-weight: 800; }
 

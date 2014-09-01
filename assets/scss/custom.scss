@@ -69,6 +69,16 @@ a { color: $darkSlate; }
 a:hover { color: $darkSlate; }
 a:visited { color: $darkSlate; }
 
+article {
+  background-color: lighten( $steelBlue, 33% );
+  margin-bottom: 24px;
+  padding: 4px 16px 8px 16px;
+}
+
+article:hover {
+  background-color: lighten( $paleYellow, 33% );
+  transition: background-color 0.5s ease;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*Bootstrap overrides*/
@@ -549,6 +559,7 @@ img.mugshot {
 }
 
 .posted-date {
+  font-size: 14px;
   font-weight: 100;
   font-family: $sansSerifFont;
   color: lighten( $darkSlate, 15% );

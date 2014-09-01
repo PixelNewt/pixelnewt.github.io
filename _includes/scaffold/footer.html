@@ -68,8 +68,8 @@
 
         <ul class="list-unstyled">
           {% for post in site.posts %}
-          {% if post.status != 'draft' %}
-          <li><i class="fa fa-angle-right"></i>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% if post.published == 'true' %}
+          <li><i class="fa fa-pencil-square"></i>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
           {% endfor %}
           <li><i class="fa fa-rss"></i>&nbsp;<a href="{{ site.baseurl }}/rss.xml">RSS</a></li>
