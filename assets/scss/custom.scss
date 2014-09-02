@@ -7,6 +7,7 @@
 
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
 
 /*serif*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
@@ -22,6 +23,7 @@
 $monoSpaceFont: Inconsolata, Courier, monospace;
 $serifFont: 'Roboto Slab', Times, serif;
 $sansSerifFont: Raleway, Helvetica, Arial, sans-serif;
+$sansSerifFontSecondary: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
 $scriptFont: 'Lobster';
 
 /*variables -- sizes*/
@@ -47,7 +49,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #f9f9f9;
-  font-family: $sansSerifFont;
+  font-family: $sansSerifFontSecondary;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -59,8 +61,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 
 p, ul, ol {
-  font-size: 20px;
-  font-family: $sansSerifFont;
+  font-size: 24px;
+  font-family: $sansSerifFontSecondary;
   line-height: 30px;
 }
 
@@ -123,12 +125,18 @@ blockquote {
 }
 
 .navbar {
-  font-family: $serifFont;
 }
 
 #nav-links {
+  font-family: $serifFont;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.dropdown-menu {
+  font-family: $serifFont;
   font-size: 14px;
-  font-weight: 50;
+  font-weight: 100; 
 }
 
 .navbar-brand {
@@ -148,6 +156,7 @@ blockquote {
 }
 
 .nav-pills {
+  font-family: $serifFont;
   /*border-bottom: 3px solid $darkSlate;*/
 }
 
