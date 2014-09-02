@@ -20,11 +20,11 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /*variables -- fonts*/
-$monoSpaceFont: Inconsolata, Courier, monospace;
-$serifFont: 'Roboto Slab', Times, serif;
-$sansSerifFont: Raleway, Helvetica, Arial, sans-serif;
-$sansSerifFontSecondary: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
-$scriptFont: 'Lobster';
+$fontStyleCode: Inconsolata, Courier, monospace;
+$fontProfessional: 'Roboto Slab', Times, serif;
+$fontPrimary: Raleway, Helvetica, Arial, sans-serif;
+$fontSecondary: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
+$fontFancy: 'Lobster';
 
 /*variables -- sizes*/
 
@@ -49,12 +49,12 @@ html, body { height: 100%; }
 
 body {
   background-color: #f9f9f9;
-  font-family: $sansSerifFontSecondary;
+  font-family: $fontSecondary;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
-  font-family: $serifFont;
+  font-family: $fontProfessional;
   font-size: 100%;
 }
 
@@ -62,7 +62,7 @@ h1 { margin-bottom: 1em; }
 
 p, ul, ol {
   font-size: 24px;
-  font-family: $sansSerifFontSecondary;
+  font-family: $fontSecondary;
   line-height: 30px;
 }
 
@@ -92,7 +92,7 @@ hr {
 blockquote {
   padding: 20px;
   font-size: 30px;
-  font-family: $scriptFont;
+  font-family: $fontFancy;
   color: $darkSlate;
   border-left: 0;  
 }
@@ -128,19 +128,19 @@ blockquote {
 }
 
 #nav-links {
-  font-family: $serifFont;
+  font-family: $fontProfessional;
   font-size: 16px;
   font-weight: 100;
 }
 
 .dropdown-menu {
-  font-family: $serifFont;
+  font-family: $fontProfessional;
   font-size: 14px;
   font-weight: 100; 
 }
 
 .navbar-brand {
-  font-family: $scriptFont;
+  font-family: $fontFancy;
   font-weight: 100;
   font-size: 30px;
 }
@@ -156,7 +156,7 @@ blockquote {
 }
 
 .nav-pills {
-  font-family: $serifFont;
+  font-family: $fontProfessional;
   /*border-bottom: 3px solid $darkSlate;*/
 }
 
@@ -325,26 +325,27 @@ h1 small {
 }
 
 .text-scriptfont {
-  font-family: $scriptFont;
+  font-family: $fontFancy;
 }
 
 .text-codefont {
-  font-family: $monoSpaceFont;
+  font-family: $fontStyleCode;
 }
 
 .text-sansfont {
-  font-family: $sansSerifFont;
+  font-family: $fontPrimary;
 }
 
 .text-seriffont {
-  font-family: $serifFont;
+  font-family: $fontProfessional;
 }
 
 /*banners*/
 #hero-banner {
-  background: url(../img/map.jpg) no-repeat center top;
+/*  background: url(../img/map.jpg) no-repeat center top;
   background-attachment: relative;
-  background-position: top center;
+  background-position: top center;*/
+  background-color: $darkSlate;
   min-height: 450px;
   width: 100%;
   -webkit-background-size: 100%;
@@ -359,10 +360,10 @@ h1 small {
 
 #hero-banner h1 {
   padding-top: 32px;
-  font-size: 112px;
+  font-size: 96px;
   text-align: center;
   font-weight: 800;
-  font-family: $serifFont;
+  font-family: $fontProfessional;
   text-transform: none;
 }
 
@@ -527,7 +528,7 @@ section h1 {
   font-size: 48px;
   font-weight: 100;
   padding: 3px 0 20px 0;
-  font-family: $sansSerifFont;
+  font-family: $fontPrimary;
   text-transform: uppercase;
 }
 
@@ -535,7 +536,7 @@ section h4 {
   font-size: 30px;
   font-weight: 100;
   padding: 3px 0 20px 0;
-  font-family: $sansSerifFont;
+  font-family: $fontPrimary;
   text-transform: uppercase;
 }
 
@@ -569,7 +570,7 @@ img.mugshot {
 .posted-date {
   font-size: 14px;
   font-weight: 100;
-  font-family: $sansSerifFont;
+  font-family: $fontPrimary;
   color: lighten( $darkSlate, 15% );
 }
 
