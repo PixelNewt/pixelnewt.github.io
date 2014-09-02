@@ -70,9 +70,9 @@ a { color: $darkSlate; }
 a:hover { color: $darkSlate; }
 a:visited { color: $darkSlate; }
 
-a.white-link { color: $offWhite; }
-a.white-link:hover { color: $offWhite; }
-a.white-link:visited { color: $offWhite; }
+a.light-link { color: $offWhite; }
+a.light-link:hover { color: $offWhite; }
+a.light-link:visited { color: $offWhite; }
 
 article {
   background-color: lighten( $steelBlue, 33% );
@@ -118,7 +118,9 @@ blockquote {
 }
 
 .lead {
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 16px;
 }
 
 .page-header {
@@ -197,18 +199,23 @@ h1 small {
 
 .btn {
   border-radius: 0px;
+  font-size: 20px;
 }
 
 .btn-primary {
   color: $offWhite;
   background-color: lighten( $steelBlue, 22% );
   border-color: darken( $steelBlue, 22% );
-  font-size: 20px;
 }
 
 .btn-primary:hover {
   color: $darkSlate;
   background-color: $offWhite;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+  padding: 16px;
+  font-size: 28px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -237,6 +244,14 @@ h1 small {
 
 .horizontal-padding-large {
   padding: 48px 0 96px 0;
+}
+
+.horizontal-padding-top-large {
+  padding-top: 48px;
+}
+
+.background-translucent {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .background-pale {
@@ -610,7 +625,6 @@ img.mugshot {
   padding-top: 12px;
   padding-bottom: 12px;
   margin-bottom: 24px;
-  background-color: rgba(255, 255, 255, 0.2);
   border: 0 none;
 }
 
@@ -640,7 +654,6 @@ img.mugshot {
 
   .lead {
     font-size: 24px;
-    text-shadow: 1px 1px 1px #000;
   }
 
   #hero-banner h1 {
