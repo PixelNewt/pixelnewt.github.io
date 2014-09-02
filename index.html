@@ -1,6 +1,10 @@
 ---
-layout: offline
+layout: landing
 title: PixelNewt
 ---
 
-{% include offline.html %}
+{% if content %}
+    {{ content }}
+{% else %}
+    {% include landing-page.html %}
+{% endif %}
