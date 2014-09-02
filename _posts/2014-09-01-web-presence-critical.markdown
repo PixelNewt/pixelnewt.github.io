@@ -6,7 +6,7 @@ summary: "Your Internet presence is vital.  According to the Small Business Asso
 date:   2014-09-01 09:45:00
 permalink: /blog/web-presence-critical
 meta: "hello world"
-published: "true"
+published: "false"
 ---
 
   <p>Your Internet presence is vital.  According to the Small Business Association  53% of small businesses do not have a website</p>
