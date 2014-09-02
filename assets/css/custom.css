@@ -86,9 +86,9 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.palette h2 { font-size: 48px; font-weight: 100; }
+.palette h2 { font-size: 40px; font-weight: 100; }
 
-.palette h3 { font-size: 36px; font-weight: 100; }
+.palette h3 { font-size: 30px; font-weight: 100; }
 
 .horizontal-padding-small { padding: 8px 0 8px 0; }
 
@@ -203,6 +203,8 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 
 .navbar-phone a { float: right; height: 50px; padding: 15px 5px; line-height: 20px; font-weight: 800; }
 
+.buffer-pad { padding: 12px; }
+
 .top-pad { padding-top: 12px; }
 
 .bottom-pad { padding-bottom: 12px; }
@@ -212,12 +214,12 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 /*responsive*/
 @media (max-width: 768px) { .logo-image { display: none; }
   .lead { font-size: 24px; text-shadow: 1px 1px 1px #000; }
-  #hero-banner h1 { color: #f1c232; font-size: 64px; }
+  #hero-banner h1 { font-size: 64px; }
   section ul, section ol { padding-left: 12px; }
   .container-narrow { width: auto; margin-right: auto; margin-left: auto; }
   .row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; } }
 /*footer*/
-footer { background: url(../img/west-linn-bridge.jpg) no-repeat center top; background-attachment: relative; background-position: top center; min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
+footer { /*  background: url(../img/west-linn-bridge.jpg) no-repeat center top; background-attachment: relative; background-position: top center;*/ min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
 
 footer p, footer ul, footer ol { font-size: 18px; line-height: 22px; padding-left: 0px; }
 

@@ -198,12 +198,12 @@ h1 small {
 .palette {}
 
 .palette h2 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 100;
 }
 
 .palette h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 100;
 }
 
@@ -582,6 +582,10 @@ img.mugshot {
   font-weight: 800;
 }
 
+.buffer-pad {
+  padding: 12px;
+}
+
 .top-pad {
   padding-top: 12px;
 }
@@ -607,7 +611,6 @@ img.mugshot {
   }
 
   #hero-banner h1 {
-    color: $paleYellow;
     font-size: 64px;
   }
 
@@ -631,9 +634,9 @@ img.mugshot {
 /*footer*/
 
 footer {
-  background: url(../img/west-linn-bridge.jpg) no-repeat center top;
+/*  background: url(../img/west-linn-bridge.jpg) no-repeat center top;
   background-attachment: relative;
-  background-position: top center;
+  background-position: top center;*/
   min-height: 350px;
   width: 100%;
   -webkit-background-size: 100%;
