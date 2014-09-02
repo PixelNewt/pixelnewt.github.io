@@ -70,6 +70,10 @@ a { color: $darkSlate; }
 a:hover { color: $darkSlate; }
 a:visited { color: $darkSlate; }
 
+a.white-link { color: $offWhite; }
+a.white-link:hover { color: $offWhite; }
+a.white-link:visited { color: $offWhite; }
+
 article {
   background-color: lighten( $steelBlue, 33% );
   margin-bottom: 24px;
@@ -189,6 +193,22 @@ blockquote {
 
 h1 small {
   padding-left: 15px;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.btn-primary {
+  color: $offWhite;
+  background-color: lighten( $steelBlue, 22% );
+  border-color: darken( $steelBlue, 22% );
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  color: $darkSlate;
+  background-color: $offWhite;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -586,6 +606,14 @@ img.mugshot {
   padding: 12px;
 }
 
+.row-sep {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0 none;
+}
+
 .top-pad {
   padding-top: 12px;
 }
@@ -597,6 +625,11 @@ img.mugshot {
 .left-border-slate {
   border-left: 1px solid $darkSlate;
   padding-left: 12px;
+}
+
+.min-height-150 {
+  padding: 48px 0 48px;
+  min-height: 150px;
 }
 
 /*responsive*/
@@ -628,6 +661,12 @@ img.mugshot {
     margin-left: 0px;
     margin-right: 0px;
     padding: 0 18px 0 18px;
+  }
+
+  .row-sep {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 6px;
   }
 }
 

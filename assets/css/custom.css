@@ -37,6 +37,12 @@ a:hover { color: #27343d; }
 
 a:visited { color: #27343d; }
 
+a.white-link { color: #fdfdfd; }
+
+a.white-link:hover { color: #fdfdfd; }
+
+a.white-link:visited { color: #fdfdfd; }
+
 article { background-color: #bbd2e3; margin-bottom: 24px; padding: 4px 16px 8px 16px; }
 
 article:hover { background-color: #fcf1d0; transition: background-color 0.5s ease; }
@@ -82,6 +88,12 @@ blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #273
 .white-opacity { background: #7f7f7f; background: rgba(255, 255, 255, 0.8); border-color: transparent; }
 
 h1 small { padding-left: 15px; }
+
+.btn { border-radius: 0px; }
+
+.btn-primary { color: #fdfdfd; background-color: #93b7d2; border-color: #27465e; font-size: 20px; }
+
+.btn-primary:hover { color: #27343d; background-color: #fdfdfd; }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
@@ -205,11 +217,15 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 
 .buffer-pad { padding: 12px; }
 
+.row-sep { padding-top: 12px; padding-bottom: 12px; margin-bottom: 24px; background-color: rgba(255, 255, 255, 0.2); border: 0 none; }
+
 .top-pad { padding-top: 12px; }
 
 .bottom-pad { padding-bottom: 12px; }
 
 .left-border-slate { border-left: 1px solid #27343d; padding-left: 12px; }
+
+.min-height-150 { padding: 48px 0 48px; min-height: 150px; }
 
 /*responsive*/
 @media (max-width: 768px) { .logo-image { display: none; }
@@ -217,7 +233,8 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
   #hero-banner h1 { font-size: 64px; }
   section ul, section ol { padding-left: 12px; }
   .container-narrow { width: auto; margin-right: auto; margin-left: auto; }
-  .row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; } }
+  .row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; }
+  .row-sep { padding-top: 12px; padding-bottom: 12px; margin-bottom: 6px; } }
 /*footer*/
 footer { /*  background: url(../img/west-linn-bridge.jpg) no-repeat center top; background-attachment: relative; background-position: top center;*/ min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
 
