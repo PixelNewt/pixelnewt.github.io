@@ -97,6 +97,8 @@ h1 small { padding-left: 15px; }
 
 .btn-lg, .btn-group-lg > .btn { padding: 16px; font-size: 28px; }
 
+.panel { border-radius: 0px; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -176,27 +178,27 @@ h1 small { padding-left: 15px; }
 
 #hero-banner h1 { padding-top: 32px; font-size: 96px; text-align: center; font-weight: 800; font-family: "Roboto Slab", Times, serif; text-transform: none; }
 
-#workethic-banner { background: url(../img/waves.jpg) no-repeat center top; background-attachment: relative; background-position: center center; height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#workethic-banner { /*  background: url(../img/waves.jpg) no-repeat center top; background-attachment: relative; background-position: center center;*/ height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 #contact-banner h4 { padding-top: 36px; }
 
 #contact-banner h4 a { color: #4882ad; font-size: 24px; }
 
-#contact-header-banner { background: url(../img/contact-header-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#contact-header-banner { /*  background: url(../img/contact-header-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left;*/ width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#about-header-banner { background: url(../img/about-header-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#about-header-banner { /*  background: url(../img/about-header-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left;*/ width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#mission-header-banner { background: url(../img/mission-header-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#mission-header-banner { /*  background: url(../img/mission-header-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left;*/ width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#terms-header-banner { background: url(../img/terms-header-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#terms-header-banner { /*  background: url(../img/terms-header-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left;*/ width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#apps-header-banner { background: url(../img/not-a-business-card.jpg) no-repeat center top; background-attachment: relative; background-position: center left; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#apps-header-banner { /*  background: url(../img/not-a-business-card.jpg) no-repeat center top; background-attachment: relative; background-position: center left;*/ width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#hosting-header-banner { background: url(../img/hosting-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center top; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#hosting-header-banner { /*  background: url(../img/hosting-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center top;*/ width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#code-header-banner { background: url(../img/code-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#code-header-banner { /*  background: url(../img/code-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left;*/ width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#blog-header-banner { background: url(../img/blog-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#blog-header-banner { /*  background: url(../img/blog-banner.jpg) no-repeat center top; background-attachment: relative; background-position: center left;*/ width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 /*sections*/
 section { margin: 0; padding: 0; }
