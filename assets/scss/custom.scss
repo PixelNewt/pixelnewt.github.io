@@ -3,7 +3,7 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /*script*/
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
@@ -24,7 +24,7 @@ $fontStyleCode: Inconsolata, Courier, monospace;
 $fontProfessional: 'Roboto Slab', Times, serif;
 $fontPrimary: Raleway, Helvetica, Arial, sans-serif;
 $fontSecondary: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
-$fontFancy: 'Lobster';
+$fontFancy: 'Lobster Two';
 
 /*variables -- sizes*/
 
@@ -225,7 +225,7 @@ h1 small {
 .palette {}
 
 .palette h2 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 100;
 }
 
@@ -377,9 +377,9 @@ h1 small {
 
 /*banners*/
 #hero-banner {
-/*  background: url(../img/map.jpg) no-repeat center top;
+  background: url(../img/map.jpg) no-repeat center top;
   background-attachment: relative;
-  background-position: top center;*/
+  background-position: top center;
   background-color: $darkSlate;
   min-height: 450px;
   width: 100%;
@@ -652,8 +652,17 @@ img.mugshot {
     display: none;
   }
 
+  .buffer-pad {
+    margin-bottom: 12px;
+  }
+
+  .palette h2 {
+    font-size: 36px;
+    font-weight: 100;
+  }
+
   .lead {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   #hero-banner h1 {

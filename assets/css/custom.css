@@ -2,7 +2,7 @@
 /* font imports
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*script*/
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
@@ -52,7 +52,7 @@ article:hover { background-color: #fcf1d0; transition: background-color 0.5s eas
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 hr { border-top: 1px solid #a0b5c3; }
 
-blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #27343d; border-left: 0; }
+blockquote { padding: 20px; font-size: 30px; font-family: "Lobster Two"; color: #27343d; border-left: 0; }
 
 .cancel-col-padding { padding-left: 0px; padding-right: 0px; }
 
@@ -68,7 +68,7 @@ blockquote { padding: 20px; font-size: 30px; font-family: "Lobster"; color: #273
 
 .dropdown-menu { font-family: "Roboto Slab", Times, serif; font-size: 14px; font-weight: 100; }
 
-.navbar-brand { font-family: "Lobster"; font-weight: 100; font-size: 30px; }
+.navbar-brand { font-family: "Lobster Two"; font-weight: 100; font-size: 30px; }
 
 .navbar-default { border-color: transparent; }
 
@@ -100,7 +100,7 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.palette h2 { font-size: 40px; font-weight: 100; }
+.palette h2 { font-size: 48px; font-weight: 100; }
 
 .palette h3 { font-size: 30px; font-weight: 100; }
 
@@ -163,7 +163,7 @@ h1 small { padding-left: 15px; }
 
 .text-shadow-slate { text-shadow: 1px 1px 1px #27343d; }
 
-.text-scriptfont { font-family: "Lobster"; }
+.text-scriptfont { font-family: "Lobster Two"; }
 
 .text-codefont { font-family: Inconsolata, Courier, monospace; }
 
@@ -172,7 +172,7 @@ h1 small { padding-left: 15px; }
 .text-seriffont { font-family: "Roboto Slab", Times, serif; }
 
 /*banners*/
-#hero-banner { /*  background: url(../img/map.jpg) no-repeat center top; background-attachment: relative; background-position: top center;*/ background-color: #27343d; min-height: 450px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+#hero-banner { background: url(../img/map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; background-color: #27343d; min-height: 450px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 #hero-banner h1 { padding-top: 32px; font-size: 96px; text-align: center; font-weight: 800; font-family: "Roboto Slab", Times, serif; text-transform: none; }
 
@@ -235,7 +235,9 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 
 /*responsive*/
 @media (max-width: 768px) { .logo-image { display: none; }
-  .lead { font-size: 24px; }
+  .buffer-pad { margin-bottom: 12px; }
+  .palette h2 { font-size: 36px; font-weight: 100; }
+  .lead { font-size: 22px; }
   #hero-banner h1 { font-size: 64px; }
   section ul, section ol { padding-left: 12px; }
   .container-narrow { width: auto; margin-right: auto; margin-left: auto; }
