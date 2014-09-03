@@ -50,6 +50,8 @@ article:hover { background-color: #fcf1d0; transition: background-color 0.5s eas
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*Bootstrap overrides*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; }
+
 hr { border-top: 1px solid #a0b5c3; }
 
 blockquote { padding: 20px; font-size: 30px; font-family: "Lobster Two"; color: #27343d; border-left: 0; }
@@ -115,6 +117,8 @@ h1 small { padding-left: 15px; }
 .horizontal-padding-top-large { padding-top: 48px; }
 
 .background-translucent { background-color: rgba(255, 255, 255, 0.2); }
+
+.background-opaque { background-color: rgba(72, 130, 173, 0.2); }
 
 .background-pale { background-color: #f8e19b; color: #000; }
 
@@ -207,7 +211,9 @@ section ul, section ol { padding-left: 36px; }
 
 section h1 { font-size: 48px; font-weight: 100; padding: 3px 0 20px 0; font-family: Raleway, Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
-section h4 { font-size: 30px; font-weight: 100; padding: 3px 0 20px 0; font-family: Raleway, Helvetica, Arial, sans-serif; text-transform: uppercase; }
+section h4 { font-size: 28px; font-weight: 600; padding: 3px 0 20px 0; font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; text-transform: uppercase; }
+
+section h5 { font-size: 24px; padding: 3px 0 6px 0; font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
 .team { text-align: center; }
 
@@ -225,7 +231,7 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 
 .buffer-pad { padding: 12px; }
 
-.row-sep { padding-top: 12px; padding-bottom: 12px; margin-bottom: 24px; border: 0 none; }
+.row-sep { padding: 12px 6px 12px 6px; margin-bottom: 24px; border: 0 none; }
 
 .top-pad { padding-top: 12px; }
 
@@ -234,6 +240,8 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 .left-border-slate { border-left: 1px solid #27343d; padding-left: 12px; }
 
 .min-height-150 { padding: 48px 0 48px; min-height: 150px; }
+
+.summary { padding: 12px 6px 12px 6px; background-color: rgba(39, 52, 61, 0.8); color: #fdfdfd; }
 
 /*responsive*/
 @media (max-width: 768px) { .logo-image { display: none; }
@@ -244,7 +252,7 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
   section ul, section ol { padding-left: 12px; }
   .container-narrow { width: auto; margin-right: auto; margin-left: auto; }
   .row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; }
-  .row-sep { padding-top: 12px; padding-bottom: 12px; margin-bottom: 6px; } }
+  .row-sep { padding: 12px 6px 12px 6px; margin-bottom: 6px; } }
 /*footer*/
 footer { /*  background: url(../img/west-linn-bridge.jpg) no-repeat center top; background-attachment: relative; background-position: top center;*/ min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
 
