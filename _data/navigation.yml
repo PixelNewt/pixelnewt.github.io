@@ -1,9 +1,12 @@
   
-- link: blog
-  name: Blog
+- link: services
+  name: Services
 
 - link: about
   name: About
+
+- link: blog
+  name: Blog
 
 - link: contact
   name: Contact
