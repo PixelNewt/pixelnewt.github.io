@@ -20,44 +20,13 @@ meta:
 </div><!-- /#tagline-banner -->
 </section><!-- /#tagline -->
 
-<section id="webapps" class="palette">
-<div id="webapps-banner">
-
-  <div class="container horizontal-padding-medium container-narrow">
-  <div class="row row-sep background-opaque">
-    
-    <div class="col-md-3 col-lg-3">
-      <img src="{{ site.baseurl }}/assets/img/responsive.png" class="img-responsive hidden-xs hidden-sm" alt="Web & Mobile" />
-    </div>
-  
-    <div class="col-md-9 col-lg-9">
-      <h2 class="text-center">Web & Mobile</h2>
-    </div>
-
-    <div class="col-md-12 col-lg-12">
-
-      <p class="summary text-center">Did you know? <em>47%</em> of small businesses do not have a website and <em>95%</em> of small business websites are not optimized for mobile devices?</p>
-
-      <cite>Source: <a href="http://www.sba.gov/blogs/build-your-business-great-web-presence-1" target="_blank">http://www.sba.gov/blogs/build-your-business-great-web-presence-1</a></cite>
-
-      <p>Your website is vital to your business growth. {{ site.title }} can show you how to analyze your existing traffic and help you manage your visitors more effectively.  We'll show you how to get more visitors, reach the right audience, and keep them on your site longer.</p>
-    
-      <p>What we do, and do well, is {{ site.tagline | downcase }}. Regardless of your business size or model, we can help you grow your Internet presence.  Let's us show you how we can create focus, target the right customers, and keep them loyal to your brand.</p>
-
-    </div>
-
-  </div><!-- /.row -->
-  </div><!-- /.container -->
-
-</div><!-- /#webapps-banner -->
-</section><!-- /#webapps -->
-
+{% include sections/webapps.html %}
 
 <section id="e-commerce" class="palette">
 <div id="e-commerce-banner">
 
   <div class="container horizontal-padding-medium container-narrow">
-  <div class="row row-sep background-opaque">
+  <div class="row background-opaque">
     
     <div class="col-md-3 col-lg-3">
       <img src="{{ site.baseurl }}/assets/img/commerce.png" class="img-responsive hidden-xs hidden-sm" alt="E-commerce" />
@@ -92,7 +61,7 @@ meta:
 <div id="saas-banner">
 
   <div class="container horizontal-padding-medium container-narrow">
-  <div class="row row-sep background-opaque">
+  <div class="row background-opaque">
     
     <div class="col-md-3 col-lg-3">
       <img src="{{ site.baseurl }}/assets/img/saas.png" class="img-responsive hidden-xs hidden-sm" alt="Software as a Service" />
@@ -129,7 +98,7 @@ meta:
 <div id="cloud-management-banner">
 
   <div class="container horizontal-padding-medium container-narrow">
-  <div class="row row-sep background-opaque">
+  <div class="row background-opaque">
     
     <div class="col-md-3 col-lg-3">
       <img src="{{ site.baseurl }}/assets/img/cloud.png" class="img-responsive hidden-xs hidden-sm" alt="Cloud Management" />
@@ -152,6 +121,33 @@ meta:
       <p>Whether you need help integrating into Amazon Web Services, moving to Digital Ocean, or backing up your data to Rackspace, {{ site.title }} has experienced trained engineers that know how to manage your Internet.</p>
 
     </div>
+
+  </div><!-- /.row -->
+  <div class="row background-opaque">
+
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      <img src="/assets/img/cloudapps/grayscale-aws.png" class="img-responsive" alt="AWS" />
+    </div><!-- col-sm-2 col-md-2 col-lg-2 -->
+      
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      <img src="/assets/img/cloudapps/grayscale-digitalocean.png" class="img-responsive" alt="AWS" />
+    </div><!-- col-sm-2 col-md-2 col-lg-2 -->
+
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      <img src="/assets/img/cloudapps/grayscale-rackspace.png" class="img-responsive" alt="AWS" />
+    </div><!-- col-sm-2 col-md-2 col-lg-2 -->
+    
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      <img src="/assets/img/cloudapps/grayscale-heroku.png" class="img-responsive" alt="AWS" />
+    </div><!-- col-sm-2 col-md-2 col-lg-2 -->
+
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      <img src="/assets/img/cloudapps/grayscale-apache.png" class="img-responsive" alt="AWS" />
+    </div><!-- col-sm-2 col-md-2 col-lg-2 -->
+
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      <img src="/assets/img/cloudapps/grayscale-mysql.png" class="img-responsive" alt="AWS" />
+    </div><!-- col-sm-2 col-md-2 col-lg-2 -->
 
   </div><!-- /.row -->
   </div><!-- /.container -->
