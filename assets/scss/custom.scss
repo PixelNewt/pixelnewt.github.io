@@ -162,14 +162,11 @@ blockquote {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  color: $mediumYellow;
-  font-weight: bold;
-  background-color: inherit;
+  background-color: rgba( $paleYellow, .33);
 }
 
 .nav-pills {
   font-family: $fontProfessional;
-  /*border-bottom: 3px solid $darkSlate;*/
 }
 
 .nav-pills>li {
