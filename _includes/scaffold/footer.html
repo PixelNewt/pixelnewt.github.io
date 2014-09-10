@@ -68,7 +68,7 @@
 
         <ul class="list-unstyled">
           {% for post in site.posts %}
-          {% if post.published == 'true' %}
+          {% if post.published %}
           <li><i class="fa fa-pencil-square"></i>&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
           {% endfor %}
