@@ -17,7 +17,7 @@ meta: blog notes
     {% if site.posts %}
 
       {% for post in site.posts %}
-      {% if post.published == 'true' %}
+      {% if post.published %}
       <article>
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         {% if post.summary %}
