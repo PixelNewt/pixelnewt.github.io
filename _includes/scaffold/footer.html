@@ -9,15 +9,15 @@
       <div class="col-md-3 col-lg-3" id="footer-site-navigation">
         <h5>Site</h5>
         <ul class="list-unstyled">
-    
+
             {% for footerLink in site.data.footerlinks %}
-        
+
             {% if footerLink.route == page.active %}
             <li class="active"><a href="{{ site.baseurl }}/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
             {% else %}
             <li><a href="{{ site.baseurl }}/{{ footerLink.route }}/">{{ footerLink.title }}</a></li>
             {% endif %}
-                
+
             {% endfor %}
 
         </ul>
@@ -57,10 +57,10 @@
           {% for socialLink in site.data.social %}
           {% if socialLink.icon %}
           <li><i class="{{ socialLink.icon }}" title="{{ socialLink.title }}"></i>&nbsp;<a href="{{ socialLink.url }}" target="_blank">{{ socialLink.title }}</a></li>
-          {% endif %}                
+          {% endif %}
           {% endfor %}
         </ul>
-      
+
       </div><!-- /#footer-social-links -->
 
       <div class="col-md-3 col-lg-3" id="footer-blog-links">
@@ -84,15 +84,15 @@
 
   <section id="footer-copyright-section" class="palette">
   <div id="footer-copyright">
-    
+
     <div class="container horizontal-padding-medium">
     <div class="row">
-  
+
         <div class="col-md-12 col-lg-12">
-        <p class="text-steel-blue text-center">&copy; Copyright {{ site.time | date: '%Y' }} &mdash; {{ site.company }}</p>
+        <p class="text-steel-blue text-center">&copy; Copyright 2015 &mdash; {{ site.company }}</p>
         </div>
 
-      
+
     </div><!-- /.row -->
     </div><!-- /.container -->
 
