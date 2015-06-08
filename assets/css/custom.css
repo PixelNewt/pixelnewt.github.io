@@ -10,6 +10,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 /*monospace*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* global variables for SASS/SCSS*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -267,4 +268,8 @@ footer p, footer ul, footer ol, footer address { font-size: 18px; line-height: 2
 
 #footer-links .active a { text-decoration: underline; }
 
+.lander { font-size: 96px; font-family: 'Share Tech Mono'; }
+
 /*fin*/
+
+/*# sourceMappingURL=custom.css.map */
