@@ -3,17 +3,8 @@ layout: landing
 title: PixelNewt
 ---
 
-<section id="landing" class="palette subtle-pattern">
-<div id="landing-banner">
-
-  <div class="container horizontal-padding-banner-sized">
-  <div class="row">
-
-    <h1 class="title text-steel-blue text-shadow-black text-center">pixelnewt</h1>
-    <h3 class="sub-title text-center">&#123;&#123;&nbsp;a humble little web development agency&nbsp;&#125;&#125;</h3>
-
-  </div><!-- ./row -->
-  </div><!-- /.container -->
-
-</div><!-- /#hero-banner -->
-</section><!-- /#hero -->
+{% if content %}
+    {{ content }}
+{% else %}
+    {% include lander.html %}
+{% endif %}
