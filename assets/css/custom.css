@@ -260,7 +260,7 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
   .row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; }
   .row-sep { padding: 12px 6px 12px 6px; margin-bottom: 6px; } }
 /*footer*/
-footer { /*  background: url(../img/west-linn-bridge.jpg) no-repeat center top; background-attachment: relative; background-position: top center;*/ min-height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 64px 0 48px; color: #fdfdfd; }
+footer { background-image: url("http://subtlepatterns.com/patterns/footer_lodyas.png"); background-attachment: fixed; min-height: 350px; width: 100%; padding: 64px 0 48px; color: #fdfdfd; }
 
 footer p, footer ul, footer ol, footer address { font-size: 18px; line-height: 22px; padding-left: 0px; }
 

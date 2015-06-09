@@ -734,19 +734,10 @@ img.mugshot {
 /*footer*/
 
 footer {
-/*  background: url(../img/west-linn-bridge.jpg) no-repeat center top;
-  background-attachment: relative;
-  background-position: top center;*/
+  background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');
+  background-attachment: fixed;
   min-height: 350px;
   width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   padding: 64px 0 48px;
   color: $offWhite;
 }
