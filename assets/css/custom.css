@@ -105,7 +105,7 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.subtle-pattern { background-image: url("http://subtlepatterns.com/images/transp_bg.png"); background-attachment: fixed; }
+.subtle-pattern { background-image: url("http://subtlepatterns.com/patterns/noisy_grid.png"); background-attachment: fixed; }
 
 .palette h2 { font-size: 48px; font-weight: 100; }
 
