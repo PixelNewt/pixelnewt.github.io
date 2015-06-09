@@ -14,7 +14,7 @@
 
 /*monospace*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
-@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Mono);
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* global variables for SASS/SCSS*/
@@ -232,6 +232,11 @@ h1 small {
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+.subtle-pattern {
+  background-image: url('http://subtlepatterns.com/images/transp_bg.png');
+  background-attachment: fixed;
+}
+
 .palette {}
 
 .palette h2 {
@@ -254,6 +259,10 @@ h1 small {
 
 .horizontal-padding-large {
   padding: 48px 0 96px 0;
+}
+
+.horizontal-padding-banner-sized {
+  padding: 150px 0 192px 0;
 }
 
 .horizontal-padding-top-large {
@@ -764,10 +773,18 @@ footer p, footer ul, footer ol, footer address {
   text-decoration: underline;
 }
 
+.title {
+  color: lighten( $darkSlate, 25% );
+  font-size: 36px;
+  font-family: 'Roboto Mono';
+  text-transform: initial;
+}
 
-.lander {
-  font-size: 96px;
-  font-family: 'Share Tech Mono';
+h3.sub-title {
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: none;
+  font-family: 'Yanone Kaffeesatz';
 }
 
 /*fin*/
