@@ -1,4 +1,10 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* This is the custom override CSS. */
+/* Edit sass/custom.scss and compile with SASS. */
+/* Ex command: */
+/* sass assets/scss/custom.scss:assets/css/custom.css --style compact         */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* font imports
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*script*/
@@ -105,7 +111,7 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.subtle-pattern { background-image: url("http://subtlepatterns.com/patterns/noisy_grid.png"); background-attachment: fixed; }
+.subtle-pattern { /*background-image: url('http://subtlepatterns.com/patterns/noisy_grid.png');*/ background-image: url("../img/pixelated-background.jpg"); /*background-attachment: fixed;*/ }
 
 .palette h2 { font-size: 48px; font-weight: 100; }
 
@@ -260,7 +266,7 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
   .row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; }
   .row-sep { padding: 12px 6px 12px 6px; margin-bottom: 6px; } }
 /*footer*/
-footer { background-image: url("http://subtlepatterns.com/patterns/footer_lodyas.png"); background-attachment: fixed; min-height: 350px; width: 100%; padding: 64px 0 48px; color: #fdfdfd; }
+footer { /*background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');*/ /*background-attachment: fixed;*/ min-height: 350px; width: 100%; padding: 64px 0 48px; color: #fdfdfd; }
 
 footer p, footer ul, footer ol, footer address { font-size: 18px; line-height: 22px; padding-left: 0px; }
 

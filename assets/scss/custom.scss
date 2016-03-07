@@ -240,8 +240,9 @@ h1 small {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .subtle-pattern {
-  background-image: url('http://subtlepatterns.com/patterns/noisy_grid.png');
-  background-attachment: fixed;
+  /*background-image: url('http://subtlepatterns.com/patterns/noisy_grid.png');*/
+  background-image: url('../img/pixelated-background.jpg');
+  /*background-attachment: fixed;*/
 }
 
 .palette {}
@@ -741,8 +742,8 @@ img.mugshot {
 /*footer*/
 
 footer {
-  background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');
-  background-attachment: fixed;
+  /*background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');*/
+  /*background-attachment: fixed;*/
   min-height: 350px;
   width: 100%;
   padding: 64px 0 48px;
