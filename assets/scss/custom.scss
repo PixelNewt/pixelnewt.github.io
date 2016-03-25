@@ -628,6 +628,11 @@ img#hero-image {
   height: 500px;
 }
 
+.img-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 
 /*about*/
 img.mugshot {
@@ -784,6 +789,10 @@ h3.sub-title {
   font-weight: 100;
   text-transform: none;
   font-family: 'Yanone Kaffeesatz';
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background-color: #eaf3f8;
 }
 
 /*fin*/
