@@ -56,7 +56,6 @@ $darkSlate: #27343d;
 html, body { height: 100%; }
 
 body {
-  background-color: #f9f9f9;
   font-family: $fontSecondary;
 }
 
@@ -792,7 +791,33 @@ h3.sub-title {
 }
 
 .ui.inverted.segment, .ui.primary.inverted.segment {
-  background-color: #eaf3f8;
+  background-color: $darkSlate;
+  background-image: linear-gradient( $darkSlate, lighten($darkSlate, 12%) );
 }
 
-/*fin*/
+
+.masthead.segment {
+  min-height: 700px;
+  padding: 1em 0em;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+  margin-top: 2em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+  text-shadow: 4px 4px #001;
+  text-transform: lowercase;
+  font-family: $fontStyleCode;
+}
+
+.masthead h2 {
+  color: #001;
+  font-size: 1.7em;
+  font-weight: normal;
+}

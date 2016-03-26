@@ -30,7 +30,7 @@
 
 html, body { height: 100%; }
 
-body { background-color: #f9f9f9; font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; }
+body { font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: "Roboto Slab", Times, serif; font-size: 100%; }
 
@@ -284,8 +284,16 @@ footer p, footer ul, footer ol, footer address { font-size: 18px; line-height: 2
 
 h3.sub-title { font-size: 18px; font-weight: 100; text-transform: none; font-family: 'Yanone Kaffeesatz'; }
 
-.ui.inverted.segment, .ui.primary.inverted.segment { background-color: #eaf3f8; }
+.ui.inverted.segment, .ui.primary.inverted.segment { background-color: #27343d; background-image: linear-gradient(#27343d, #3f5462); }
 
-/*fin*/
+.masthead.segment { min-height: 700px; padding: 1em 0em; }
+
+.masthead .logo.item img { margin-right: 1em; }
+
+.masthead .ui.menu .ui.button { margin-left: 0.5em; }
+
+.masthead h1.ui.header { margin-top: 2em; margin-bottom: 0em; font-size: 4em; font-weight: normal; text-shadow: 4px 4px #001; text-transform: lowercase; font-family: Inconsolata, Courier, monospace; }
+
+.masthead h2 { color: #001; font-size: 1.7em; font-weight: normal; }
 
 /*# sourceMappingURL=custom.css.map */
