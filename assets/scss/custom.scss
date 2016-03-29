@@ -14,7 +14,7 @@
 
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*serif*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
@@ -31,7 +31,7 @@
 $fontStyleCode: Inconsolata, Courier, monospace;
 $fontProfessional: 'Roboto Slab', Times, serif;
 $fontPrimary: Raleway, Helvetica, Arial, sans-serif;
-$fontSecondary: 'Yanone Kaffeesatz', Helvetica, Arial, sans-serif;
+$fontSecondary: 'Montserrat', Helvetica, Arial, sans-serif;
 $fontFancy: 'Lobster Two';
 
 /*variables -- sizes*/
@@ -198,8 +198,9 @@ blockquote {
 
 /*not a real override, but this changes the navbar*/
 .white-opacity {
-  background:#7f7f7f;
-  background:rgba(255,255,255,0.8);
+  /*background:#7f7f7f;*/
+  /*background:rgba(255,255,255,0.8);*/
+  background: transparent;
   border-color: transparent;
 }
 
@@ -418,11 +419,11 @@ h1 small {
 }
 
 #hero-banner h1 {
-  padding-top: 32px;
-  font-size: 96px;
-  text-align: center;
-  font-weight: 800;
-  font-family: $fontProfessional;
+  margin-top: .25em;
+  margin-bottom: .5em;
+  font-size: 8em;
+  font-weight: 700;
+  font-family: $fontSecondary;
   text-transform: none;
 }
 
@@ -778,10 +779,11 @@ footer p, footer ul, footer ol, footer address {
 }
 
 h3.sub-title {
-  font-size: 18px;
-  font-weight: 100;
+  font-size: 2em;
+  font-weight: 400;
   text-transform: none;
-  font-family: 'Yanone Kaffeesatz';
+  font-family: $fontStyleCode;
+  color: $offWhite;
 }
 
 .ui.inverted.segment, .ui.primary.inverted.segment {

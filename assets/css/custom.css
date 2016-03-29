@@ -11,7 +11,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 /*serif*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 /*monospace*/
@@ -30,13 +30,13 @@
 
 html, body { height: 100%; }
 
-body { font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; }
+body { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: "Roboto Slab", Times, serif; font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 
-p, ul, ol { font-size: 24px; font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; line-height: 30px; }
+p, ul, ol { font-size: 24px; font-family: "Montserrat", Helvetica, Arial, sans-serif; line-height: 30px; }
 
 a { color: #27343d; }
 
@@ -94,7 +94,7 @@ blockquote { padding: 20px; font-size: 30px; font-family: "Lobster Two"; color: 
 .nav-pills > li > a:hover { background-color: #689bc0; color: #fdfdfd; transition: background-color 0.5s ease; }
 
 /*not a real override, but this changes the navbar*/
-.white-opacity { background: #7f7f7f; background: rgba(255, 255, 255, 0.8); border-color: transparent; }
+.white-opacity { /*background:#7f7f7f;*/ /*background:rgba(255,255,255,0.8);*/ background: transparent; border-color: transparent; }
 
 h1 small { padding-left: 15px; }
 
@@ -111,8 +111,6 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.subtle-pattern { /*background-image: url('http://subtlepatterns.com/patterns/noisy_grid.png');*/ background-image: url("../img/pixelated-background.jpg"); /*background-attachment: fixed;*/ }
-
 .palette h2 { font-size: 48px; font-weight: 100; }
 
 .palette h3 { font-size: 30px; font-weight: 100; }
@@ -191,7 +189,7 @@ h1 small { padding-left: 15px; }
 /*banners*/
 #hero-banner { background: url(../img/map.jpg) no-repeat center top; background-attachment: relative; background-position: top center; background-color: #27343d; min-height: 450px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
-#hero-banner h1 { padding-top: 32px; font-size: 96px; text-align: center; font-weight: 800; font-family: "Roboto Slab", Times, serif; text-transform: none; }
+#hero-banner h1 { margin-top: .25em; margin-bottom: .5em; font-size: 8em; font-weight: 700; font-family: "Montserrat", Helvetica, Arial, sans-serif; text-transform: none; }
 
 #workethic-banner { /*  background: url(../img/waves.jpg) no-repeat center top; background-attachment: relative; background-position: center center;*/ height: 350px; width: 100%; -webkit-background-size: 100%; -moz-background-size: 100%; -o-background-size: 100%; background-size: 100%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 
@@ -222,9 +220,9 @@ section ul, section ol { padding-left: 36px; }
 
 section h1 { font-size: 48px; font-weight: 100; padding: 3px 0 20px 0; font-family: Raleway, Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
-section h4 { font-size: 28px; font-weight: 600; padding: 3px 0 20px 0; font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; text-transform: uppercase; }
+section h4 { font-size: 28px; font-weight: 600; padding: 3px 0 20px 0; font-family: "Montserrat", Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
-section h5 { font-size: 24px; padding: 3px 0 6px 0; font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; text-transform: uppercase; }
+section h5 { font-size: 24px; padding: 3px 0 6px 0; font-family: "Montserrat", Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
 .team { text-align: center; }
 
@@ -282,7 +280,7 @@ footer p, footer ul, footer ol, footer address { font-size: 18px; line-height: 2
 
 .title { color: #59768b; font-size: 36px; font-family: 'Roboto Mono'; text-transform: initial; }
 
-h3.sub-title { font-size: 18px; font-weight: 100; text-transform: none; font-family: 'Yanone Kaffeesatz'; }
+h3.sub-title { font-size: 2em; font-weight: 400; text-transform: none; font-family: Inconsolata, Courier, monospace; color: #fdfdfd; }
 
 .ui.inverted.segment, .ui.primary.inverted.segment { background-color: #27343d; background-image: linear-gradient(#27343d, #3f5462); }
 
