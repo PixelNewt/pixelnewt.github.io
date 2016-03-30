@@ -402,7 +402,7 @@ h1 small {
 
 /*banners*/
 #hero-banner {
-  background: url(../img/map.jpg) no-repeat center top;
+  background: url(/assets/img/hero-background.jpg) no-repeat center top;
   background-attachment: relative;
   background-position: top center;
   background-color: $darkSlate;
@@ -710,10 +710,6 @@ img.mugshot {
 
   .lead {
     font-size: 22px;
-  }
-
-  #hero-banner h1 {
-    font-size: 64px;
   }
 
   section ul, section ol {
