@@ -42,7 +42,6 @@ $sm_max: ( max: map-get($md, min) - 1 ); /* smaller than medium */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /*script*/
-@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
@@ -53,7 +52,6 @@ $sm_max: ( max: map-get($md, min) - 1 ); /* smaller than medium */
 
 /*monospace*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Mono);
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* global variables for SASS/SCSS*/
@@ -64,7 +62,6 @@ $fontStyleCode: Inconsolata, Courier, monospace;
 $fontProfessional: 'Roboto Slab', Times, serif;
 $fontPrimary: Raleway, Helvetica, Arial, sans-serif;
 $fontSecondary: 'Open Sans', Helvetica, Arial, sans-serif;
-$fontFancy: 'Lobster Two';
 
 /*variables -- sizes*/
 
@@ -93,7 +90,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
-  font-family: $fontProfessional;
+  font-family: $fontSecondary;
+  text-transform: uppercase;
   font-size: 100%;
 }
 
@@ -106,12 +104,12 @@ p, ul, ol {
   line-height: 30px;
 }
 
-a { color: $darkSlate; }
-a:hover { color: $darkSlate; }
+a { color: $darkSlate; transition: all .2s ease-in-out; }
+a:hover { color: $darkYellow; text-decoration: none; background-color: lighten( $darkYellow, 50% ); }
 a:visited { color: $darkSlate; }
 
-a.light-link { color: $offWhite; }
-a.light-link:hover { color: $offWhite; }
+a.light-link { color: $offWhite; transition: all .2s ease-in-out; }
+a.light-link:hover { color: $offWhite; text-decoration: none; }
 a.light-link:visited { color: $offWhite; }
 
 article {
@@ -142,7 +140,6 @@ hr {
 blockquote {
   padding: 20px;
   font-size: 30px;
-  font-family: $fontFancy;
   color: $darkSlate;
   border-left: 0;
 }
@@ -279,12 +276,12 @@ h1 small {
 .palette {}
 
 .palette h2 {
-  font-size: 48px;
-  font-weight: 100;
+  font-size: 2.5em;
+  font-weight: 800;
 }
 
 .palette h3 {
-  font-size: 30px;
+  font-size: 2em;
   font-weight: 100;
 }
 
@@ -422,7 +419,7 @@ h1 small {
 }
 
 .text-scriptfont {
-  font-family: $fontFancy;
+  /*font-family: $fontFancy;*/
 }
 
 .text-codefont {
@@ -661,12 +658,10 @@ section h4 {
   text-transform: uppercase;
 }
 
-section h5 {
+/*section h5 {
   font-size: 24px;
   padding: 3px 0 6px 0;
-  font-family: $fontSecondary;
-  text-transform: uppercase;
-}
+}*/
 
 .team {
   text-align: center;
@@ -760,8 +755,8 @@ img.mugshot {
   }
 
   .palette h2 {
-    font-size: 36px;
-    font-weight: 100;
+    font-size: 2.5em;
+    font-weight: 800;
   }
 
   .palette h3 {

@@ -21,7 +21,6 @@
 /* font imports
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*script*/
-@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
@@ -29,7 +28,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 /*monospace*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Mono);
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* global variables for SASS/SCSS*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -45,21 +43,21 @@ html, body { height: 100%; }
 
 body { font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: "Roboto Slab", Times, serif; font-size: 100%; }
+h1, h2, h3, h4, h5, h6 { font-weight: 800; font-family: "Open Sans", Helvetica, Arial, sans-serif; text-transform: uppercase; font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 
 p, ul, ol { font-size: 1.5em; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 100; line-height: 30px; }
 
-a { color: #27343d; }
+a { color: #27343d; transition: all .2s ease-in-out; }
 
-a:hover { color: #27343d; }
+a:hover { color: #7f6000; text-decoration: none; background-color: #ffe07f; }
 
 a:visited { color: #27343d; }
 
-a.light-link { color: #fdfdfd; }
+a.light-link { color: #fdfdfd; transition: all .2s ease-in-out; }
 
-a.light-link:hover { color: #fdfdfd; }
+a.light-link:hover { color: #fdfdfd; text-decoration: none; }
 
 a.light-link:visited { color: #fdfdfd; }
 
@@ -74,7 +72,7 @@ article:hover { background-color: #fcf1d0; transition: background-color 0.5s eas
 
 hr { border-top: 1px solid #a0b5c3; }
 
-blockquote { padding: 20px; font-size: 30px; font-family: "Lobster Two"; color: #27343d; border-left: 0; }
+blockquote { padding: 20px; font-size: 30px; color: #27343d; border-left: 0; }
 
 .cancel-col-padding { padding-left: 0px; padding-right: 0px; }
 
@@ -126,9 +124,9 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.palette h2 { font-size: 48px; font-weight: 100; }
+.palette h2 { font-size: 2.5em; font-weight: 800; }
 
-.palette h3 { font-size: 30px; font-weight: 100; }
+.palette h3 { font-size: 2em; font-weight: 100; }
 
 .horizontal-padding-small { padding: 8px 0 8px 0; }
 
@@ -193,7 +191,7 @@ h1 small { padding-left: 15px; }
 
 .text-shadow-slate { text-shadow: 1px 1px 1px #27343d; }
 
-.text-scriptfont { font-family: "Lobster Two"; }
+.text-scriptfont { /*font-family: $fontFancy;*/ }
 
 .text-codefont { font-family: Inconsolata, Courier, monospace; }
 
@@ -240,8 +238,8 @@ section h1 { font-size: 48px; font-weight: 100; padding: 3px 0 20px 0; font-fami
 
 section h4 { font-size: 28px; font-weight: 600; padding: 3px 0 20px 0; font-family: "Open Sans", Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
-section h5 { font-size: 24px; padding: 3px 0 6px 0; font-family: "Open Sans", Helvetica, Arial, sans-serif; text-transform: uppercase; }
-
+/*section h5 { font-size: 24px; padding: 3px 0 6px 0;
+}*/
 .team { text-align: center; }
 
 /*hero*/
@@ -275,7 +273,7 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 /*responsive*/
 @media (max-width: 768px) { .logo-image { display: none; }
   .buffer-pad { margin-bottom: 12px; }
-  .palette h2 { font-size: 36px; font-weight: 100; }
+  .palette h2 { font-size: 2.5em; font-weight: 800; }
   .palette h3 { font-size: 24px; font-weight: 100; }
   .lead { font-size: 22px; }
   section ul, section ol { padding-left: 12px; }
