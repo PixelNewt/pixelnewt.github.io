@@ -5,6 +5,38 @@
 /* sass assets/scss/custom.scss:assets/css/custom.css --style compact         */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Responsive breakpoints
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+$xs: ( max:  767px ); /* small screens - phones */
+$sm: ( min:  768px ); /* small screens - tablets */
+$md: ( min:  992px ); /* medium screens - desktops,laptops */
+$lg: ( min: 1200px ); /* large screens - desktops,laptops */
+
+/* Breakpoint helpers */
+$xs_max: ( max: map-get($sm, min) - 1 ); /* smaller than small */
+$sm_only: ( min: map-get($sm, min), max: map-get($md, min) - 1);
+$md_only: ( min: map-get($md, min), max: map-get($lg, min) - 1);
+$sm_max: ( max: map-get($md, min) - 1 ); /* smaller than medium */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* mixins
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@mixin breakpoint($map) {
+    $query: "";
+    @if map-has-key($map, min) {
+        $query: append($query, "(min-width: #{map-get($map, min)})")
+    }
+    @if map-has-key($map, min) and map-has-key($map, max) {
+        $query: append($query, "and")
+    }
+    @if map-has-key($map, max) {
+        $query: append($query, "(max-width: #{map-get($map, max)})")
+    }
+    @media screen and #{$query} { @content; }
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* font imports
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -14,7 +46,7 @@
 
 /*sans serif*/
 @import url(http://fonts.googleapis.com/css?family=Raleway);
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
 
 /*serif*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
@@ -31,7 +63,7 @@
 $fontStyleCode: Inconsolata, Courier, monospace;
 $fontProfessional: 'Roboto Slab', Times, serif;
 $fontPrimary: Raleway, Helvetica, Arial, sans-serif;
-$fontSecondary: 'Montserrat', Helvetica, Arial, sans-serif;
+$fontSecondary: 'Open Sans', Helvetica, Arial, sans-serif;
 $fontFancy: 'Lobster Two';
 
 /*variables -- sizes*/
@@ -68,8 +100,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 
 p, ul, ol {
-  font-size: 24px;
+  font-size: 1.5em;
   font-family: $fontSecondary;
+  font-weight: 100;
   line-height: 30px;
 }
 
@@ -143,9 +176,6 @@ blockquote {
   text-shadow: 1px 1px 1px #000;
 }
 
-.navbar {
-}
-
 #nav-links {
   font-family: $fontProfessional;
   font-size: 16px;
@@ -159,13 +189,20 @@ blockquote {
 }
 
 .navbar-brand {
-  font-family: $fontFancy;
   font-weight: 100;
   font-size: 30px;
 }
 
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
 .navbar-default {
   border-color: transparent;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -420,11 +457,35 @@ h1 small {
 
 #hero-banner h1 {
   margin-top: .25em;
-  margin-bottom: .5em;
+  margin-bottom: .25em;
   font-size: 8em;
   font-weight: 700;
   font-family: $fontSecondary;
   text-transform: none;
+}
+
+@include breakpoint($md_only) {
+  #hero-banner h1 {
+    margin-top: .15em;
+    margin-bottom: .15em;
+    font-size: 7em;
+  }
+}
+
+@include breakpoint($sm_max) {
+  #hero-banner h1 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 6em;
+  }
+}
+
+@include breakpoint($xs_max) {
+  #hero-banner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4em;
+  }
 }
 
 #workethic-banner {
@@ -770,7 +831,6 @@ footer p, footer ul, footer ol, footer address {
 .title {
   color: lighten( $darkSlate, 25% );
   font-size: 36px;
-  font-family: 'Roboto Mono';
   text-transform: initial;
 }
 
