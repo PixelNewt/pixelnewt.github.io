@@ -1,12 +1,9 @@
 
-# - link: services
-#   name: Services
-
 - link: about
   name: About
 
-# - link: blog
-#   name: Blog
+- link: solutions
+  name: Solutions
 
 - link: contact
   name: Contact
