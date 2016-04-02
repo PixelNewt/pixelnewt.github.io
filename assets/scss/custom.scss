@@ -104,13 +104,13 @@ p, ul, ol {
   line-height: 30px;
 }
 
-a { color: $darkSlate; transition: all .2s ease-in-out; }
-a:hover { color: $darkYellow; text-decoration: none; background-color: lighten( $darkYellow, 50% ); }
-a:visited { color: $darkSlate; }
+a { color: $mediumYellow; transition: all .2s ease-in-out; }
+a:visited { color: $mediumYellow; }
+a:hover { color: lighten( $darkYellow, 50% ); text-decoration: none; }
 
 a.light-link { color: $offWhite; transition: all .2s ease-in-out; }
-a.light-link:hover { color: $offWhite; text-decoration: none; }
 a.light-link:visited { color: $offWhite; }
+a.light-link:hover { color: $offWhite; text-decoration: none; }
 
 article {
   background-color: lighten( $steelBlue, 33% );
@@ -295,6 +295,10 @@ h1 small {
 
 .horizontal-padding-large {
   padding: 48px 0 96px 0;
+}
+
+.horizontal-padding-extra-large {
+  padding: 12em 0 12em 0;
 }
 
 .horizontal-padding-banner-sized {

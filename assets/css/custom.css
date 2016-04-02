@@ -49,17 +49,17 @@ h1 { margin-bottom: 1em; }
 
 p, ul, ol { font-size: 1.5em; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 100; line-height: 30px; }
 
-a { color: #27343d; transition: all .2s ease-in-out; }
+a { color: #bf9000; transition: all .2s ease-in-out; }
 
-a:hover { color: #7f6000; text-decoration: none; background-color: #ffe07f; }
+a:visited { color: #bf9000; }
 
-a:visited { color: #27343d; }
+a:hover { color: #ffe07f; text-decoration: none; }
 
 a.light-link { color: #fdfdfd; transition: all .2s ease-in-out; }
 
-a.light-link:hover { color: #fdfdfd; text-decoration: none; }
-
 a.light-link:visited { color: #fdfdfd; }
+
+a.light-link:hover { color: #fdfdfd; text-decoration: none; }
 
 article { background-color: #bbd2e3; margin-bottom: 24px; padding: 4px 16px 8px 16px; }
 
@@ -133,6 +133,8 @@ h1 small { padding-left: 15px; }
 .horizontal-padding-medium { padding: 24px 0 24px 0; }
 
 .horizontal-padding-large { padding: 48px 0 96px 0; }
+
+.horizontal-padding-extra-large { padding: 12em 0 12em 0; }
 
 .horizontal-padding-banner-sized { padding: 150px 0 192px 0; }
 
