@@ -119,7 +119,12 @@ h1 small { padding-left: 15px; }
 
 .btn-lg, .btn-group-lg > .btn { padding: 16px; font-size: 28px; }
 
-.panel { border-radius: 0px; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+.card { padding: 0 .8em 1em .8em; border-radius: 0px; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); margin-bottom: 2em; background-color: #eef2f4; background: linear-gradient(white, #eef2f4); border: 1px solid transparent; }
+
+@media screen and (min-width: 992px) { .card { min-height: 275px; } }
+.card h4 { text-align: center; padding: 1em 0 .7em 0; }
+
+.card p { font-size: 1.1em; font-family: Raleway, Helvetica, Arial, sans-serif; font-weight: 100; }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
@@ -132,7 +137,7 @@ h1 small { padding-left: 15px; }
 
 .horizontal-padding-medium { padding: 24px 0 24px 0; }
 
-.horizontal-padding-large { padding: 48px 0 96px 0; }
+.horizontal-padding-large { padding: 5em 0 5em 0; }
 
 .horizontal-padding-extra-large { padding: 12em 0 12em 0; }
 
@@ -238,7 +243,7 @@ section ul, section ol { padding-left: 36px; }
 
 section h1 { font-size: 48px; font-weight: 100; padding: 3px 0 20px 0; font-family: Raleway, Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
-section h4 { font-size: 28px; font-weight: 600; padding: 3px 0 20px 0; font-family: "Open Sans", Helvetica, Arial, sans-serif; text-transform: uppercase; }
+section h4 { font-size: 1.5em; font-weight: 700; padding: 1.5em 0 1em 0; font-family: "Open Sans", Helvetica, Arial, sans-serif; text-transform: uppercase; }
 
 /*section h5 { font-size: 24px; padding: 3px 0 6px 0;
 }*/

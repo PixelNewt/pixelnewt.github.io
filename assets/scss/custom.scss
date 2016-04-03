@@ -263,10 +263,32 @@ h1 small {
   font-size: 28px;
 }
 
-.panel {
+.card {
+  padding: 0 .8em 1em .8em;
   border-radius: 0px;
   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.5);
   box-shadow: 0 1px 1px rgba(0,0,0,.5);
+  margin-bottom: 2em;
+  background-color: lighten( $darkSlate, 75% );
+  background: linear-gradient( lighten( $darkSlate, 85% ), lighten( $darkSlate, 75% ));
+  border: 1px solid transparent;
+}
+
+@include breakpoint($md) {
+  .card {
+    min-height: 275px;
+  }
+}
+
+.card h4 {
+  text-align: center;
+  padding: 1em 0 .7em 0;
+}
+
+.card p {
+  font-size: 1.1em;
+  font-family: $fontPrimary;
+  font-weight: 100;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -294,7 +316,7 @@ h1 small {
 }
 
 .horizontal-padding-large {
-  padding: 48px 0 96px 0;
+  padding: 5em 0 5em 0;
 }
 
 .horizontal-padding-extra-large {
@@ -655,9 +677,9 @@ section h1 {
 }
 
 section h4 {
-  font-size: 28px;
-  font-weight: 600;
-  padding: 3px 0 20px 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 1.5em 0 1em 0;
   font-family: $fontSecondary;
   text-transform: uppercase;
 }
