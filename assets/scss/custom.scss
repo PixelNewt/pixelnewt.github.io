@@ -828,9 +828,10 @@ footer {
 }
 
 footer p, footer ul, footer ol, footer address {
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.2em;
+  line-height: 2em;
   padding-left: 0px;
+  font-family: $fontSecondary;
 }
 
 #footer a {

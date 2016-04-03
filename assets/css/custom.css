@@ -290,7 +290,7 @@ img.mugshot { width: 174px; height: 174px; -webkit-border-radius: 50%; -moz-bord
 /*footer*/
 footer { /*background-image: url('http://subtlepatterns.com/patterns/footer_lodyas.png');*/ /*background-attachment: fixed;*/ min-height: 350px; width: 100%; padding: 64px 0 48px; color: #fdfdfd; }
 
-footer p, footer ul, footer ol, footer address { font-size: 18px; line-height: 22px; padding-left: 0px; }
+footer p, footer ul, footer ol, footer address { font-size: 1.2em; line-height: 2em; padding-left: 0px; font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
 #footer a { color: #c2d6e6; }
 
