@@ -291,6 +291,19 @@ h1 small {
   font-weight: 100;
 }
 
+.label-number {
+    /*padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;*/
+    border-radius: 0;
+    border: 1px solid $darkSlate;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -351,6 +364,7 @@ h1 small {
 
 .background-slate {
   background-color: $darkSlate;
+  background: linear-gradient( $darkSlate, #000 );
   color: $offWhite;
 }
 
@@ -390,6 +404,11 @@ h1 small {
 
 .single-border-bottom-slate {
   border-bottom: 1px solid lighten( $darkSlate, 65% );
+}
+
+.angled-bottom-down-left {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

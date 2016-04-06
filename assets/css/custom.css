@@ -126,6 +126,15 @@ h1 small { padding-left: 15px; }
 
 .card p { font-size: 1.1em; font-family: Raleway, Helvetica, Arial, sans-serif; font-weight: 100; }
 
+.label-number { /*padding: .2em .6em .3em;
+font-size: 75%;
+font-weight: 700;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;*/ border-radius: 0; border: 1px solid #27343d; }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -153,7 +162,7 @@ h1 small { padding-left: 15px; }
 
 .background-steel { background-color: #325977; color: #fdfdfd; }
 
-.background-slate { background-color: #27343d; color: #fdfdfd; }
+.background-slate { background-color: #27343d; background: linear-gradient(#27343d, #000); color: #fdfdfd; }
 
 .background-slate-lighten-25 { background-color: #59768b; color: #fdfdfd; }
 
@@ -170,6 +179,8 @@ h1 small { padding-left: 15px; }
 .single-border-top-slate { border-top: 1px solid #cfd9e0; }
 
 .single-border-bottom-slate { border-bottom: 1px solid #cfd9e0; }
+
+.angled-bottom-down-left { -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*text dressing*/
