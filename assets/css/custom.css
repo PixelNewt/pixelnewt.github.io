@@ -121,7 +121,7 @@ h1 small { padding-left: 15px; }
 
 .card { padding: 0 .8em 1em .8em; border-radius: 0px; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); margin-bottom: 2em; background-color: #eef2f4; background: linear-gradient(white, #eef2f4); border: 1px solid transparent; }
 
-@media screen and (min-width: 992px) { .card { min-height: 275px; } }
+@media screen and (min-width: 992px) { .card { min-height: 325px; } }
 .card h4 { text-align: center; padding: 1em 0 .7em 0; }
 
 .card p { font-size: 1.1em; font-family: Raleway, Helvetica, Arial, sans-serif; font-weight: 100; }
