@@ -406,9 +406,24 @@ h1 small {
   border-bottom: 1px solid lighten( $darkSlate, 65% );
 }
 
+.angled-top-down-left {
+  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+}
+
+.angled-top-down-right {
+  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+}
+
 .angled-bottom-down-left {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+.angled-bottom-down-right {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

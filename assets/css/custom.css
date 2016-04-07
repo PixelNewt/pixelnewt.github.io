@@ -180,7 +180,13 @@ vertical-align: baseline;*/ border-radius: 0; border: 1px solid #27343d; }
 
 .single-border-bottom-slate { border-bottom: 1px solid #cfd9e0; }
 
+.angled-top-down-left { -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%); clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%); }
+
+.angled-top-down-right { -webkit-clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%); clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%); }
+
 .angled-bottom-down-left { -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%); }
+
+.angled-bottom-down-right { -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%); clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%); }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*text dressing*/
