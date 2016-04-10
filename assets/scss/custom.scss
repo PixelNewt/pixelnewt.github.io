@@ -2,7 +2,7 @@
 /* This is the custom override CSS. */
 /* Edit sass/custom.scss and compile with SASS. */
 /* Ex command: */
-/* sass assets/scss/custom.scss:assets/css/custom.css --style compact         */
+/* sass assets/scss/custom.scss:assets/css/custom.css --style compact
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
@@ -139,9 +139,12 @@ hr {
 
 blockquote {
   padding: 20px;
+  text-align: center;
   font-size: 30px;
   color: $darkSlate;
   border-left: 0;
+  font-family: $fontStyleCode;
+  font-weight: 100;
 }
 
 .cancel-col-padding {
@@ -191,7 +194,6 @@ blockquote {
 }
 
 .navbar {
-    position: relative;
     min-height: 50px;
     margin-bottom: 0;
     border: 1px solid transparent;
@@ -199,7 +201,7 @@ blockquote {
 
 .navbar-default {
   border-color: transparent;
-  background-color: transparent;
+  background-color: $offWhite;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -261,6 +263,22 @@ h1 small {
 .btn-lg, .btn-group-lg>.btn {
   padding: 16px;
   font-size: 28px;
+}
+
+
+img.panel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 6px 6px rgba(0,0,0,.25);
+    box-shadow: 0 6px 6px rgba(0,0,0,.35);
 }
 
 .card {

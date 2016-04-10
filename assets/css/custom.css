@@ -2,7 +2,7 @@
 /* This is the custom override CSS. */
 /* Edit sass/custom.scss and compile with SASS. */
 /* Ex command: */
-/* sass assets/scss/custom.scss:assets/css/custom.css --style compact         */
+/* sass assets/scss/custom.scss:assets/css/custom.css --style compact
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Responsive breakpoints
@@ -72,7 +72,7 @@ article:hover { background-color: #fcf1d0; transition: background-color 0.5s eas
 
 hr { border-top: 1px solid #a0b5c3; }
 
-blockquote { padding: 20px; font-size: 30px; color: #27343d; border-left: 0; }
+blockquote { padding: 20px; text-align: center; font-size: 30px; color: #27343d; border-left: 0; font-family: Inconsolata, Courier, monospace; font-weight: 100; }
 
 .cancel-col-padding { padding-left: 0px; padding-right: 0px; }
 
@@ -90,9 +90,9 @@ blockquote { padding: 20px; font-size: 30px; color: #27343d; border-left: 0; }
 
 .navbar-brand { font-weight: 100; font-size: 30px; }
 
-.navbar { position: relative; min-height: 50px; margin-bottom: 0; border: 1px solid transparent; }
+.navbar { min-height: 50px; margin-bottom: 0; border: 1px solid transparent; }
 
-.navbar-default { border-color: transparent; background-color: transparent; }
+.navbar-default { border-color: transparent; background-color: #fdfdfd; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: rgba(241, 194, 50, 0.33); }
 
@@ -118,6 +118,10 @@ h1 small { padding-left: 15px; }
 .btn-primary:hover { color: #27343d; background-color: #fdfdfd; }
 
 .btn-lg, .btn-group-lg > .btn { padding: 16px; font-size: 28px; }
+
+img.panel { display: block; margin-left: auto; margin-right: auto; }
+
+.panel { margin-bottom: 20px; background-color: #fff; border: 1px solid transparent; border-radius: 0px; -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25); box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35); }
 
 .card { padding: 0 .8em 1em .8em; border-radius: 0px; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); margin-bottom: 2em; background-color: #eef2f4; background: linear-gradient(white, #eef2f4); border: 1px solid transparent; }
 
