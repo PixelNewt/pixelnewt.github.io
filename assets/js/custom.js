@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('#nav-panel').hide();
 
     // smooth scrolling
     $(function() {
@@ -11,22 +12,18 @@ $(document).ready(function() {
         });
     });
 
-// twitter bootstrap scrollspy
-// $('body').scrollspy({target: '#scrollspy-links'})
+    $(window).on('scroll', function() {
+        var offset = window.pageYOffset;
+        var position = 64;
 
-
-    // // fix menu when passed
-    // $('.masthead').visibility({
-    //   once: false,
-    //   onBottomPassed: function() {
-    //     $('.fixed.menu').transition('fade in');
-    //   },
-    //   onBottomPassedReverse: function() {
-    //     $('.fixed.menu').transition('fade out');
-    //   }
-    // })
-    // ;
-
-    // create sidebar and attach to menu open
-    // $('.ui.sidebar').sidebar('attach events', '.toc.item');
+        if(offset > position) {
+            $('#nav-panel').fadeIn();
+            // $('#nav-panel').addClass("navbar-fixed-top");
+            // $('#nav-panel').removeClass("navbar-static-top");
+        } else {
+            $('#nav-panel').fadeOut();
+            // $('#nav-panel').addClass("navbar-static-top");
+            // $('#nav-panel').removeClass("navbar-fixed-top");
+        }
+    });
 });
