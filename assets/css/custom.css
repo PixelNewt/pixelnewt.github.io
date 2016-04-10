@@ -92,7 +92,7 @@ blockquote { padding: 20px; text-align: center; font-size: 30px; color: #27343d;
 
 .navbar { min-height: 50px; margin-bottom: 0; border: 1px solid transparent; }
 
-.navbar-default { border-color: transparent; background-color: #fdfdfd; }
+.navbar-default { border: 0; background-color: #fdfdfd; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: rgba(241, 194, 50, 0.33); }
 
