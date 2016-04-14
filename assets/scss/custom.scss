@@ -51,14 +51,14 @@ $sm_max: ( max: map-get($md, min) - 1 ); /* smaller than medium */
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 /*monospace*/
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,700);
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* global variables for SASS/SCSS*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /*variables -- fonts*/
-$fontStyleCode: Inconsolata, Courier, monospace;
+$fontStyleCode: 'Fira Mono', Courier, monospace;
 $fontProfessional: 'Roboto Slab', Times, serif;
 $fontPrimary: Raleway, Helvetica, Arial, sans-serif;
 $fontSecondary: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -138,13 +138,13 @@ hr {
 }
 
 blockquote {
-  padding: 20px;
+  padding: 2em;
   text-align: center;
-  font-size: 30px;
-  color: $darkSlate;
+  font-size: 2em;
+  // color: $darkSlate;
   border-left: 0;
   font-family: $fontStyleCode;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .cancel-col-padding {
@@ -206,6 +206,21 @@ blockquote {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background-color: rgba( $paleYellow, .33);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    border-radius: 0;
+}
+.navbar-toggle .icon-bar {
+    border-radius: 0;
 }
 
 .nav-pills {

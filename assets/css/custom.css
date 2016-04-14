@@ -27,7 +27,7 @@
 /*serif*/
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 /*monospace*/
-@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400,700);
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* global variables for SASS/SCSS*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -72,7 +72,7 @@ article:hover { background-color: #fcf1d0; transition: background-color 0.5s eas
 
 hr { border-top: 1px solid #a0b5c3; }
 
-blockquote { padding: 20px; text-align: center; font-size: 30px; color: #27343d; border-left: 0; font-family: Inconsolata, Courier, monospace; font-weight: 100; }
+blockquote { padding: 2em; text-align: center; font-size: 2em; border-left: 0; font-family: "Fira Mono", Courier, monospace; font-weight: 400; }
 
 .cancel-col-padding { padding-left: 0px; padding-right: 0px; }
 
@@ -95,6 +95,14 @@ blockquote { padding: 20px; text-align: center; font-size: 30px; color: #27343d;
 .navbar-default { border: 0; background-color: #fdfdfd; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: rgba(241, 194, 50, 0.33); }
+
+.navbar-default .navbar-toggle { border-color: transparent; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: transparent; }
+
+.navbar-toggle { border-radius: 0; }
+
+.navbar-toggle .icon-bar { border-radius: 0; }
 
 .nav-pills { font-family: "Roboto Slab", Times, serif; }
 
@@ -221,7 +229,7 @@ vertical-align: baseline;*/ border-radius: 0; border: 1px solid #27343d; }
 
 .text-scriptfont { /*font-family: $fontFancy;*/ }
 
-.text-codefont { font-family: Inconsolata, Courier, monospace; }
+.text-codefont { font-family: "Fira Mono", Courier, monospace; }
 
 .text-sansfont { font-family: Raleway, Helvetica, Arial, sans-serif; }
 
@@ -323,7 +331,7 @@ footer p, footer ul, footer ol, footer address { font-size: 1.2em; line-height: 
 
 .title { color: #59768b; font-size: 36px; text-transform: initial; }
 
-h3.sub-title { font-size: 2em; font-weight: 400; text-transform: none; font-family: Inconsolata, Courier, monospace; color: #fdfdfd; }
+h3.sub-title { font-size: 2em; font-weight: 400; text-transform: none; font-family: "Fira Mono", Courier, monospace; color: #fdfdfd; }
 
 .ui.inverted.segment, .ui.primary.inverted.segment { background-color: #27343d; background-image: linear-gradient(#27343d, #3f5462); }
 
@@ -333,7 +341,7 @@ h3.sub-title { font-size: 2em; font-weight: 400; text-transform: none; font-fami
 
 .masthead .ui.menu .ui.button { margin-left: 0.5em; }
 
-.masthead h1.ui.header { margin-top: 2em; margin-bottom: 0em; font-size: 4em; font-weight: normal; text-shadow: 4px 4px #001; text-transform: lowercase; font-family: Inconsolata, Courier, monospace; }
+.masthead h1.ui.header { margin-top: 2em; margin-bottom: 0em; font-size: 4em; font-weight: normal; text-shadow: 4px 4px #001; text-transform: lowercase; font-family: "Fira Mono", Courier, monospace; }
 
 .masthead h2 { color: #001; font-size: 1.7em; font-weight: normal; }
 
