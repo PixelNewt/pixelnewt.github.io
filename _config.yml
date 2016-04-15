@@ -10,11 +10,11 @@ description: "We are crafters of websites, applications, and software services l
 mission: "To build attractive, focused, robust, and secure applications that our clients brag about!"
 mos: "We set goals with clients and measure our success based on how we meet those goals."
 summary: "Engineers of Awesome Web Applications and Software Services"
-tagline: "A cute little web development dragon."
+tagline: "A cute little development dragon."
 
 # meta data
 meta_content: "Crafters of websites, web applications, and software services located in Oregon, USA."
-meta_tagline: "A cute little web development dragon."
+meta_tagline: "A cute little development dragon."
 
 # urls
 baseurl: "" # no trailing slash
