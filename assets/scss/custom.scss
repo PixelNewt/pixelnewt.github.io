@@ -140,11 +140,12 @@ hr {
 blockquote {
   padding: 2em;
   text-align: center;
-  font-size: 2em;
-  // color: $darkSlate;
+  font-size: 1.8em;
+  color: $darkSlate;
   border-left: 0;
-  font-family: $fontStyleCode;
-  font-weight: 400;
+  font-family: $fontSecondary;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .cancel-col-padding {

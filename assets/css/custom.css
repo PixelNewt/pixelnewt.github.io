@@ -72,7 +72,7 @@ article:hover { background-color: #fcf1d0; transition: background-color 0.5s eas
 
 hr { border-top: 1px solid #a0b5c3; }
 
-blockquote { padding: 2em; text-align: center; font-size: 2em; border-left: 0; font-family: "Fira Mono", Courier, monospace; font-weight: 400; }
+blockquote { padding: 2em; text-align: center; font-size: 1.8em; color: #27343d; border-left: 0; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 100; font-style: italic; }
 
 .cancel-col-padding { padding-left: 0px; padding-right: 0px; }
 
