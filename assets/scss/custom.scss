@@ -355,11 +355,11 @@ img.panel {
 }
 
 .horizontal-padding-small {
-  padding: 8px 0 8px 0;
+  padding: .8em 0 .8em 0;
 }
 
 .horizontal-padding-medium {
-  padding: 24px 0 24px 0;
+  padding: 2.2em 0 2.2em 0;
 }
 
 .horizontal-padding-large {
@@ -375,7 +375,7 @@ img.panel {
 }
 
 .horizontal-padding-top-large {
-  padding-top: 48px;
+  padding-top: 12em;
 }
 
 .background-translucent {
@@ -775,7 +775,20 @@ img#hero-image {
 .img-centered {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+}
+
+.img-gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.img-gallery img {
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-bottom: 1em;
 }
 
 /*about*/
