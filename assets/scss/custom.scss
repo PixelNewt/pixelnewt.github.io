@@ -281,7 +281,6 @@ h1 small {
   font-size: 28px;
 }
 
-
 img.panel {
   display: block;
   margin-left: auto;
@@ -336,6 +335,17 @@ img.panel {
     vertical-align: baseline;*/
     border-radius: 0;
     border: 1px solid $darkSlate;
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: lighten( $darkSlate, 75% );
+  border: 1px solid lighten( $darkSlate, 75% );
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

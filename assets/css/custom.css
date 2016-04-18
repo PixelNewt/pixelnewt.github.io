@@ -147,6 +147,8 @@ text-align: center;
 white-space: nowrap;
 vertical-align: baseline;*/ border-radius: 0; border: 1px solid #27343d; }
 
+.well { min-height: 20px; padding: 19px; margin-bottom: 20px; background-color: #eef2f4; border: 1px solid #eef2f4; border-radius: 0; -webkit-box-shadow: none; box-shadow: none; }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*palettes*/
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
