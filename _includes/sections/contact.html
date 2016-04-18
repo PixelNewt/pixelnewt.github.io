@@ -3,32 +3,19 @@
     <div class="palette background-bright">
         <div class="container horizontal-padding-large">
             <div class="row">
-                <h2 class="text-center">Let's Connect!</h2>
-                <p class="text-center">If you have a project in mind, reach out and we can start a conversation.</p>
-            </div><!-- /.row -->
+                <div class="col-md-8">
+                    <h2>Let's Connect!</h2>
+                    <p>If you have a project in mind, reach out and we can start a conversation.</p>
+                </div>
 
-            <div class="row">
-                <div class="horizontal-padding-top">
-                    <div class="col-md-4">
-                        <h3 class="text-center text-lowercase">
-                            <i class="fa fa-envelope"></i>&nbsp;{% include blocks/email.html %}
-                        </h3>
-                    </div>
-
-                    <div class="col-md-4">
-                        <h3 class="text-center text-lowercase">
-                            <i class="fa fa-comment"></i>&nbsp;{% include blocks/contact.html %}
-                        </h3>
-                        {% include sections/jotform.html %}
-                    </div>
-
-                    <div class="col-md-4">
-                        <h3 class="text-center text-lowercase">
-                            <i class="fa fa-phone"></i>&nbsp;{% include blocks/phone.html %}
-                        </h3>
-                    </div>
-
-                </div><!-- /.padding -->
+                <div class="col-md-4 well">
+                    <p class="text-lowercase">
+                        <i class="fa fa-comment"></i>&nbsp;{% include blocks/contact.html %}
+                    </p>
+                    <p class="text-lowercase">
+                        <i class="fa fa-envelope"></i>&nbsp;{% include blocks/email.html %}
+                    </p>
+                </div>
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /#contact-banner -->
