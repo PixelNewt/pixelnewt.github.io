@@ -164,6 +164,8 @@ vertical-align: baseline;*/ border-radius: 0; border: 1px solid #27343d; }
 
 .horizontal-padding-banner-sized { padding: 150px 0 192px 0; }
 
+.horizontal-padding-top { padding-top: 6em; }
+
 .horizontal-padding-top-large { padding-top: 12em; }
 
 .background-translucent { background-color: rgba(255, 255, 255, 0.2); }
