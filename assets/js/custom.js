@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#nav-panel').hide();
+    // $('#nav-panel').hide();
 
     // smooth scrolling
     $(function() {
@@ -14,16 +14,20 @@ $(document).ready(function() {
 
     $(window).on('scroll', function() {
         var offset = window.pageYOffset;
-        var position = 64;
+        var position = 460;
 
         if(offset > position) {
+            $('#nav-panel').fadeIn("slow");
+            $('#nav-panel').removeClass("navbar-inverse");
+            $('#nav-panel').addClass("navbar-default");
+        } else if (offset == 0) {
             $('#nav-panel').fadeIn();
-            // $('#nav-panel').addClass("navbar-fixed-top");
-            // $('#nav-panel').removeClass("navbar-static-top");
+            $('#nav-panel').addClass("navbar-inverse");
+            $('#nav-panel').removeClass("navbar-default");
         } else {
             $('#nav-panel').fadeOut();
-            // $('#nav-panel').addClass("navbar-static-top");
-            // $('#nav-panel').removeClass("navbar-fixed-top");
+            $('#nav-panel').addClass("navbar-inverse");
+            $('#nav-panel').removeClass("navbar-default");
         }
     });
 });
