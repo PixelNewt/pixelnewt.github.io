@@ -200,6 +200,12 @@ blockquote {
     border: 1px solid transparent;
 }
 
+.navbar-inverse {
+    background-color: $darkSlate;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+
 .navbar-default {
   border: 0;
   background-color: $offWhite;
@@ -823,12 +829,8 @@ img.mugshot {
   color: lighten( $darkSlate, 15% );
 }
 
-.navbar-phone a {
-  float: right;
-  height: 50px;
-  padding: 15px 5px;
-  line-height: 20px;
-  font-weight: 800;
+a.navbar-phone {
+    color: $paleYellow;
 }
 
 .buffer-pad {
