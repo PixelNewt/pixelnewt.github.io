@@ -1,9 +1,15 @@
 
-- link: about
-  name: About
-
 - link: solutions
   name: Solutions
+
+- link: process
+  name: Process
+
+- link: expertise
+  name: Expertise
+
+- link: about
+  name: About
 
 - link: contact
   name: Contact
