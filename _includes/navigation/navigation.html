@@ -1,6 +1,6 @@
 
 <!-- main navigation -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav-panel">
+<div class="navbar navbar-inverse navbar-transparent navbar-fixed-top" role="navigation" id="nav-panel">
   <div class="container">
 
     <div class="navbar-header">
@@ -14,25 +14,22 @@
     </div><!-- ./navbar-header -->
 
     <div class="collapse navbar-collapse" id="scrollspy-links">
+        <ul class="nav navbar-nav navbar-right" id="nav-links">
 
-      <ul class="nav navbar-nav navbar-right" id="nav-links">
+            {% for navLink in site.data.navigation %}
 
-        {% for navLink in site.data.navigation %}
+            {% if navLink.link == page.active %}
+            <li class="active"><a href="{{ site.baseurl }}/{{ navLink.link }}">{{ navLink.name }}</a></li>
+            {% else %}
+            <li><a href="{{ site.baseurl }}/{{ navLink.link }}">{{ navLink.name }}</a></li>
+            {% endif %}
 
-        {% if navLink.link == page.active %}
-        <li class="active"><a href="{{ site.baseurl }}/{{ navLink.link }}">{{ navLink.name }}</a></li>
-        {% else %}
-        <li><a href="{{ site.baseurl }}/{{ navLink.link }}">{{ navLink.name }}</a></li>
-        {% endif %}
+            {% endfor %}
 
-        {% endfor %}
-
-        <li>
-          <span class="navbar-phone">
-            <a href="tel:{{ site.phone-number }}"><i class="fa fa-phone"></i>&nbsp;{{ site.phone-string }}</a>
-          </span>
-        </li>
-      </ul><!-- /#nav-links -->
+            <li>
+            <a href="tel:{{ site.phone-number }}" class="navbar-phone"><i class="fa fa-phone"></i>&nbsp;{{ site.phone-string }}</a>
+            </li>
+        </ul><!-- /#nav-links -->
     </div><!--/.nav-collapse -->
 
   </div><!-- .container -->
