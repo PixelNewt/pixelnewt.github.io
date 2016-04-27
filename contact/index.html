@@ -37,39 +37,39 @@ meta: "contact email phone address"
 </section><!-- /#contact-message -->
 
 
-<section id="contact-links" class="palette background-steel">
+<section id="contact-links" class="palette background-slate-lighten-65">
 <div id="contact-links-banner">
 
-    <div class="container horizontal-padding-medium container-narrow">
+    <div class="container container-narrow horizontal-padding-large">
     <div class="row">
 
-        <div class="col-md-4 col-lg-4" id="box-1">
-        <div class="panel panel-default">
-            <h4 class="text-center text-dark-yellow"><i class="fa fa3x fa-envelope"></i> Email Us</h4>
-            <p class="text-center">{% include blocks/email.html %}</p>
-        </div>
-        </div><!-- /#box-1 -->
-
-        <div class="col-md-4 col-lg-4" id="box-2">
-        <div class="panel panel-default">
-            <h4 class="text-center text-dark-yellow"><i class="fa fa-twitter"></i> Tweet Us </h4>
+        <div class="col-md-4">
             <p class="text-center">
-                <a href="http://twitter.com/" target="_blank">@{{ site.baseuser }}</a>
+                <a href="#" data-toggle="modal" data-target="#contactForm"><i class="fa fa-5x fa-comment"></i></a>
             </p>
         </div>
-        </div><!-- /#box-2 -->
 
-        <div class="col-md-4 col-lg-4" id="box-3">
-        <div class="panel panel-default">
-            <h4 class="text-center text-dark-yellow"><i class="fa fa-google-plus" title="Google Plus"></i> Hangout</h4>
+        <div class="col-md-4">
             <p class="text-center">
-                <a href="https://plus.google.com/+pixelnewt" target="_blank">+{{ site.baseuser }}</a>
+                <a href="http://twitter.com/" target="_blank"><i class="fa fa-5x fa-twitter"></i></a>
             </p>
         </div>
-        </div><!-- /#box-3 -->
 
+        <div class="col-md-4">
+            <p class="text-center">
+                <a href="https://plus.google.com/+pixelnewt" target="_blank"><i class="fa fa-5x fa-google"></i></a>
+            </p>
+        </div>
     </div><!-- /.row -->
+
+    <div class="row horizontal-padding-top">
+        <h2 class="text-center">
+            {% include blocks/email.html %}
+        </h2>
+    </row><!-- /.row -->
     </div><!-- /.container -->
 
 </div><!-- /#contact-links-banner -->
 </section><!-- /#contact-links -->
+
+{% include sections/jotform.html %}
